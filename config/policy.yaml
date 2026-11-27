@@ -1,0 +1,9 @@
+# Documentation of the implemented policy in sheild/engine.py; not read at runtime.
+# Keep synchronized with code when changing behavior.
+age_band_candidates: [5, 10, 20, 40, 80]
+rare_diagnosis_age_band_minimum: 40
+age_band_distinct_profile_support_target: 5
+date_shift_max_abs_days: 365
+location_policy: suppress below district; no fabricated location
+identity_policy: keyed HMAC with conservative evidence and explicit facility collision checks
+release_policy: model required and internal independent checks must have no findings

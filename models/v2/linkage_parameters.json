@@ -1,0 +1,47 @@
+{
+  "feature_version": "2.0",
+  "type": "Fellegi-Sunter-style smoothed log likelihood ratios",
+  "weights": {
+    "name": {
+      "missing": 0.0,
+      "high": 0.09486648050878299,
+      "medium": 3.6664065982618776,
+      "low": -2.5057279776015857
+    },
+    "relative": {
+      "missing": 0.0,
+      "high": 0.7202609209041255,
+      "medium": 1.8419915947143883,
+      "low": -3.431549665191708
+    },
+    "dob": {
+      "missing": 0.0,
+      "agree": 1.1897742793840527,
+      "conflict": -9.127176130715414
+    },
+    "phone": {
+      "missing": 0.0,
+      "agree": 0.20598493574045496,
+      "conflict": -8.116715624819111
+    },
+    "village": {
+      "missing": 0.0,
+      "agree": 0.288357627326566,
+      "conflict": -8.40804774415544
+    },
+    "local_id": {
+      "missing": 0.0,
+      "agree": 8.340933226000878,
+      "conflict": -7.828038032125829
+    },
+    "strong_id": {
+      "missing": 0.0,
+      "agree": 6.405228458030842,
+      "conflict": -8.039157390473237
+    }
+  },
+  "threshold": -1.6525663422318513,
+  "min_validation_precision": 0.995,
+  "min_validation_accepted": 30,
+  "policy": "candidate only; hard conflict veto and independent support; not cluster approval"
+}

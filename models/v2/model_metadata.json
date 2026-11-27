@@ -1,0 +1,15 @@
+{
+  "feature_version": "2.0",
+  "ner_trained": true,
+  "python_crfsuite_version": "0.9.12",
+  "training_iterations": 150,
+  "seed": 271127,
+  "data_source": "independent compositional synthetic templates v2; no organizer files read",
+  "training_seconds": 864.036,
+  "limitations": [
+    "Template-generated synthetic data; test performance may overestimate real unseen text performance.",
+    "Synthetic IDs and telephone numbers use reserved/test shapes; use separate regex, context and format tests for Indian identifiers.",
+    "Linkage calibration normalizes common phone/date formats; no automatic cluster approval.",
+    "No official hidden or practice evaluation performed by this notebook."
+  ]
+}

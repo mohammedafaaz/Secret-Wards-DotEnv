@@ -1,0 +1,6 @@
+{
+  "description": "Synthetic address-label boundary case for CRF-assisted text cleanup.",
+  "input": "Patient Name: Mira Solvek\nW/o Synthetic Relative\nAddress: 17 Example Road\n",
+  "expected_safe_output": "Patient Name: [REDACTED]\nW/o [REDACTED]\nAddress: [REDACTED]\n",
+  "observed_model_output": "Patient Name: [REDACTED]\nW/o [REDACTED]:[REDACTED]\n"
+}

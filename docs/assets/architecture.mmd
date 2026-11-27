@@ -1,0 +1,50 @@
+flowchart TB
+    subgraph CLI["Organizer CLI Path"]
+        M[main.py] --> DE[directory_entries]
+        DE --> RP[run_pipeline]
+    end
+
+    subgraph WEB["Website Path"]
+        UI[React SPA\nfrontend/dist] --> FA[FastAPI\nbackend/app.py]
+        FA --> UP[/api/run/upload]
+        UP --> RP
+    end
+
+    subgraph CORE["Shared Privacy Engine (sheild.engine)"]
+        RP --> ING[Ingestion &\nNormalization]
+        ING --> PARSE[parse()\nCSV/TSV/JSON/FHIR/TXT]
+        PARSE --> EVD[Evidence Extraction\nfield_role + text_evidence]
+        EVD --> DET[PII Detection\nCRF + Rules + Patterns]
+        DET --> LINK[Identity Resolution\nLinker.run()]
+        LINK --> SHIFT[Date Shift Preparation]
+        SHIFT --> TRANS[Privacy Transformation\nEngine.clean() / clean_text()]
+        TRANS --> REND[Output Rendering\nCSV/TSV/TXT/JSON/FHIR]
+        REND --> VER[Independent Verification\nsheild.verify.verify()]
+        VER --> OUT[Output Generation\nsanitized/ + report.json + records.jsonl]
+    end
+
+    subgraph MODEL["Trained Models (models/v2/)"]
+        CRF[pii_crf.crfsuite\nCRFsuite Tagger]
+        LINK_PARAMS[linkage_parameters.json\nFellegi-Sunter weights]
+        FEAT[model_features.py\nv2.0 feature contract]
+        RUNTIME[model_runtime.py\nCandidateModels adapter]
+    end
+
+    subgraph VERIFY["Independent Verifier"]
+        VER --> LAB[_labeled_values]
+        VER --> PROB[probes]
+        VER --> COMP[compare_clinical]
+        VER --> BUND[bundle_errors]
+        VER --> DIR[DIRECT pattern scan]
+    end
+
+    CRF --> DET
+    LINK_PARAMS --> LINK
+    FEAT --> DET
+    FEAT --> LINK
+    RUNTIME --> DET
+    RUNTIME --> LINK
+
+    style CORE fill:#1a1f2e,stroke:#2a9d8f,stroke-width:2px
+    style MODEL fill:#1a1f2e,stroke:#e9c46a,stroke-width:2px
+    style VERIFY fill:#1a1f2e,stroke:#f4a261,stroke-width:2px

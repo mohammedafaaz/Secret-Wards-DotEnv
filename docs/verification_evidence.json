@@ -1,0 +1,246 @@
+{
+  "mode": "rules-only diagnostic; no trained CRF run",
+  "runs": [
+    {
+      "run": 1,
+      "constrained": false,
+      "counts": {
+        "files_total": 200,
+        "files_sanitized": 193,
+        "files_quarantined": 7,
+        "records_processed": 775,
+        "identifiers_detected": 5723,
+        "records_linked": 748,
+        "records_generalized": 563,
+        "records_suppressed": 0,
+        "records_quarantined": 0
+      },
+      "timing": {
+        "seconds": 0.883
+      },
+      "resources": {
+        "peak_rss_mb": 103.02
+      },
+      "contract": "CONTRACT OK",
+      "practice_summary": [
+        "1) PERSONAL DATA: 0 of 3230 pieces still visible (  0.0% leaked; lower is better)",
+        "2) CANARIES: 0 of 4 planted canaries found in your output folder (each one costs -3 officially)",
+        "3) MEDICAL DATA KEPT: 4855 of 4855 medical values survived (100.0%; higher is better)",
+        "4) PATIENT LINKING: precision 1.00, recall 0.91, F0.5 0.98  (pseudonyms that wrongly merge different people: 0)",
+        "5) RAW COPIES: 0 broken/unsupported files were copied out unchanged instead of quarantined (each costs -5 officially)"
+      ]
+    },
+    {
+      "run": 2,
+      "constrained": false,
+      "counts": {
+        "files_total": 200,
+        "files_sanitized": 193,
+        "files_quarantined": 7,
+        "records_processed": 775,
+        "identifiers_detected": 5723,
+        "records_linked": 748,
+        "records_generalized": 563,
+        "records_suppressed": 0,
+        "records_quarantined": 0
+      },
+      "timing": {
+        "seconds": 0.864
+      },
+      "resources": {
+        "peak_rss_mb": 103.05
+      },
+      "contract": "CONTRACT OK",
+      "practice_summary": [
+        "1) PERSONAL DATA: 0 of 3230 pieces still visible (  0.0% leaked; lower is better)",
+        "2) CANARIES: 0 of 4 planted canaries found in your output folder (each one costs -3 officially)",
+        "3) MEDICAL DATA KEPT: 4855 of 4855 medical values survived (100.0%; higher is better)",
+        "4) PATIENT LINKING: precision 1.00, recall 0.91, F0.5 0.98  (pseudonyms that wrongly merge different people: 0)",
+        "5) RAW COPIES: 0 broken/unsupported files were copied out unchanged instead of quarantined (each costs -5 officially)"
+      ]
+    },
+    {
+      "run": 3,
+      "constrained": true,
+      "counts": {
+        "files_total": 200,
+        "files_sanitized": 193,
+        "files_quarantined": 7,
+        "records_processed": 775,
+        "identifiers_detected": 5723,
+        "records_linked": 748,
+        "records_generalized": 563,
+        "records_suppressed": 0,
+        "records_quarantined": 0
+      },
+      "timing": {
+        "seconds": 0.845
+      },
+      "resources": {
+        "peak_rss_mb": 102.9
+      },
+      "contract": "CONTRACT OK",
+      "practice_summary": [
+        "1) PERSONAL DATA: 0 of 3230 pieces still visible (  0.0% leaked; lower is better)",
+        "2) CANARIES: 0 of 4 planted canaries found in your output folder (each one costs -3 officially)",
+        "3) MEDICAL DATA KEPT: 4855 of 4855 medical values survived (100.0%; higher is better)",
+        "4) PATIENT LINKING: precision 1.00, recall 0.91, F0.5 0.98  (pseudonyms that wrongly merge different people: 0)",
+        "5) RAW COPIES: 0 broken/unsupported files were copied out unchanged instead of quarantined (each costs -5 officially)"
+      ]
+    },
+    {
+      "run": 4,
+      "constrained": false,
+      "counts": {
+        "files_total": 200,
+        "files_sanitized": 193,
+        "files_quarantined": 7,
+        "records_processed": 775,
+        "identifiers_detected": 5723,
+        "records_linked": 748,
+        "records_generalized": 563,
+        "records_suppressed": 0,
+        "records_quarantined": 0
+      },
+      "timing": {
+        "seconds": 0.84
+      },
+      "resources": {
+        "peak_rss_mb": 103.02
+      },
+      "contract": "CONTRACT OK",
+      "practice_summary": [
+        "1) PERSONAL DATA: 0 of 3230 pieces still visible (  0.0% leaked; lower is better)",
+        "2) CANARIES: 0 of 4 planted canaries found in your output folder (each one costs -3 officially)",
+        "3) MEDICAL DATA KEPT: 4855 of 4855 medical values survived (100.0%; higher is better)",
+        "4) PATIENT LINKING: precision 1.00, recall 0.91, F0.5 0.98  (pseudonyms that wrongly merge different people: 0)",
+        "5) RAW COPIES: 0 broken/unsupported files were copied out unchanged instead of quarantined (each costs -5 officially)"
+      ]
+    },
+    {
+      "run": 5,
+      "constrained": false,
+      "counts": {
+        "files_total": 200,
+        "files_sanitized": 193,
+        "files_quarantined": 7,
+        "records_processed": 775,
+        "identifiers_detected": 5723,
+        "records_linked": 748,
+        "records_generalized": 563,
+        "records_suppressed": 0,
+        "records_quarantined": 0
+      },
+      "timing": {
+        "seconds": 0.787
+      },
+      "resources": {
+        "peak_rss_mb": 102.9
+      },
+      "contract": "CONTRACT OK",
+      "practice_summary": [
+        "1) PERSONAL DATA: 0 of 3230 pieces still visible (  0.0% leaked; lower is better)",
+        "2) CANARIES: 0 of 4 planted canaries found in your output folder (each one costs -3 officially)",
+        "3) MEDICAL DATA KEPT: 4855 of 4855 medical values survived (100.0%; higher is better)",
+        "4) PATIENT LINKING: precision 1.00, recall 0.91, F0.5 0.98  (pseudonyms that wrongly merge different people: 0)",
+        "5) RAW COPIES: 0 broken/unsupported files were copied out unchanged instead of quarantined (each costs -5 officially)"
+      ]
+    }
+  ],
+  "same_secret_byte_identical": true,
+  "rotation_changes_records": true,
+  "input_unchanged": true,
+  "Secret-Wards-ToolKit-main/unchanged_file_count": 232,
+  "models/v2/unchanged_file_count": 7,
+  "approximate_attack_arena": {
+    "scope": "synthetic practice-only approximation; literal, partial field extraction, no official score; A1 uses per-unit truth surfaces, A4 raw grouping heuristic, A7 aligned date positions not exact official metric",
+    "raw": {
+      "A2_A3_mean_true_probability": 0.5915573897321881,
+      "A4_confident_profile_share": 0.9791666666666666,
+      "A5_targeted_mean_probability": 0.9996708831219772,
+      "A5_decoy_matches": 0,
+      "A5_global_shift_recovered": false,
+      "record_units": 773,
+      "profiles": 172,
+      "A1_literal_direct_share": 1.0
+    },
+    "sanitized": {
+      "A2_A3_mean_true_probability": 0.05990918792231044,
+      "A4_confident_profile_share": 0.16666666666666666,
+      "A5_targeted_mean_probability": 0.5982870101999395,
+      "A5_decoy_matches": 0,
+      "A5_global_shift_recovered": false,
+      "record_units": 773,
+      "profiles": 83,
+      "A1_literal_direct_share": 0.0,
+      "A6_inversion_share": 0.0,
+      "A7_stable_record_pseudonym_share": 0.0,
+      "A7_stable_date_position_share": 0.005703422053231939
+    },
+    "normalized": {
+      "A1_literal_direct_share": 0.0,
+      "A2_A3_mean_true_probability": 0.1012736700820063,
+      "A4_confident_profile_share": 0.1702127659574468,
+      "A5_targeted_mean_probability": 0.5984839813794377
+    }
+  },
+  "procedural_suites": {
+    "A": {
+      "pii_leaked": 0,
+      "pii_tested": 800,
+      "clinical_kept": 600,
+      "clinical_tested": 600,
+      "expected_quarantine": 0,
+      "correct_quarantine": 0,
+      "unexpected_quarantine": 0,
+      "link_precision": 1.0,
+      "link_recall": 0.95,
+      "timing": {
+        "seconds": 0.178
+      },
+      "resources": {
+        "peak_rss_mb": 97.4
+      }
+    },
+    "B": {
+      "pii_leaked": 0,
+      "pii_tested": 2125,
+      "clinical_kept": 1500,
+      "clinical_tested": 1500,
+      "expected_quarantine": 0,
+      "correct_quarantine": 0,
+      "unexpected_quarantine": 0,
+      "link_precision": 1.0,
+      "link_recall": 0.952,
+      "timing": {
+        "seconds": 0.541
+      },
+      "resources": {
+        "peak_rss_mb": 99.53
+      }
+    },
+    "C": {
+      "pii_leaked": 0,
+      "pii_tested": 3788,
+      "clinical_kept": 2841,
+      "clinical_tested": 2841,
+      "expected_quarantine": 53,
+      "correct_quarantine": 53,
+      "unexpected_quarantine": 0,
+      "link_precision": 1.0,
+      "link_recall": 0.9485458612975392,
+      "timing": {
+        "seconds": 0.911
+      },
+      "resources": {
+        "peak_rss_mb": 102.16
+      }
+    }
+  },
+  "pytest": {
+    "passed": 162,
+    "failed": 3,
+    "reason": "missing pycrfsuite",
+    "seconds": 2.86
+  }
+}

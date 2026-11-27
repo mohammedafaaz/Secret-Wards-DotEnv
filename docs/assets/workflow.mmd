@@ -1,0 +1,19 @@
+flowchart LR
+    A[Input Directory\nor ZIP Upload] --> B[1. Ingestion]
+    B --> C[2. Normalization]
+    C --> D[3. PII Detection]
+    D --> E[4. Identity Resolution]
+    E --> F[5. Privacy Transformation]
+    F --> G[6. Verification]
+    G --> H[7. Output &\nRelease]
+
+    B -.->|Quarantine\ninvalid/unsupported| Q[report.json\nstatus: quarantined]
+    G -.->|Findings\nblock release| FV[Detailed Findings]
+
+    style B fill:#1a1f2e,stroke:#2a9d8f
+    style C fill:#1a1f2e,stroke:#2a9d8f
+    style D fill:#1a1f2e,stroke:#e9c46a
+    style E fill:#1a1f2e,stroke:#e9c46a
+    style F fill:#1a1f2e,stroke:#f4a261
+    style G fill:#1a1f2e,stroke:#f4a261
+    style H fill:#1a1f2e,stroke:#2a9d8f

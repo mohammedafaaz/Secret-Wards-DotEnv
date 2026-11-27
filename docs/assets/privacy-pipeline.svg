@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" width="1400" height="520" role="img" aria-label="shield privacy pipeline - seven stage workflow">
+  <defs>
+    <linearGradient id="obsidianBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1a"/>
+      <stop offset="50%" stop-color="#0d1424"/>
+      <stop offset="100%" stop-color="#0a0f1a"/>
+    </linearGradient>
+
+    <linearGradient id="mintGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2a9d8f"/>
+      <stop offset="50%" stop-color="#40c9a2"/>
+      <stop offset="100%" stop-color="#2a9d8f"/>
+    </linearGradient>
+
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e9c46a"/>
+      <stop offset="50%" stop-color="#f4a261"/>
+      <stop offset="100%" stop-color="#e9c46a"/>
+    </linearGradient>
+
+    <linearGradient id="coralGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4a261"/>
+      <stop offset="50%" stop-color="#e76f51"/>
+      <stop offset="100%" stop-color="#f4a261"/>
+    </linearGradient>
+
+    <filter id="mintGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="goldGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="coralGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <marker id="arrowHead" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" fill="url(#mintGrad)">
+      <path d="M0,0 L10,5 L0,10 Z"/>
+    </marker>
+
+    <marker id="goldArrowHead" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" fill="url(#goldGrad)">
+      <path d="M0,0 L10,5 L0,10 Z"/>
+    </marker>
+
+    <marker id="coralArrowHead" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" fill="url(#coralGrad)">
+      <path d="M0,0 L10,5 L0,10 Z"/>
+    </marker>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40,0 L0,0 0,40" fill="none" stroke="#1a2a4a" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+
+    <!-- Stage gradients -->
+    <linearGradient id="s1Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2a4a"/><stop offset="100%" stop-color="#0d1b3a"/>
+    </linearGradient>
+    <linearGradient id="s2Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2a4a"/><stop offset="100%" stop-color="#0d1b3a"/>
+    </linearGradient>
+    <linearGradient id="s3Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a3a2a"/><stop offset="100%" stop-color="#1a2a1a"/>
+    </linearGradient>
+    <linearGradient id="s4Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a3a2a"/><stop offset="100%" stop-color="#1a2a1a"/>
+    </linearGradient>
+    <linearGradient id="s5Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2a1a"/><stop offset="100%" stop-color="#2a1a1a"/>
+    </linearGradient>
+    <linearGradient id="s6Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2a1a"/><stop offset="100%" stop-color="#2a1a1a"/>
+    </linearGradient>
+    <linearGradient id="s7Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2a4a"/><stop offset="100%" stop-color="#0d1b3a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="520" fill="url(#obsidianBg)"/>
+  <rect width="1400" height="520" fill="url(#grid)"/>
+
+  <!-- Title -->
+  <text x="700" y="45" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="url(#mintGrad)" letter-spacing="1.5">
+    shield Privacy Pipeline — Seven Stages
+  </text>
+  <text x="700" y="72" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6b8a85" font-weight="400">
+    Local • Offline • Multilingual • Deterministic • Verified
+  </text>
+
+  <!-- STAGE 1: Ingestion (x=20) -->
+  <g transform="translate(20, 100)">
+    <rect x="0" y="0" width="190" height="380" rx="12" fill="url(#s1Grad)" stroke="#1a3a5a" stroke-width="1.5" filter="url(#mintGlow)"/>
+    <circle cx="95" cy="50" r="28" fill="none" stroke="url(#mintGrad)" stroke-width="2.5" stroke-dasharray="6,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="176" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="95" y="55" text-anchor="middle" font-family="system-ui" font-size="22" font-weight="700" fill="url(#mintGrad)">1</text>
+
+    <text x="95" y="95" text-anchor="middle" font-family="system-ui" font-size="15" font-weight="700" fill="#e8f5f2">Ingestion</text>
+    <text x="95" y="115" text-anchor="middle" font-family="system-ui" font-size="10" fill="#6b8a85">Bounded traversal</text>
+    <text x="95" y="130" text-anchor="middle" font-family="system-ui" font-size="10" fill="#6b8a85">Symlink rejection</text>
+    <text x="95" y="145" text-anchor="middle" font-family="system-ui" font-size="10" fill="#6b8a85">SHA-256 streaming</text>
+    <text x="95" y="160" text-anchor="middle" font-family="system-ui" font-size="10" fill="#6b8a85">Size limits</text>
+
+    <line x1="15" y1="178" x2="175" y2="178" stroke="#1a3a5a" stroke-width="1"/>
+
+    <g font-family="system-ui" font-size="9" fill="#8ab8b0">
+      <text x="12" y="196">• os.scandir (30k dirs max)</text>
+      <text x="12" y="211">• 60k entries, 256 MB total</text>
+      <text x="12" y="226">• 16 MB per file</text>
+      <text x="12" y="241">• O_NOFOLLOW / reparse check</text>
+      <text x="12" y="256">• Quarantine: binary, empty,</text>
+      <text x="12" y="271">  depth exceeded, oversize</text>
+      <text x="12" y="286">• Sorted (rel_path, bytes)</text>
+    </g>
+
+    <rect x="30" y="310" width="130" height="28" rx="6" fill="#0d1b3a" stroke="#2a9d8f" stroke-width="1.5"/>
+    <text x="95" y="328" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#2a9d8f">Entry[] → Stage 2</text>
+  </g>
+
+  <!-- Arrow 1→2 -->
+  <path d="M215,230 C235,230 250,230 265,230" fill="none" stroke="url(#mintGrad)" stroke-width="2" marker-end="url(#arrowHead)"/>
+
+  <!-- STAGE 2: Normalization (x=270) -->
+  <g transform="translate(270, 100)">
+    <rect x="0" y="0" width="190" height="380" rx="12" fill="url(#s2Grad)" stroke="#1a3a5a" stroke-width="1.5" filter="url(#mintGlow)"/>
+    <circle cx="95" cy="50" r="28" fill="none" stroke="url(#mintGrad)" stroke-width="2.5" stroke-dasharray="6,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="176" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+    <text x="95" y="55" text-anchor="middle" font-family="system-ui" font-size="22" font-weight="700" fill="url(#mintGrad)">2</text>
+
+    <text x="95" y="95" text-anchor="middle" font-family="system-ui" font-size="15" font-weight="700" fill="#e8f5f2">Normalization</text>
+    <text x="95" y="115" text-anchor="middle" font-family="system-ui" font-size="10" fill="#6b8a85">Encoding detection</text>
+    <text x="95" y="130" text-anchor="middle" font-family="system-ui" font-size="10" fill="#6b8a85">Format parsing</text>
+    <text x="95" y="145" text-anchor="middle" font-family="system-ui" font-size="10" fill="#6b8a85">Date inference</text>
+    <text x="95" y="160" text-anchor="middle" font-family="system-ui" font-size="10" fill="#6b8a85">FHIR ownership</text>
+
+    <line x1="15" y1="178" x2="175" y2="178" stroke="#1a3a5a" stroke-width="1"/>
+
+    <g font-family="system-ui" font-size="9" fill="#8ab8b0">
+      <text x="12" y="196">• UTF-8/16/CP1252 + BOM</text>
+      <text x="12" y="211">• CSV/TSV/JSON/FHIR/TXT</text>
+      <text x="12" y="226">• strict_pairs (dup keys)</text>
+      <text x="12" y="241">• FHIR Bundle + subject</text>
+      <text x="12" y="256">  resolution</text>
+      <text x="12" y="271">• Evidence extraction</text>
+      <text x="12" y="286">• monthfirst slash dates</text>
+    </g>
+
+    <rect x="30" y="310" width="130" height="28" rx="6" fill="#0d1b3a" stroke="#2a9d8f" stroke-width="1.5"/>
+    <text x="95" y="328" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#2a9d8f">Document[] → Stage 3</text>
+  </g>
+
+  <!-- Arrow 2→3 -->
+  <path d="M465,230 C485,230 500,230 515,230" fill="none" stroke="url(#mintGrad)" stroke-width="2" marker-end="url(#arrowHead)"/>
+
+  <!-- STAGE 3: PII Detection (x=520) -->
+  <g transform="translate(520, 100)">
+    <rect x="0" y="0" width="190" height="380" rx="12" fill="url(#s3Grad)" stroke="#2a5a2a" stroke-width="1.5" filter="url(#goldGlow)"/>
+    <circle cx="95" cy="50" r="28" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-dasharray="6,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="176" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
+    <text x="95" y="55" text-anchor="middle" font-family="system-ui" font-size="22" font-weight="700" fill="url(#goldGrad)">3</text>
+
+    <text x="95" y="95" text-anchor="middle" font-family="system-ui" font-size="15" font-weight="700" fill="#f5f0e8">PII Detection</text>
+    <text x="95" y="115" text-anchor="middle" font-family="system-ui" font-size="10" fill="#b8b08a">CRF + Rules + Patterns</text>
+    <text x="95" y="130" text-anchor="middle" font-family="system-ui" font-size="10" fill="#b8b08a">Multilingual: EN/HI/Hinglish</text>
+    <text x="95" y="145" text-anchor="middle" font-family="system-ui" font-size="10" fill="#b8b08a">Clinical protection</text>
+    <text x="95" y="160" text-anchor="middle" font-family="system-ui" font-size="10" fill="#b8b08a">Field-role semantics</text>
+
+    <line x1="15" y1="178" x2="175" y2="178" stroke="#2a5a2a" stroke-width="1"/>
+
+    <g font-family="system-ui" font-size="9" fill="#d4c8a0">
+      <text x="12" y="196">• CRFsuite V2 (150 iter)</text>
+      <text x="12" y="211">• feature v2.0 contract</text>
+      <text x="12" y="226">• BIO: PATIENT, RELATIVE,</text>
+      <text x="12" y="241">  DOCTOR, CLINICAL, ADDRESS,</text>
+      <text x="12" y="256">  AGE, DATE, PHONE, ID,</text>
+      <text x="12" y="271">  EMAIL, PIN</text>
+      <text x="12" y="286">• MEDWORDS / DOCTOR guard</text>
+    </g>
+
+    <rect x="30" y="310" width="130" height="28" rx="6" fill="#2a1a1a" stroke="#e9c46a" stroke-width="1.5"/>
+    <text x="95" y="328" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#e9c46a">Evidence[] → Stage 4</text>
+  </g>
+
+  <!-- Arrow 3→4 -->
+  <path d="M715,230 C735,230 750,230 765,230" fill="none" stroke="url(#goldGrad)" stroke-width="2" marker-end="url(#goldArrowHead)"/>
+
+  <!-- STAGE 4: Identity Resolution (x=770) -->
+  <g transform="translate(770, 100)">
+    <rect x="0" y="0" width="190" height="380" rx="12" fill="url(#s4Grad)" stroke="#2a5a2a" stroke-width="1.5" filter="url(#goldGlow)"/>
+    <circle cx="95" cy="50" r="28" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-dasharray="6,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="176" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+    </circle>
+    <text x="95" y="55" text-anchor="middle" font-family="system-ui" font-size="22" font-weight="700" fill="url(#goldGrad)">4</text>
+
+    <text x="95" y="95" text-anchor="middle" font-family="system-ui" font-size="15" font-weight="700" fill="#f5f0e8">Identity Resolution</text>
+    <text x="95" y="115" text-anchor="middle" font-family="system-ui" font-size="10" fill="#b8b08a">Fellegi-Sunter linkage</text>
+    <text x="95" y="130" text-anchor="middle" font-family="system-ui" font-size="10" fill="#b8b08a">Conflict vetoes</text>
+    <text x="95" y="145" text-anchor="middle" font-family="system-ui" font-size="10" fill="#b8b08a">Risk-aware age bands</text>
+    <text x="95" y="160" text-anchor="middle" font-family="system-ui" font-size="10" fill="#b8b08a">CandidateModels gateway</text>
+
+    <line x1="15" y1="178" x2="175" y2="178" stroke="#2a5a2a" stroke-width="1"/>
+
+    <g font-family="system-ui" font-size="9" fill="#d4c8a0">
+      <text x="12" y="196">• Blocking: name/ID/phone/</text>
+      <text x="12" y="211">  DOB/village/local_id</text>
+      <text x="12" y="226">• rapidfuzz name similarity</text>
+      <text x="12" y="241">• Log-likelihood weights</text>
+      <text x="12" y="256">• Veto: strong_id, DOB,</text>
+      <text x="12" y="271">  local_id (diff facility)</text>
+      <text x="12" y="286">• Threshold: -1.6526</text>
+      <text x="12" y="301">• Rare dx → min 40yr band</text>
+    </g>
+
+    <rect x="30" y="310" width="130" height="28" rx="6" fill="#2a1a1a" stroke="#e9c46a" stroke-width="1.5"/>
+    <text x="95" y="328" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#e9c46a">Record.key[] → Stage 5</text>
+  </g>
+
+  <!-- Arrow 4→5 -->
+  <path d="M965,230 C985,230 1000,230 1015,230" fill="none" stroke="url(#goldGrad)" stroke-width="2" marker-end="url(#goldArrowHead)"/>
+
+  <!-- STAGE 5: Privacy Transformation (x=1020) -->
+  <g transform="translate(1020, 100)">
+    <rect x="0" y="0" width="190" height="380" rx="12" fill="url(#s5Grad)" stroke="#5a3a1a" stroke-width="1.5" filter="url(#coralGlow)"/>
+    <circle cx="95" cy="50" r="28" fill="none" stroke="url(#coralGrad)" stroke-width="2.5" stroke-dasharray="6,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="176" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+    </circle>
+    <text x="95" y="55" text-anchor="middle" font-family="system-ui" font-size="22" font-weight="700" fill="url(#coralGrad)">5</text>
+
+    <text x="95" y="95" text-anchor="middle" font-family="system-ui" font-size="15" font-weight="700" fill="#f5ede8">Privacy Transform</text>
+    <text x="95" y="115" text-anchor="middle" font-family="system-ui" font-size="10" fill="#c8a890">HMAC-SHA256 pseudonyms</text>
+    <text x="95" y="130" text-anchor="middle" font-family="system-ui" font-size="10" fill="#c8a890">Per-patient date shifts</text>
+    <text x="95" y="145" text-anchor="middle" font-family="system-ui" font-size="10" fill="#c8a890">Age generalization</text>
+    <text x="95" y="160" text-anchor="middle" font-family="system-ui" font-size="10" fill="#c8a890">Geographic suppression</text>
+
+    <line x1="15" y1="178" x2="175" y2="178" stroke="#5a3a1a" stroke-width="1"/>
+
+    <g font-family="system-ui" font-size="9" fill="#e0c8b0">
+      <text x="12" y="196">• RAKSHA_SECRET keyed</text>
+      <text x="12" y="211">• PSN- / R- / KEY- /</text>
+      <text x="12" y="226">  dir- / doc- prefixes</text>
+      <text x="12" y="241">• choose_offset(): ±365d</text>
+      <text x="12" y="256">• Reject DOB-exposing</text>
+      <text x="12" y="271">  offsets</text>
+      <text x="12" y="286">• Width: 5/10/20/40/80</text>
+      <text x="12" y="301">• Rare dx → floor 40</text>
+      <text x="12" y="316">• clean_text: longest-first</text>
+      <text x="12" y="331">  right-to-left replace</text>
+    </g>
+
+    <rect x="30" y="310" width="130" height="28" rx="6" fill="#2a1a1a" stroke="#f4a261" stroke-width="1.5"/>
+    <text x="95" y="328" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#f4a261">Sanitized → Stage 6</text>
+  </g>
+
+  <!-- Arrow 5→6 -->
+  <path d="M1215,230 C1235,230 1250,230 1265,230" fill="none" stroke="url(#coralGrad)" stroke-width="2" marker-end="url(#coralArrowHead)"/>
+
+  <!-- STAGE 6: Verification (x=1270) - truncated at edge, make narrower -->
+  <g transform="translate(1270, 100)">
+    <rect x="0" y="0" width="110" height="380" rx="12" fill="url(#s6Grad)" stroke="#5a3a1a" stroke-width="1.5" filter="url(#coralGlow)"/>
+    <circle cx="55" cy="50" r="28" fill="none" stroke="url(#coralGrad)" stroke-width="2.5" stroke-dasharray="6,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="176" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+    <text x="55" y="55" text-anchor="middle" font-family="system-ui" font-size="22" font-weight="700" fill="url(#coralGrad)">6</text>
+
+    <text x="55" y="95" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="700" fill="#f5ede8">Verification</text>
+    <text x="55" y="115" text-anchor="middle" font-family="system-ui" font-size="9" fill="#c8a890">Independent verifier</text>
+    <text x="55" y="130" text-anchor="middle" font-family="system-ui" font-size="9" fill="#c8a890">No detector/model access</text>
+    <text x="55" y="145" text-anchor="middle" font-family="system-ui" font-size="9" fill="#c8a890">Clinical probes</text>
+    <text x="55" y="160" text-anchor="middle" font-family="system-ui" font-size="9" fill="#c8a890">Release gate</text>
+
+    <line x1="10" y1="178" x2="100" y2="178" stroke="#5a3a1a" stroke-width="1"/>
+
+    <g font-family="system-ui" font-size="8" fill="#e0c8b0">
+      <text x="6" y="196">• Accounting checks</text>
+      <text x="6" y="210">• Known IDs/names scan</text>
+      <text x="6" y="224">• Labeled PII residuals</text>
+      <text x="6" y="238">• Clinical path compare</text>
+      <text x="6" y="252">• FHIR structure</text>
+      <text x="6" y="266">• Direct pattern scan</text>
+      <text x="6" y="280">• Table shape</text>
+    </g>
+
+    <rect x="20" y="310" width="70" height="28" rx="6" fill="#2a1a1a" stroke="#f4a261" stroke-width="1.5"/>
+    <text x="55" y="328" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="600" fill="#f4a261">Pass → Stage 7</text>
+  </g>
+
+  <!-- STAGE 7 badge at bottom center -->
+  <g transform="translate(620, 490)">
+    <rect x="0" y="0" width="160" height="32" rx="16" fill="url(#s7Grad)" stroke="#2a9d8f" stroke-width="2" filter="url(#mintGlow)"/>
+    <circle cx="20" cy="16" r="10" fill="url(#mintGrad)">
+      <animate attributeName="r" from="8" to="12" dur="1.5s" repeatCount="indefinite" values="8;12;8"/>
+    </circle>
+    <text x="80" y="22" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="700" fill="#e8f5f2">7. Output &amp; Release</text>
+  </g>
+
+  <!-- Dashed feedback arrows from verification to release -->
+  <path d="M1325,300 C1325,350 800,350 800,460" fill="none" stroke="url(#mintGrad)" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrowHead)" opacity="0.6"/>
+
+  <!-- Legend -->
+  <g transform="translate(20, 500)">
+    <rect x="0" y="0" width="12" height="12" rx="2" fill="url(#s1Grad)" stroke="#1a3a5a"/>
+    <text x="18" y="10" font-family="system-ui" font-size="10" fill="#6b8a85">Ingestion / Normalization</text>
+    <rect x="220" y="0" width="12" height="12" rx="2" fill="url(#s3Grad)" stroke="#2a5a2a"/>
+    <text x="238" y="10" font-family="system-ui" font-size="10" fill="#b8b08a">PII Detection / Identity</text>
+    <rect x="440" y="0" width="12" height="12" rx="2" fill="url(#s5Grad)" stroke="#5a3a1a"/>
+    <text x="458" y="10" font-family="system-ui" font-size="10" fill="#c8a890">Transform / Verify / Release</text>
+  </g>
+
+  <!-- Animated shield icon at top right -->
+  <g transform="translate(1300, 20)">
+    <path d="M0,0 C0,0 0,30 0,30 C0,40 10,45 20,45 L40,45 C50,45 60,30 60,15 L60,0 Z" fill="none" stroke="url(#mintGrad)" stroke-width="2" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="140" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <text x="30" y="28" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#2a9d8f">shield</text>
+  </g>
+</svg>

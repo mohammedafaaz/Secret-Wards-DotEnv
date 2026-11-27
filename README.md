@@ -362,6 +362,15 @@ The website withholds release even if `contractValid` is true but `findings` is 
 
 ## 7. Dataset Preparation
 
+### V1 vs V2 Context
+
+| Version | Data Source | Description |
+|---------|-------------|-------------|
+| **V1 (Baseline)** | Organizer-provided synthetic dataset (Secret Wards challenge repo) | Initial training on the challenge's synthetic data; smaller scale, limited multilingual coverage |
+| **V2 (Submitted)** | Independently generated synthetic dataset (this project) | Expanded training with 45k NER + 30k linkage pairs; full English/Hindi/Hinglish support; increased row count and diversity |
+
+The submitted models are **V2 only**. V1 artifacts (`training/v2/baseline_v1/`, `models/v2/baseline_v1_on_v2_test.json`) are retained for regression comparison only.
+
 ### Synthetic Data Generation (V2)
 
 - **Method**: Independent compositional templates (no organizer files read)
@@ -391,6 +400,8 @@ The website withholds release even if `contractValid` is true but `findings` is 
 ---
 
 ## 8. Trained Models
+
+> **Note**: All submitted models are **V2** (trained on independently generated synthetic data with 45k NER + 30k linkage pairs). V1 baseline artifacts are included only for regression comparison (`training/v2/baseline_v1/`, `models/v2/baseline_v1_on_v2_test.json`).
 
 ### 8.1 V2 PII Detection Model (CRF)
 

@@ -504,6 +504,23 @@ The submitted models are **V2 only**. V1 artifacts (`training/v2/baseline_v1/`, 
 
 > **Note**: Linkage metrics are synthetic candidate-pair measurements. End-to-end cluster-level recall on practice data is ~82%. Model-level metrics ≠ system-level leakage measurements.
 
+### 8.5 V1 Baseline Comparison (from `Sheild_Model_Training.ipynb`)
+
+| Metric | V1 (Organizer Dataset) | V2 (Independent Dataset) |
+|--------|------------------------|--------------------------|
+| **NER Micro F1 (Validation)** | 0.723 | **0.950** |
+| **NER Micro F1 (Test)** | 0.706 | **0.856** |
+| **Linkage Precision (Validation)** | 0.985 | **1.000** |
+| **Linkage Recall (Validation)** | 0.347 | **0.665** |
+| **Linkage F1 (Validation)** | 0.513 | **0.799** |
+| **Linkage F1 (Test)** | 0.528 | **0.790** |
+| **Training Data (NER)** | ~15k examples | 45,000 examples |
+| **Training Data (Linkage)** | ~10k pairs | 30,000 pairs |
+| **Multilingual Support** | English only | English, Hindi, Hinglish |
+| **Iterations** | 65 | 150 |
+
+> V1 trained on organizer-provided synthetic dataset (65 iterations); V2 trained on independently generated synthetic data with 3× more NER examples, 3× more linkage pairs, full multilingual coverage, and 150 iterations. V1 artifacts retained for regression comparison only.
+
 ---
 
 ## 9. Unique Technical Differentiators

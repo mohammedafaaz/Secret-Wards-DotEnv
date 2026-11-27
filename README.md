@@ -96,29 +96,29 @@ flowchart TB
     end
 
     subgraph WEB["Website Path"]
-        UI[React SPA\nfrontend/dist] --> FA[FastAPI\nbackend/app.py]
-        FA --> UP[/api/run/upload]
+        UI[React SPA<br/>frontend/dist] --> FA[FastAPI<br/>backend/app.py]
+        FA --> UP["/api/run/upload"]
         UP --> RP
     end
 
     subgraph CORE["Shared Privacy Engine (sheild.engine)"]
-        RP --> ING[Ingestion &\nNormalization]
-        ING --> PARSE[parse()\nCSV/TSV/JSON/FHIR/TXT]
-        PARSE --> EVD[Evidence Extraction\nfield_role + text_evidence]
-        EVD --> DET[PII Detection\nCRF + Rules + Patterns]
-        DET --> LINK[Identity Resolution\nLinker.run()]
-        LINK --> SHIFT[Date Shift Preparation]
-        SHIFT --> TRANS[Privacy Transformation\nEngine.clean() / clean_text()]
-        TRANS --> REND[Output Rendering\nCSV/TSV/TXT/JSON/FHIR]
-        REND --> VER[Independent Verification\nsheild.verify.verify()]
-        VER --> OUT[Output Generation\nsanitized/ + report.json + records.jsonl]
+        RP --> ING[Ingestion &<br/>Normalization]
+        ING --> PARSE["parse()<br/>CSV/TSV/JSON/FHIR/TXT"]
+        PARSE --> EVD["Evidence Extraction<br/>field_role + text_evidence"]
+        EVD --> DET["PII Detection<br/>CRF + Rules + Patterns"]
+        DET --> LINK["Identity Resolution<br/>Linker.run()"]
+        LINK --> SHIFT["Date Shift<br/>Preparation"]
+        SHIFT --> TRANS["Privacy Transformation<br/>Engine.clean() / clean_text()"]
+        TRANS --> REND["Output Rendering<br/>CSV/TSV/TXT/JSON/FHIR"]
+        REND --> VER["Independent Verification<br/>sheild.verify.verify()"]
+        VER --> OUT["Output Generation<br/>sanitized/ + report.json + records.jsonl"]
     end
 
     subgraph MODEL["Trained Models (models/v2/)"]
-        CRF[pii_crf.crfsuite\nCRFsuite Tagger]
-        LINK_PARAMS[linkage_parameters.json\nFellegi-Sunter weights]
-        FEAT[model_features.py\nv2.0 feature contract]
-        RUNTIME[model_runtime.py\nCandidateModels adapter]
+        CRF["pii_crf.crfsuite<br/>CRFsuite Tagger"]
+        LINK_PARAMS["linkage_parameters.json<br/>Fellegi-Sunter weights"]
+        FEAT["model_features.py<br/>v2.0 feature contract"]
+        RUNTIME["model_runtime.py<br/>CandidateModels adapter"]
     end
 
     subgraph VERIFY["Independent Verifier"]
@@ -156,16 +156,16 @@ Both paths invoke `sheild.engine.run_pipeline()` with identical semantics. The w
 
 ```mermaid
 flowchart LR
-    A[Input Directory\nor ZIP Upload] --> B[1. Ingestion]
-    B --> C[2. Normalization]
-    C --> D[3. PII Detection]
-    D --> E[4. Identity Resolution]
-    E --> F[5. Privacy Transformation]
-    F --> G[6. Verification]
-    G --> H[7. Output &\nRelease]
+    A["Input Directory<br/>or ZIP Upload"] --> B["1. Ingestion"]
+    B --> C["2. Normalization"]
+    C --> D["3. PII Detection"]
+    D --> E["4. Identity Resolution"]
+    E --> F["5. Privacy Transformation"]
+    F --> G["6. Verification"]
+    G --> H["7. Output &<br/>Release"]
     
-    B -.->|Quarantine\ninvalid/unsupported| Q[report.json\nstatus: quarantined]
-    G -.->|Findings\nblock release| FV[Detailed Findings]
+    B -.->|Quarantine<br/>invalid/unsupported| Q["report.json<br/>status: quarantined"]
+    G -.->|Findings<br/>block release| FV["Detailed Findings"]
     
     style B fill:#1a1f2e,stroke:#2a9d8f
     style C fill:#1a1f2e,stroke:#2a9d8f

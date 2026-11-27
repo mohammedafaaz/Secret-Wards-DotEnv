@@ -1,0 +1,36 @@
+{
+  "name": "shield-privacy-vault",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3000",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b --pretty false",
+    "test": "vitest run",
+    "preview": "vite preview --host 127.0.0.1 --port 3000"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.4.0",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.555.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6",
+    "three": "^0.181.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^22.20.7",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@types/three": "^0.181.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "jsdom": "^27.2.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.2",
+    "vitest": "^4.0.8"
+  }
+}

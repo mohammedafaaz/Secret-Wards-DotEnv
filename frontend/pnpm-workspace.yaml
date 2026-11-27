@@ -1,0 +1,8 @@
+packages: []
+
+allowBuilds:
+  esbuild: true
+  "@swc/core": false
+  "@parcel/watcher": false
+  canvas: false
+  fsevents: false

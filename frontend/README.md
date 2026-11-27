@@ -1,0 +1,3 @@
+# shield frontend
+
+React + TypeScript + Vite. The supplied static build in `dist/` is served by the FastAPI backend. Start from the repository root using START_SHIELD.cmd or START_SHIELD.sh. No Node runtime is required to serve that build. To develop, install the pinned pnpm version in package.json, run `pnpm install --frozen-lockfile`, then `pnpm dev` with the backend running. `pnpm test`, `pnpm typecheck`, and `pnpm build` verify/rebuild the UI. The audit environment could not fetch dependencies or run browser navigation, so the current dist is the supplied build with text-only branding edits. See the root verification report. Do not put secrets in VITE_* variables.

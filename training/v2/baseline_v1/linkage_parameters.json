@@ -1,0 +1,47 @@
+{
+  "feature_version": "1.0",
+  "type": "Fellegi-Sunter-style smoothed log likelihood ratios",
+  "weights": {
+    "name": {
+      "missing": 0.0,
+      "high": 0.14792532648798057,
+      "medium": 1.4087672169719492,
+      "low": -2.316129318101803
+    },
+    "relative": {
+      "missing": 0.47340094002033495,
+      "high": 0.7476769900193421,
+      "medium": -0.5793882952032872,
+      "low": -4.173171956802971
+    },
+    "dob": {
+      "missing": 0.4906313810179,
+      "agree": 0.8468134815935237,
+      "conflict": -7.903596289614301
+    },
+    "phone": {
+      "missing": 0.3571348523189402,
+      "agree": 0.08391332350947965,
+      "conflict": -7.22402480828583
+    },
+    "village": {
+      "missing": 0.32744690459917053,
+      "agree": 0.3984345518594771,
+      "conflict": -7.501082124259871
+    },
+    "local_id": {
+      "missing": -0.10110436684558763,
+      "agree": 7.200424892944957,
+      "conflict": -6.738152494595957
+    },
+    "strong_id": {
+      "missing": 0.2718898259973611,
+      "agree": 5.723585101952381,
+      "conflict": -7.415776975415393
+    }
+  },
+  "threshold": 2.3955491326215768,
+  "min_validation_precision": 0.98,
+  "min_validation_accepted": 30,
+  "policy": "candidate only; hard conflict veto and independent support; not cluster approval"
+}

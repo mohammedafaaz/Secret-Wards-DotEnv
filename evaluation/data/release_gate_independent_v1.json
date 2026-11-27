@@ -1,0 +1,58 @@
+{
+  "version": "release-gate-independent-v1",
+  "scope": "Regression fixture derived from previously observed leaks; not a held-out evaluation or organizer hidden data.",
+  "records": [
+    {
+      "file": "registry_export.csv",
+      "content": "Registry Unit,Enrollee Alias,Kin Signature,Contact Key,Drug Schedule,Pressure Reading\nNorth Annex,Elarin Vossel,Mavira Vossel,81234567890,Methotrexate 10 mg weekly,118/74\n",
+      "pii": ["Elarin Vossel", "Mavira Vossel", "81234567890"],
+      "clinical": ["Methotrexate 10 mg weekly", "118/74"],
+      "expected_patient": "person-01"
+    },
+    {
+      "file": "followup_note.txt",
+      "content": "Patient name: Elarin Vossel\nMRN: VX-903817\nVisit interval: 2026-03-04 to 2026-03-11\nAssessment: rheumatoid arthritis\nContinue Methotrexate 10 mg weekly; BP 118/74.\n",
+      "pii": ["Elarin Vossel", "VX-903817"],
+      "clinical": ["rheumatoid arthritis", "Methotrexate 10 mg weekly", "BP 118/74", "2026-03-04 to 2026-03-11"],
+      "expected_patient": "person-01"
+    },
+    {
+      "file": "legacy_conflict_alpha.csv",
+      "content": "Clinic Label,Client Name,Local Chart,Diagnosis,Medicine\nAster Clinic,Elarin Vossel,CH-771204,Type 2 diabetes,Metformin 500 mg\n",
+      "pii": ["Elarin Vossel", "CH-771204"],
+      "clinical": ["Type 2 diabetes", "Metformin 500 mg"],
+      "expected_patient": "conflict-alpha"
+    },
+    {
+      "file": "legacy_conflict_beta.csv",
+      "content": "Clinic Label,Client Name,Local Chart,Diagnosis,Medicine\nBirch Clinic,Elarin Vossel,CH-771204,Asthma,Salbutamol 100 mcg\n",
+      "pii": ["Elarin Vossel", "CH-771204"],
+      "clinical": ["Asthma", "Salbutamol 100 mcg"],
+      "expected_patient": "conflict-beta"
+    },
+    {
+      "file": "hindi_unfamiliar_labels.txt",
+      "content": "लाभार्थी संकेत: तविरा नोरवेन\nसाथ आया व्यक्ति: मिरेह नोरवेन\nसंपर्क सूत्र: ९८७६५४३२१०\nमूल्यांकन: दमा\nदवा: Budesonide 200 mcg\nनाड़ी 76 bpm\n",
+      "pii": ["तविरा नोरवेन", "मिरेह नोरवेन", "९८७६५४३२१०"],
+      "clinical": ["दमा", "Budesonide 200 mcg", "नाड़ी 76 bpm"],
+      "expected_patient": "person-hi-01"
+    },
+    {
+      "file": "hinglish_nested.json",
+      "content": "{\"visitEnvelope\":{\"subjectAlias\":\"Nivara Selvar\",\"familyWitness\":\"Dovira Selvar\",\"callback\":\"+91 98765 43210\",\"carePlan\":{\"diagnosis\":\"migraine\",\"medicine\":\"Propranolol 20 mg\",\"measurement\":\"Pulse 72 bpm\"}}}",
+      "pii": ["Nivara Selvar", "Dovira Selvar", "+91 98765 43210"],
+      "clinical": ["migraine", "Propranolol 20 mg", "Pulse 72 bpm"],
+      "expected_patient": "person-hinglish-01"
+    },
+    {
+      "file": "two_patient_bundle.json",
+      "content": "{\"resourceType\":\"Bundle\",\"type\":\"collection\",\"entry\":[{\"fullUrl\":\"urn:uuid:10000000-0000-4000-8000-000000000001\",\"resource\":{\"resourceType\":\"Patient\",\"id\":\"pa\",\"name\":[{\"text\":\"Veyra Talmor\"}],\"birthDate\":\"1982-05-14\"}},{\"fullUrl\":\"urn:uuid:10000000-0000-4000-8000-000000000002\",\"resource\":{\"resourceType\":\"Patient\",\"id\":\"pb\",\"name\":[{\"text\":\"Soreva Keldan\"}],\"birthDate\":\"1975-09-22\"}},{\"fullUrl\":\"urn:uuid:10000000-0000-4000-8000-000000000003\",\"resource\":{\"resourceType\":\"Practitioner\",\"id\":\"shared\",\"name\":[{\"text\":\"Dr. Imani Verel\"}]}},{\"fullUrl\":\"urn:uuid:10000000-0000-4000-8000-000000000004\",\"resource\":{\"resourceType\":\"Encounter\",\"id\":\"ea\",\"status\":\"finished\",\"class\":{\"system\":\"http://terminology.hl7.org/CodeSystem/v3-ActCode\",\"code\":\"AMB\"},\"subject\":{\"reference\":\"Patient/pa\"},\"participant\":[{\"individual\":{\"reference\":\"Practitioner/shared\"}}],\"period\":{\"start\":\"2026-05-02T09:00:00Z\",\"end\":\"2026-05-02T13:00:00Z\"}}},{\"fullUrl\":\"urn:uuid:10000000-0000-4000-8000-000000000005\",\"resource\":{\"resourceType\":\"Observation\",\"id\":\"oa\",\"status\":\"final\",\"code\":{\"text\":\"Pulse\"},\"subject\":{\"reference\":\"Patient/pa\"},\"encounter\":{\"reference\":\"Encounter/ea\"},\"valueQuantity\":{\"value\":74,\"unit\":\"beats/min\"}}},{\"fullUrl\":\"urn:uuid:10000000-0000-4000-8000-000000000006\",\"resource\":{\"resourceType\":\"MedicationRequest\",\"id\":\"ma\",\"status\":\"active\",\"intent\":\"order\",\"medicationCodeableConcept\":{\"text\":\"Metformin 500 mg\"},\"subject\":{\"reference\":\"Patient/pa\"},\"encounter\":{\"reference\":\"Encounter/ea\"},\"requester\":{\"reference\":\"Practitioner/shared\"}}},{\"fullUrl\":\"urn:uuid:10000000-0000-4000-8000-000000000007\",\"resource\":{\"resourceType\":\"Encounter\",\"id\":\"eb\",\"status\":\"finished\",\"class\":{\"system\":\"http://terminology.hl7.org/CodeSystem/v3-ActCode\",\"code\":\"AMB\"},\"subject\":{\"reference\":\"Patient/pb\"},\"participant\":[{\"individual\":{\"reference\":\"Practitioner/shared\"}}],\"period\":{\"start\":\"2026-05-04T10:00:00Z\",\"end\":\"2026-05-04T16:00:00Z\"}}},{\"fullUrl\":\"urn:uuid:10000000-0000-4000-8000-000000000008\",\"resource\":{\"resourceType\":\"Observation\",\"id\":\"ob\",\"status\":\"final\",\"code\":{\"text\":\"Pulse\"},\"subject\":{\"reference\":\"Patient/pb\"},\"encounter\":{\"reference\":\"Encounter/eb\"},\"valueQuantity\":{\"value\":81,\"unit\":\"beats/min\"}}},{\"fullUrl\":\"urn:uuid:10000000-0000-4000-8000-000000000009\",\"resource\":{\"resourceType\":\"RelatedPerson\",\"id\":\"relative\",\"patient\":{\"reference\":\"Patient/pa\"},\"name\":[{\"text\":\"Mavira Talmor\"}]}}]}",
+      "pii": ["Veyra Talmor", "Soreva Keldan", "Mavira Talmor", "1982-05-14", "1975-09-22"],
+      "clinical": ["Metformin 500 mg", "\"value\": 74", "\"value\": 81"],
+      "expected_patients_by_loc": {
+        "/entry/0/resource": "fhir-person-a",
+        "/entry/1/resource": "fhir-person-b"
+      }
+    }
+  ]
+}

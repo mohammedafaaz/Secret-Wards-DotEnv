@@ -1,0 +1,1392 @@
+{
+  "scope": "independent synthetic templates; not official hidden data; no organizer practice/training records",
+  "fixture_sha256": "915e8de1a479acd0476188070e1643eabed7fc4b48da3cc826bc11f5abb06048",
+  "partition": {
+    "development": 60,
+    "frozen_evaluation": 300
+  },
+  "method": "Each held-out note is processed with its exact annotated PII surfaces and three clinical negative probes. Recall is exact surface absence; false-positive count covers only the annotated protected clinical probes, not all possible false positives.",
+  "results": {
+    "rules_only": {
+      "by_language_and_entity": {
+        "en_location": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "en_patient": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "en_relative": {
+          "pii_total": 100,
+          "pii_removed": 87,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 0.87
+        },
+        "hi_location": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hi_patient": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hi_relative": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hinglish_location": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hinglish_patient": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hinglish_relative": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        }
+      },
+      "by_language": {
+        "en": {
+          "pii_total": 300,
+          "pii_removed": 287,
+          "clinical_total": 87,
+          "clinical_kept": 87,
+          "pii_recall": 0.9566666666666667,
+          "clinical_preservation": 1.0
+        },
+        "hi": {
+          "pii_total": 300,
+          "pii_removed": 300,
+          "clinical_total": 75,
+          "clinical_kept": 75,
+          "pii_recall": 1.0,
+          "clinical_preservation": 1.0
+        },
+        "hinglish": {
+          "pii_total": 300,
+          "pii_removed": 300,
+          "clinical_total": 100,
+          "clinical_kept": 100,
+          "pii_recall": 1.0,
+          "clinical_preservation": 1.0
+        }
+      },
+      "overall": {
+        "notes": 300,
+        "pii_total": 900,
+        "pii_removed": 887,
+        "pii_recall": 0.9855555555555555,
+        "clinical_total": 262,
+        "clinical_kept": 262,
+        "clinical_preservation": 1.0,
+        "false_negative_surfaces": 13,
+        "false_positive_clinical_probes": 0
+      },
+      "false_negatives": [
+        {
+          "id": "en-023",
+          "entity": "relative",
+          "surface": "Waro Nolven"
+        },
+        {
+          "id": "en-031",
+          "entity": "relative",
+          "surface": "Pavi Tovren"
+        },
+        {
+          "id": "en-039",
+          "entity": "relative",
+          "surface": "Cavi Lenvor"
+        },
+        {
+          "id": "en-047",
+          "entity": "relative",
+          "surface": "Iren Quorin"
+        },
+        {
+          "id": "en-055",
+          "entity": "relative",
+          "surface": "Reni Tavren"
+        },
+        {
+          "id": "en-063",
+          "entity": "relative",
+          "surface": "Ovi Feldan"
+        },
+        {
+          "id": "en-071",
+          "entity": "relative",
+          "surface": "Beli Delmar"
+        },
+        {
+          "id": "en-079",
+          "entity": "relative",
+          "surface": "Cavi Feldan"
+        },
+        {
+          "id": "en-087",
+          "entity": "relative",
+          "surface": "Beli Sernol"
+        },
+        {
+          "id": "en-095",
+          "entity": "relative",
+          "surface": "Iren Torlen"
+        },
+        {
+          "id": "en-103",
+          "entity": "relative",
+          "surface": "Evari Lenvor"
+        },
+        {
+          "id": "en-111",
+          "entity": "relative",
+          "surface": "Seli Vessan"
+        },
+        {
+          "id": "en-119",
+          "entity": "relative",
+          "surface": "Qori Mavor"
+        }
+      ],
+      "false_positive_clinical_probes": []
+    },
+    "standalone_crf": {
+      "by_language_and_entity": {
+        "en_location": {
+          "pii_total": 100,
+          "pii_removed": 79,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 0.79
+        },
+        "en_patient": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "en_relative": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hi_location": {
+          "pii_total": 100,
+          "pii_removed": 1,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 0.01
+        },
+        "hi_patient": {
+          "pii_total": 100,
+          "pii_removed": 98,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 0.98
+        },
+        "hi_relative": {
+          "pii_total": 100,
+          "pii_removed": 96,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 0.96
+        },
+        "hinglish_location": {
+          "pii_total": 100,
+          "pii_removed": 87,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 0.87
+        },
+        "hinglish_patient": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hinglish_relative": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        }
+      },
+      "by_language": {
+        "en": {
+          "pii_total": 300,
+          "pii_removed": 279,
+          "clinical_total": 87,
+          "clinical_kept": 62,
+          "pii_recall": 0.93,
+          "clinical_preservation": 0.7126436781609196
+        },
+        "hi": {
+          "pii_total": 300,
+          "pii_removed": 195,
+          "clinical_total": 75,
+          "clinical_kept": 50,
+          "pii_recall": 0.65,
+          "clinical_preservation": 0.6666666666666666
+        },
+        "hinglish": {
+          "pii_total": 300,
+          "pii_removed": 287,
+          "clinical_total": 100,
+          "clinical_kept": 75,
+          "pii_recall": 0.9566666666666667,
+          "clinical_preservation": 0.75
+        }
+      },
+      "overall": {
+        "notes": 300,
+        "pii_total": 900,
+        "pii_removed": 761,
+        "pii_recall": 0.8455555555555555,
+        "clinical_total": 262,
+        "clinical_kept": 187,
+        "clinical_preservation": 0.7137404580152672,
+        "false_negative_surfaces": 139,
+        "false_positive_clinical_probes": 75
+      },
+      "false_negatives": [
+        {
+          "id": "en-024",
+          "entity": "location",
+          "surface": "Cedar Walk"
+        },
+        {
+          "id": "en-025",
+          "entity": "location",
+          "surface": "Lotus Grove"
+        },
+        {
+          "id": "en-029",
+          "entity": "location",
+          "surface": "Cedar Mews"
+        },
+        {
+          "id": "en-041",
+          "entity": "location",
+          "surface": "Elm Row"
+        },
+        {
+          "id": "en-042",
+          "entity": "location",
+          "surface": "Rose Grove"
+        },
+        {
+          "id": "en-049",
+          "entity": "location",
+          "surface": "Hazel Bend"
+        },
+        {
+          "id": "en-057",
+          "entity": "location",
+          "surface": "Kestrel Bend"
+        },
+        {
+          "id": "en-060",
+          "entity": "location",
+          "surface": "Cedar Bend"
+        },
+        {
+          "id": "en-068",
+          "entity": "location",
+          "surface": "Olive Bend"
+        },
+        {
+          "id": "en-081",
+          "entity": "location",
+          "surface": "Violet Rise"
+        },
+        {
+          "id": "en-086",
+          "entity": "location",
+          "surface": "Pine Court"
+        },
+        {
+          "id": "en-088",
+          "entity": "location",
+          "surface": "Amber Mews"
+        },
+        {
+          "id": "en-089",
+          "entity": "location",
+          "surface": "Yarrow Bend"
+        },
+        {
+          "id": "en-096",
+          "entity": "location",
+          "surface": "Fern Bend"
+        },
+        {
+          "id": "en-097",
+          "entity": "location",
+          "surface": "Amber Court"
+        },
+        {
+          "id": "en-105",
+          "entity": "location",
+          "surface": "Kestrel Rise"
+        },
+        {
+          "id": "en-112",
+          "entity": "location",
+          "surface": "Cedar Bend"
+        },
+        {
+          "id": "en-113",
+          "entity": "location",
+          "surface": "Xenia Bend"
+        },
+        {
+          "id": "en-114",
+          "entity": "location",
+          "surface": "Pine Rise"
+        },
+        {
+          "id": "en-115",
+          "entity": "location",
+          "surface": "Pine Court"
+        },
+        {
+          "id": "en-116",
+          "entity": "location",
+          "surface": "Xenia Row"
+        },
+        {
+          "id": "hi-020",
+          "entity": "location",
+          "surface": "पीपल आंगन"
+        },
+        {
+          "id": "hi-021",
+          "entity": "location",
+          "surface": "रागवन विहार"
+        },
+        {
+          "id": "hi-022",
+          "entity": "location",
+          "surface": "गुलमोहर गली"
+        },
+        {
+          "id": "hi-023",
+          "entity": "relative",
+          "surface": "करे सोरिल"
+        },
+        {
+          "id": "hi-023",
+          "entity": "location",
+          "surface": "अमलतास विहार"
+        },
+        {
+          "id": "hi-024",
+          "entity": "location",
+          "surface": "बेला गली"
+        },
+        {
+          "id": "hi-025",
+          "entity": "location",
+          "surface": "नीलकमल मार्ग"
+        },
+        {
+          "id": "hi-026",
+          "entity": "location",
+          "surface": "चंद्रवन मार्ग"
+        },
+        {
+          "id": "hi-027",
+          "entity": "location",
+          "surface": "पीपल चौक"
+        },
+        {
+          "id": "hi-028",
+          "entity": "location",
+          "surface": "केसर विहार"
+        },
+        {
+          "id": "hi-029",
+          "entity": "location",
+          "surface": "रागवन गली"
+        },
+        {
+          "id": "hi-030",
+          "entity": "location",
+          "surface": "पीपल चौक"
+        },
+        {
+          "id": "hi-031",
+          "entity": "location",
+          "surface": "बेला मार्ग"
+        },
+        {
+          "id": "hi-032",
+          "entity": "location",
+          "surface": "सूरज चौक"
+        },
+        {
+          "id": "hi-033",
+          "entity": "location",
+          "surface": "मोरपंख मार्ग"
+        },
+        {
+          "id": "hi-034",
+          "entity": "location",
+          "surface": "रागवन पथ"
+        },
+        {
+          "id": "hi-035",
+          "entity": "location",
+          "surface": "चमेली पथ"
+        },
+        {
+          "id": "hi-036",
+          "entity": "location",
+          "surface": "कुंज विहार"
+        },
+        {
+          "id": "hi-037",
+          "entity": "location",
+          "surface": "केसर कुंज"
+        },
+        {
+          "id": "hi-038",
+          "entity": "location",
+          "surface": "केसर मार्ग"
+        },
+        {
+          "id": "hi-039",
+          "entity": "location",
+          "surface": "पीपल गली"
+        },
+        {
+          "id": "hi-040",
+          "entity": "location",
+          "surface": "केसर पथ"
+        },
+        {
+          "id": "hi-041",
+          "entity": "location",
+          "surface": "चमेली चौक"
+        },
+        {
+          "id": "hi-042",
+          "entity": "location",
+          "surface": "पीपल नगर"
+        },
+        {
+          "id": "hi-043",
+          "entity": "location",
+          "surface": "चमेली मार्ग"
+        },
+        {
+          "id": "hi-044",
+          "entity": "location",
+          "surface": "पीपल विहार"
+        },
+        {
+          "id": "hi-046",
+          "entity": "location",
+          "surface": "चमेली नगर"
+        },
+        {
+          "id": "hi-047",
+          "entity": "location",
+          "surface": "चंद्रवन विहार"
+        },
+        {
+          "id": "hi-048",
+          "entity": "location",
+          "surface": "केसर नगर"
+        },
+        {
+          "id": "hi-049",
+          "entity": "location",
+          "surface": "नीलकमल आंगन"
+        },
+        {
+          "id": "hi-050",
+          "entity": "location",
+          "surface": "बेला चौक"
+        },
+        {
+          "id": "hi-051",
+          "entity": "location",
+          "surface": "नीलकमल चौक"
+        },
+        {
+          "id": "hi-052",
+          "entity": "location",
+          "surface": "मोरपंख विहार"
+        },
+        {
+          "id": "hi-053",
+          "entity": "location",
+          "surface": "नीलकमल विहार"
+        },
+        {
+          "id": "hi-054",
+          "entity": "location",
+          "surface": "गुलमोहर पथ"
+        },
+        {
+          "id": "hi-055",
+          "entity": "relative",
+          "surface": "वेनु कावेन"
+        },
+        {
+          "id": "hi-055",
+          "entity": "location",
+          "surface": "कुंज पथ"
+        },
+        {
+          "id": "hi-056",
+          "entity": "location",
+          "surface": "अमलतास पथ"
+        },
+        {
+          "id": "hi-057",
+          "entity": "location",
+          "surface": "नीलकमल नगर"
+        },
+        {
+          "id": "hi-058",
+          "entity": "location",
+          "surface": "रागवन आंगन"
+        },
+        {
+          "id": "hi-059",
+          "entity": "location",
+          "surface": "पीपल चौक"
+        },
+        {
+          "id": "hi-060",
+          "entity": "location",
+          "surface": "नीलकमल चौक"
+        },
+        {
+          "id": "hi-061",
+          "entity": "location",
+          "surface": "केसर पथ"
+        },
+        {
+          "id": "hi-062",
+          "entity": "location",
+          "surface": "कुंज कुंज"
+        },
+        {
+          "id": "hi-063",
+          "entity": "location",
+          "surface": "अमलतास चौक"
+        },
+        {
+          "id": "hi-064",
+          "entity": "location",
+          "surface": "चमेली गली"
+        },
+        {
+          "id": "hi-065",
+          "entity": "location",
+          "surface": "चमेली पथ"
+        },
+        {
+          "id": "hi-066",
+          "entity": "location",
+          "surface": "चमेली विहार"
+        },
+        {
+          "id": "hi-067",
+          "entity": "location",
+          "surface": "रागवन चौक"
+        },
+        {
+          "id": "hi-068",
+          "entity": "location",
+          "surface": "केसर नगर"
+        },
+        {
+          "id": "hi-069",
+          "entity": "location",
+          "surface": "नीलकमल पथ"
+        },
+        {
+          "id": "hi-070",
+          "entity": "location",
+          "surface": "कुंज आंगन"
+        },
+        {
+          "id": "hi-071",
+          "entity": "location",
+          "surface": "नीलकमल विहार"
+        },
+        {
+          "id": "hi-072",
+          "entity": "patient",
+          "surface": "किवा पेलव"
+        },
+        {
+          "id": "hi-072",
+          "entity": "location",
+          "surface": "बेला आंगन"
+        },
+        {
+          "id": "hi-073",
+          "entity": "location",
+          "surface": "केसर कुंज"
+        },
+        {
+          "id": "hi-074",
+          "entity": "location",
+          "surface": "बेला आंगन"
+        },
+        {
+          "id": "hi-075",
+          "entity": "location",
+          "surface": "अमलतास नगर"
+        },
+        {
+          "id": "hi-076",
+          "entity": "location",
+          "surface": "पीपल मार्ग"
+        },
+        {
+          "id": "hi-077",
+          "entity": "location",
+          "surface": "केसर कुंज"
+        },
+        {
+          "id": "hi-078",
+          "entity": "location",
+          "surface": "नीलकमल विहार"
+        },
+        {
+          "id": "hi-079",
+          "entity": "location",
+          "surface": "बेला आंगन"
+        },
+        {
+          "id": "hi-080",
+          "entity": "location",
+          "surface": "केसर मार्ग"
+        },
+        {
+          "id": "hi-081",
+          "entity": "location",
+          "surface": "कुंज नगर"
+        },
+        {
+          "id": "hi-082",
+          "entity": "location",
+          "surface": "केसर विहार"
+        },
+        {
+          "id": "hi-083",
+          "entity": "location",
+          "surface": "पीपल पथ"
+        },
+        {
+          "id": "hi-084",
+          "entity": "location",
+          "surface": "बेला मार्ग"
+        },
+        {
+          "id": "hi-085",
+          "entity": "location",
+          "surface": "नीलकमल कुंज"
+        },
+        {
+          "id": "hi-086",
+          "entity": "location",
+          "surface": "केसर कुंज"
+        },
+        {
+          "id": "hi-087",
+          "entity": "relative",
+          "surface": "जिवा दोरव"
+        },
+        {
+          "id": "hi-087",
+          "entity": "location",
+          "surface": "गुलमोहर चौक"
+        },
+        {
+          "id": "hi-088",
+          "entity": "patient",
+          "surface": "करे तोरिन"
+        },
+        {
+          "id": "hi-088",
+          "entity": "location",
+          "surface": "बेला नगर"
+        },
+        {
+          "id": "hi-089",
+          "entity": "location",
+          "surface": "चमेली चौक"
+        },
+        {
+          "id": "hi-090",
+          "entity": "location",
+          "surface": "नीलकमल गली"
+        },
+        {
+          "id": "hi-091",
+          "entity": "location",
+          "surface": "पीपल नगर"
+        },
+        {
+          "id": "hi-092",
+          "entity": "location",
+          "surface": "मोरपंख पथ"
+        },
+        {
+          "id": "hi-093",
+          "entity": "location",
+          "surface": "नीलकमल नगर"
+        },
+        {
+          "id": "hi-094",
+          "entity": "location",
+          "surface": "कुंज चौक"
+        },
+        {
+          "id": "hi-095",
+          "entity": "location",
+          "surface": "गुलमोहर पथ"
+        },
+        {
+          "id": "hi-096",
+          "entity": "location",
+          "surface": "गुलमोहर कुंज"
+        },
+        {
+          "id": "hi-097",
+          "entity": "location",
+          "surface": "मोरपंख गली"
+        },
+        {
+          "id": "hi-098",
+          "entity": "location",
+          "surface": "नीलकमल गली"
+        },
+        {
+          "id": "hi-099",
+          "entity": "location",
+          "surface": "चंद्रवन नगर"
+        },
+        {
+          "id": "hi-100",
+          "entity": "location",
+          "surface": "चमेली आंगन"
+        },
+        {
+          "id": "hi-101",
+          "entity": "location",
+          "surface": "सूरज विहार"
+        },
+        {
+          "id": "hi-102",
+          "entity": "location",
+          "surface": "रागवन पथ"
+        },
+        {
+          "id": "hi-103",
+          "entity": "location",
+          "surface": "रागवन चौक"
+        },
+        {
+          "id": "hi-104",
+          "entity": "location",
+          "surface": "चंद्रवन चौक"
+        },
+        {
+          "id": "hi-105",
+          "entity": "location",
+          "surface": "अमलतास मार्ग"
+        },
+        {
+          "id": "hi-106",
+          "entity": "location",
+          "surface": "रागवन मार्ग"
+        },
+        {
+          "id": "hi-107",
+          "entity": "location",
+          "surface": "सूरज चौक"
+        },
+        {
+          "id": "hi-108",
+          "entity": "location",
+          "surface": "अमलतास गली"
+        },
+        {
+          "id": "hi-109",
+          "entity": "location",
+          "surface": "गुलमोहर कुंज"
+        },
+        {
+          "id": "hi-110",
+          "entity": "location",
+          "surface": "केसर चौक"
+        },
+        {
+          "id": "hi-111",
+          "entity": "location",
+          "surface": "नीलकमल मार्ग"
+        },
+        {
+          "id": "hi-112",
+          "entity": "location",
+          "surface": "मोरपंख विहार"
+        },
+        {
+          "id": "hi-113",
+          "entity": "location",
+          "surface": "पीपल मार्ग"
+        },
+        {
+          "id": "hi-114",
+          "entity": "location",
+          "surface": "केसर मार्ग"
+        },
+        {
+          "id": "hi-115",
+          "entity": "location",
+          "surface": "मोरपंख कुंज"
+        },
+        {
+          "id": "hi-116",
+          "entity": "location",
+          "surface": "बेला विहार"
+        },
+        {
+          "id": "hi-117",
+          "entity": "location",
+          "surface": "बेला गली"
+        },
+        {
+          "id": "hi-118",
+          "entity": "location",
+          "surface": "कुंज चौक"
+        },
+        {
+          "id": "hi-119",
+          "entity": "relative",
+          "surface": "यवे सोरिल"
+        },
+        {
+          "id": "hi-119",
+          "entity": "location",
+          "surface": "पीपल चौक"
+        },
+        {
+          "id": "hinglish-021",
+          "entity": "location",
+          "surface": "MorPankh Lane"
+        },
+        {
+          "id": "hinglish-023",
+          "entity": "location",
+          "surface": "Peacock Bagh Road"
+        },
+        {
+          "id": "hinglish-024",
+          "entity": "location",
+          "surface": "Violet Bagh Road"
+        },
+        {
+          "id": "hinglish-037",
+          "entity": "location",
+          "surface": "MorPankh Path"
+        },
+        {
+          "id": "hinglish-043",
+          "entity": "location",
+          "surface": "Chand Path"
+        },
+        {
+          "id": "hinglish-055",
+          "entity": "location",
+          "surface": "SilverFern Mews"
+        },
+        {
+          "id": "hinglish-067",
+          "entity": "location",
+          "surface": "Peacock Bagh Road"
+        },
+        {
+          "id": "hinglish-076",
+          "entity": "location",
+          "surface": "MorPankh Bend"
+        },
+        {
+          "id": "hinglish-081",
+          "entity": "location",
+          "surface": "MorPankh Lane"
+        },
+        {
+          "id": "hinglish-091",
+          "entity": "location",
+          "surface": "Kesar Bagh Road"
+        },
+        {
+          "id": "hinglish-092",
+          "entity": "location",
+          "surface": "Kesar Bend"
+        },
+        {
+          "id": "hinglish-096",
+          "entity": "location",
+          "surface": "Kesar Bagh Road"
+        },
+        {
+          "id": "hinglish-109",
+          "entity": "location",
+          "surface": "MorPankh Bend"
+        }
+      ],
+      "false_positive_clinical_probes": [
+        {
+          "id": "en-020",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-024",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-028",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-032",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-036",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-040",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-044",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-048",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-052",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-056",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-060",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-064",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-068",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-072",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-076",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-080",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-084",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-088",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-092",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-096",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-100",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-104",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-108",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-112",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "en-116",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-023",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-024",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-031",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-032",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-039",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-040",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-047",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-048",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-055",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-056",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-063",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-064",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-071",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-072",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-079",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-080",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-087",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-088",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-095",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-096",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-103",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-104",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-111",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-112",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hi-119",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-020",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-024",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-028",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-032",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-036",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-040",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-044",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-048",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-052",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-056",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-060",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-064",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-068",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-072",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-076",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-080",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-084",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-088",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-092",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-096",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-100",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-104",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-108",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-112",
+          "surface": "Dr. Renu Sethi"
+        },
+        {
+          "id": "hinglish-116",
+          "surface": "Dr. Renu Sethi"
+        }
+      ]
+    },
+    "hybrid": {
+      "by_language_and_entity": {
+        "en_location": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "en_patient": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "en_relative": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hi_location": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hi_patient": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hi_relative": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hinglish_location": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hinglish_patient": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        },
+        "hinglish_relative": {
+          "pii_total": 100,
+          "pii_removed": 100,
+          "clinical_total": 0,
+          "clinical_kept": 0,
+          "recall": 1.0
+        }
+      },
+      "by_language": {
+        "en": {
+          "pii_total": 300,
+          "pii_removed": 300,
+          "clinical_total": 87,
+          "clinical_kept": 87,
+          "pii_recall": 1.0,
+          "clinical_preservation": 1.0
+        },
+        "hi": {
+          "pii_total": 300,
+          "pii_removed": 300,
+          "clinical_total": 75,
+          "clinical_kept": 75,
+          "pii_recall": 1.0,
+          "clinical_preservation": 1.0
+        },
+        "hinglish": {
+          "pii_total": 300,
+          "pii_removed": 300,
+          "clinical_total": 100,
+          "clinical_kept": 100,
+          "pii_recall": 1.0,
+          "clinical_preservation": 1.0
+        }
+      },
+      "overall": {
+        "notes": 300,
+        "pii_total": 900,
+        "pii_removed": 900,
+        "pii_recall": 1.0,
+        "clinical_total": 262,
+        "clinical_kept": 262,
+        "clinical_preservation": 1.0,
+        "false_negative_surfaces": 0,
+        "false_positive_clinical_probes": 0
+      },
+      "false_negatives": [],
+      "false_positive_clinical_probes": []
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "scope": "Frozen, independently authored synthetic held-out variants; not organizer practice or hidden data.",
+  "fixture_sha256": "5d7eed4bc5f64524733ed4910d105e31d8d9203402c4db06746c522c5d7ad474",
+  "model_active": true,
+  "contract_valid": true,
+  "release_approved": true,
+  "verification_checks": {
+    "record_references": 9,
+    "files": 9,
+    "known_identifiers": 11,
+    "known_names": 19,
+    "independent_labeled_values": 28,
+    "clinical_probes": 10,
+    "clinical_path_checks": 4
+  },
+  "verification_findings": {},
+  "file_accounting": {
+    "input": 9,
+    "sanitized": 9,
+    "quarantined": 0,
+    "balanced": true
+  },
+  "pii": {
+    "leaked": 0,
+    "tested": 30,
+    "recall": 1.0
+  },
+  "clinical": {
+    "preserved": 26,
+    "tested": 26,
+    "preservation": 1.0,
+    "intervals_preserved": 0,
+    "intervals_tested": 0
+  },
+  "linkage": {
+    "evaluable_records": 0,
+    "expected_records": 0,
+    "mapping_coverage": null,
+    "true_positive_pairs": 0,
+    "false_positive_pairs": 0,
+    "false_negative_pairs": 0,
+    "precision": null,
+    "recall": null
+  },
+  "fhir": {
+    "applicable": false,
+    "valid": null,
+    "reason": "not included"
+  },
+  "per_file": [
+    {
+      "file": "enrollment.csv",
+      "status": "sanitized",
+      "pii_surfaces": 4,
+      "pii_leaked": 0,
+      "leaked_surfaces": [],
+      "clinical_probes": 3,
+      "clinical_preserved": 3,
+      "clinical_misses": []
+    },
+    {
+      "file": "intake_note.txt",
+      "status": "sanitized",
+      "pii_surfaces": 4,
+      "pii_leaked": 0,
+      "leaked_surfaces": [],
+      "clinical_probes": 2,
+      "clinical_preserved": 2,
+      "clinical_misses": []
+    },
+    {
+      "file": "care_record.json",
+      "status": "sanitized",
+      "pii_surfaces": 4,
+      "pii_leaked": 0,
+      "leaked_surfaces": [],
+      "clinical_probes": 3,
+      "clinical_preserved": 3,
+      "clinical_misses": []
+    },
+    {
+      "file": "hindi_intake.txt",
+      "status": "sanitized",
+      "pii_surfaces": 3,
+      "pii_leaked": 0,
+      "leaked_surfaces": [],
+      "clinical_probes": 3,
+      "clinical_preserved": 3,
+      "clinical_misses": []
+    },
+    {
+      "file": "hindi_registry.csv",
+      "status": "sanitized",
+      "pii_surfaces": 3,
+      "pii_leaked": 0,
+      "leaked_surfaces": [],
+      "clinical_probes": 3,
+      "clinical_preserved": 3,
+      "clinical_misses": []
+    },
+    {
+      "file": "hindi_case.json",
+      "status": "sanitized",
+      "pii_surfaces": 3,
+      "pii_leaked": 0,
+      "leaked_surfaces": [],
+      "clinical_probes": 3,
+      "clinical_preserved": 3,
+      "clinical_misses": []
+    },
+    {
+      "file": "hinglish_intake.txt",
+      "status": "sanitized",
+      "pii_surfaces": 3,
+      "pii_leaked": 0,
+      "leaked_surfaces": [],
+      "clinical_probes": 3,
+      "clinical_preserved": 3,
+      "clinical_misses": []
+    },
+    {
+      "file": "hinglish_visit.json",
+      "status": "sanitized",
+      "pii_surfaces": 3,
+      "pii_leaked": 0,
+      "leaked_surfaces": [],
+      "clinical_probes": 3,
+      "clinical_preserved": 3,
+      "clinical_misses": []
+    },
+    {
+      "file": "hinglish_registry.csv",
+      "status": "sanitized",
+      "pii_surfaces": 3,
+      "pii_leaked": 0,
+      "leaked_surfaces": [],
+      "clinical_probes": 3,
+      "clinical_preserved": 3,
+      "clinical_misses": []
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "scope": "unchanged synthetic practice set and unchanged local A1-A7 approximation; not organizer hidden-attack scores",
+  "policy_utility": "internal release verification and output accounting; widening/suppressing age and geography changes quasi-identifiers only; this study does not establish full clinical utility",
+  "results": {
+    "adaptive_baseline": {
+      "policy": {
+        "age_width": null,
+        "suppress_geography": false
+      },
+      "primary_contract": true,
+      "primary_findings": {},
+      "input_files": 200,
+      "files_sanitized": 193,
+      "files_quarantined": 7,
+      "practice_utility": {
+        "personal_data_leaks": 0,
+        "personal_data_tested": 3230,
+        "canary_leaks": 0,
+        "canaries_tested": 4,
+        "medical_preserved": 4855,
+        "medical_tested": 4855,
+        "linkage_precision": 1.0,
+        "linkage_recall": 0.82,
+        "false_merges": 0,
+        "raw_copies": 0
+      },
+      "age_profiles_widened": 0,
+      "privacy_transform_counts": {
+        "ABHA": 5,
+        "AGE": 712,
+        "DATE": 1423,
+        "DIRECT": 501,
+        "DOB": 102,
+        "ID": 102,
+        "KNOWN_NAME_OR_LOCATION": 326,
+        "LOCAL_ID": 577,
+        "LOCATION": 454,
+        "METADATA": 57,
+        "NAME": 951,
+        "PHONE": 289,
+        "RELATIVE": 125,
+        "STRONG_ID": 116,
+        "local_id": 14
+      },
+      "timing": {
+        "seconds": 1.453
+      },
+      "resources": {
+        "peak_rss_mb": 37.31
+      },
+      "normalized_attack_proxy": {
+        "A1_literal_direct_share": 0.0,
+        "A2_A3_mean_true_probability": 0.1124113555039211,
+        "A4_confident_profile_share": 0.21276595744680854,
+        "A5_targeted_mean_probability": 0.6705165735808387
+      },
+      "targeted_attack_proxy": 0.6702958952594792,
+      "date_shift_stability": 0.02376425855513308,
+      "pseudonym_stability": 0.0,
+      "rotated_secret_changes_pseudonyms": true,
+      "attack_metrics": {
+        "A2_A3_mean_true_probability": 0.0664977680381566,
+        "A4_confident_profile_share": 0.20833333333333334,
+        "A5_targeted_mean_probability": 0.6702958952594792,
+        "A5_decoy_matches": 0,
+        "A5_global_shift_recovered": false,
+        "record_units": 773,
+        "profiles": 118,
+        "A1_literal_direct_share": 0.0,
+        "A6_inversion_share": 0.0,
+        "A7_stable_record_pseudonym_share": 0.0,
+        "A7_stable_date_position_share": 0.02376425855513308
+      },
+      "secondary_contract": true
+    },
+    "adaptive_and_suppress_geography": {
+      "policy": {
+        "age_width": null,
+        "suppress_geography": true
+      },
+      "primary_contract": true,
+      "primary_findings": {},
+      "input_files": 200,
+      "files_sanitized": 193,
+      "files_quarantined": 7,
+      "practice_utility": {
+        "personal_data_leaks": 0,
+        "personal_data_tested": 3230,
+        "canary_leaks": 0,
+        "canaries_tested": 4,
+        "medical_preserved": 4763,
+        "medical_tested": 4855,
+        "linkage_precision": 1.0,
+        "linkage_recall": 0.82,
+        "false_merges": 0,
+        "raw_copies": 0
+      },
+      "age_profiles_widened": 0,
+      "privacy_transform_counts": {
+        "ABHA": 5,
+        "AGE": 712,
+        "DATE": 1423,
+        "DIRECT": 501,
+        "DOB": 102,
+        "ID": 102,
+        "KNOWN_NAME_OR_LOCATION": 363,
+        "LOCAL_ID": 577,
+        "LOCATION": 642,
+        "METADATA": 57,
+        "NAME": 951,
+        "PHONE": 289,
+        "RELATIVE": 125,
+        "STRONG_ID": 116,
+        "local_id": 14
+      },
+      "timing": {
+        "seconds": 1.453
+      },
+      "resources": {
+        "peak_rss_mb": 53.26
+      },
+      "normalized_attack_proxy": {
+        "A1_literal_direct_share": 0.0,
+        "A2_A3_mean_true_probability": 0.04430626527962377,
+        "A4_confident_profile_share": 0.0,
+        "A5_targeted_mean_probability": 0.5311508485925976
+      },
+      "targeted_attack_proxy": 0.5309760378835496,
+      "date_shift_stability": 0.02376425855513308,
+      "pseudonym_stability": 0.0,
+      "rotated_secret_changes_pseudonyms": true,
+      "attack_metrics": {
+        "A2_A3_mean_true_probability": 0.02620969863759611,
+        "A4_confident_profile_share": 0.0,
+        "A5_targeted_mean_probability": 0.5309760378835496,
+        "A5_decoy_matches": 0,
+        "A5_global_shift_recovered": false,
+        "record_units": 773,
+        "profiles": 118,
+        "A1_literal_direct_share": 0.0,
+        "A6_inversion_share": 0.0,
+        "A7_stable_record_pseudonym_share": 0.0,
+        "A7_stable_date_position_share": 0.02376425855513308
+      },
+      "secondary_contract": true
+    },
+    "age_width_40": {
+      "policy": {
+        "age_width": 40,
+        "suppress_geography": false
+      },
+      "primary_contract": true,
+      "primary_findings": {},
+      "input_files": 200,
+      "files_sanitized": 193,
+      "files_quarantined": 7,
+      "practice_utility": {
+        "personal_data_leaks": 0,
+        "personal_data_tested": 3230,
+        "canary_leaks": 0,
+        "canaries_tested": 4,
+        "medical_preserved": 4855,
+        "medical_tested": 4855,
+        "linkage_precision": 1.0,
+        "linkage_recall": 0.82,
+        "false_merges": 0,
+        "raw_copies": 0
+      },
+      "age_profiles_widened": 569,
+      "privacy_transform_counts": {
+        "ABHA": 5,
+        "AGE": 712,
+        "DATE": 1423,
+        "DIRECT": 501,
+        "DOB": 102,
+        "ID": 102,
+        "KNOWN_NAME_OR_LOCATION": 326,
+        "LOCAL_ID": 577,
+        "LOCATION": 454,
+        "METADATA": 57,
+        "NAME": 951,
+        "PHONE": 289,
+        "RELATIVE": 125,
+        "STRONG_ID": 116,
+        "local_id": 14
+      },
+      "timing": {
+        "seconds": 1.421
+      },
+      "resources": {
+        "peak_rss_mb": 56.93
+      },
+      "normalized_attack_proxy": {
+        "A1_literal_direct_share": 0.0,
+        "A2_A3_mean_true_probability": 0.056914017765751626,
+        "A4_confident_profile_share": 0.02127659574468085,
+        "A5_targeted_mean_probability": 0.6194775365594456
+      },
+      "targeted_attack_proxy": 0.6192736560466079,
+      "date_shift_stability": 0.02376425855513308,
+      "pseudonym_stability": 0.0,
+      "rotated_secret_changes_pseudonyms": true,
+      "attack_metrics": {
+        "A2_A3_mean_true_probability": 0.03366790778867941,
+        "A4_confident_profile_share": 0.020833333333333332,
+        "A5_targeted_mean_probability": 0.6192736560466079,
+        "A5_decoy_matches": 1,
+        "A5_global_shift_recovered": false,
+        "record_units": 773,
+        "profiles": 118,
+        "A1_literal_direct_share": 0.0,
+        "A6_inversion_share": 0.0,
+        "A7_stable_record_pseudonym_share": 0.0,
+        "A7_stable_date_position_share": 0.02376425855513308
+      },
+      "secondary_contract": true
+    },
+    "age_width_80": {
+      "policy": {
+        "age_width": 80,
+        "suppress_geography": false
+      },
+      "primary_contract": true,
+      "primary_findings": {},
+      "input_files": 200,
+      "files_sanitized": 193,
+      "files_quarantined": 7,
+      "practice_utility": {
+        "personal_data_leaks": 0,
+        "personal_data_tested": 3230,
+        "canary_leaks": 0,
+        "canaries_tested": 4,
+        "medical_preserved": 4855,
+        "medical_tested": 4855,
+        "linkage_precision": 1.0,
+        "linkage_recall": 0.82,
+        "false_merges": 0,
+        "raw_copies": 0
+      },
+      "age_profiles_widened": 569,
+      "privacy_transform_counts": {
+        "ABHA": 5,
+        "AGE": 712,
+        "DATE": 1423,
+        "DIRECT": 501,
+        "DOB": 102,
+        "ID": 102,
+        "KNOWN_NAME_OR_LOCATION": 326,
+        "LOCAL_ID": 577,
+        "LOCATION": 454,
+        "METADATA": 57,
+        "NAME": 951,
+        "PHONE": 289,
+        "RELATIVE": 125,
+        "STRONG_ID": 116,
+        "local_id": 14
+      },
+      "timing": {
+        "seconds": 1.453
+      },
+      "resources": {
+        "peak_rss_mb": 60.09
+      },
+      "normalized_attack_proxy": {
+        "A1_literal_direct_share": 0.0,
+        "A2_A3_mean_true_probability": 0.038967720253984865,
+        "A4_confident_profile_share": 0.02127659574468085,
+        "A5_targeted_mean_probability": 0.6021018011606997
+      },
+      "targeted_attack_proxy": 0.6019036392956497,
+      "date_shift_stability": 0.02376425855513308,
+      "pseudonym_stability": 0.0,
+      "rotated_secret_changes_pseudonyms": true,
+      "attack_metrics": {
+        "A2_A3_mean_true_probability": 0.023051642877261403,
+        "A4_confident_profile_share": 0.020833333333333332,
+        "A5_targeted_mean_probability": 0.6019036392956497,
+        "A5_decoy_matches": 1,
+        "A5_global_shift_recovered": false,
+        "record_units": 773,
+        "profiles": 118,
+        "A1_literal_direct_share": 0.0,
+        "A6_inversion_share": 0.0,
+        "A7_stable_record_pseudonym_share": 0.0,
+        "A7_stable_date_position_share": 0.02376425855513308
+      },
+      "secondary_contract": true
+    },
+    "age_width_40_and_suppress_geography": {
+      "policy": {
+        "age_width": 40,
+        "suppress_geography": true
+      },
+      "primary_contract": true,
+      "primary_findings": {},
+      "input_files": 200,
+      "files_sanitized": 193,
+      "files_quarantined": 7,
+      "practice_utility": {
+        "personal_data_leaks": 0,
+        "personal_data_tested": 3230,
+        "canary_leaks": 0,
+        "canaries_tested": 4,
+        "medical_preserved": 4763,
+        "medical_tested": 4855,
+        "linkage_precision": 1.0,
+        "linkage_recall": 0.82,
+        "false_merges": 0,
+        "raw_copies": 0
+      },
+      "age_profiles_widened": 569,
+      "privacy_transform_counts": {
+        "ABHA": 5,
+        "AGE": 712,
+        "DATE": 1423,
+        "DIRECT": 501,
+        "DOB": 102,
+        "ID": 102,
+        "KNOWN_NAME_OR_LOCATION": 363,
+        "LOCAL_ID": 577,
+        "LOCATION": 642,
+        "METADATA": 57,
+        "NAME": 951,
+        "PHONE": 289,
+        "RELATIVE": 125,
+        "STRONG_ID": 116,
+        "local_id": 14
+      },
+      "timing": {
+        "seconds": 1.406
+      },
+      "resources": {
+        "peak_rss_mb": 62.84
+      },
+      "normalized_attack_proxy": {
+        "A1_literal_direct_share": 0.0,
+        "A2_A3_mean_true_probability": 0.019559517837530925,
+        "A4_confident_profile_share": 0.0,
+        "A5_targeted_mean_probability": 0.4622414257981598
+      },
+      "targeted_attack_proxy": 0.4620892943432083,
+      "date_shift_stability": 0.02376425855513308,
+      "pseudonym_stability": 0.0,
+      "rotated_secret_changes_pseudonyms": true,
+      "attack_metrics": {
+        "A2_A3_mean_true_probability": 0.011570577316389967,
+        "A4_confident_profile_share": 0.0,
+        "A5_targeted_mean_probability": 0.4620892943432083,
+        "A5_decoy_matches": 1,
+        "A5_global_shift_recovered": false,
+        "record_units": 773,
+        "profiles": 118,
+        "A1_literal_direct_share": 0.0,
+        "A6_inversion_share": 0.0,
+        "A7_stable_record_pseudonym_share": 0.0,
+        "A7_stable_date_position_share": 0.02376425855513308
+      },
+      "secondary_contract": true
+    },
+    "age_width_80_and_suppress_geography": {
+      "policy": {
+        "age_width": 80,
+        "suppress_geography": true
+      },
+      "primary_contract": true,
+      "primary_findings": {},
+      "input_files": 200,
+      "files_sanitized": 193,
+      "files_quarantined": 7,
+      "practice_utility": {
+        "personal_data_leaks": 0,
+        "personal_data_tested": 3230,
+        "canary_leaks": 0,
+        "canaries_tested": 4,
+        "medical_preserved": 4763,
+        "medical_tested": 4855,
+        "linkage_precision": 1.0,
+        "linkage_recall": 0.82,
+        "false_merges": 0,
+        "raw_copies": 0
+      },
+      "age_profiles_widened": 569,
+      "privacy_transform_counts": {
+        "ABHA": 5,
+        "AGE": 712,
+        "DATE": 1423,
+        "DIRECT": 501,
+        "DOB": 102,
+        "ID": 102,
+        "KNOWN_NAME_OR_LOCATION": 363,
+        "LOCAL_ID": 577,
+        "LOCATION": 642,
+        "METADATA": 57,
+        "NAME": 951,
+        "PHONE": 289,
+        "RELATIVE": 125,
+        "STRONG_ID": 116,
+        "local_id": 14
+      },
+      "timing": {
+        "seconds": 1.422
+      },
+      "resources": {
+        "peak_rss_mb": 67.63
+      },
+      "normalized_attack_proxy": {
+        "A1_literal_direct_share": 0.0,
+        "A2_A3_mean_true_probability": 0.014153081842007906,
+        "A4_confident_profile_share": 0.0,
+        "A5_targeted_mean_probability": 0.4111242283502464
+      },
+      "targeted_attack_proxy": 0.4109889204277322,
+      "date_shift_stability": 0.02376425855513308,
+      "pseudonym_stability": 0.0,
+      "rotated_secret_changes_pseudonyms": true,
+      "attack_metrics": {
+        "A2_A3_mean_true_probability": 0.008372360151124225,
+        "A4_confident_profile_share": 0.0,
+        "A5_targeted_mean_probability": 0.4109889204277322,
+        "A5_decoy_matches": 1,
+        "A5_global_shift_recovered": false,
+        "record_units": 773,
+        "profiles": 118,
+        "A1_literal_direct_share": 0.0,
+        "A6_inversion_share": 0.0,
+        "A7_stable_record_pseudonym_share": 0.0,
+        "A7_stable_date_position_share": 0.02376425855513308
+      },
+      "secondary_contract": true
+    },
+    "selective_institutional_geography": {
+      "policy": {
+        "age_width": null,
+        "suppress_geography": false,
+        "selective_geography_fields": [
+          "state",
+          "hospital",
+          "hospitalname",
+          "facility",
+          "facilityname"
+        ]
+      },
+      "primary_contract": true,
+      "primary_findings": {},
+      "input_files": 200,
+      "files_sanitized": 193,
+      "files_quarantined": 7,
+      "practice_utility": {
+        "personal_data_leaks": 0,
+        "personal_data_tested": 3230,
+        "canary_leaks": 0,
+        "canaries_tested": 4,
+        "medical_preserved": 4855,
+        "medical_tested": 4855,
+        "linkage_precision": 1.0,
+        "linkage_recall": 0.82,
+        "false_merges": 0,
+        "raw_copies": 0
+      },
+      "age_profiles_widened": 0,
+      "privacy_transform_counts": {
+        "ABHA": 5,
+        "AGE": 712,
+        "DATE": 1423,
+        "DIRECT": 501,
+        "DOB": 102,
+        "ID": 102,
+        "KNOWN_NAME_OR_LOCATION": 326,
+        "LOCAL_ID": 577,
+        "LOCATION": 530,
+        "METADATA": 57,
+        "NAME": 951,
+        "PHONE": 289,
+        "RELATIVE": 125,
+        "STRONG_ID": 116,
+        "local_id": 14
+      },
+      "timing": {
+        "seconds": 1.453
+      },
+      "resources": {
+        "peak_rss_mb": 69.76
+      },
+      "normalized_attack_proxy": {
+        "A1_literal_direct_share": 0.0,
+        "A2_A3_mean_true_probability": 0.1124113555039211,
+        "A4_confident_profile_share": 0.21276595744680854,
+        "A5_targeted_mean_probability": 0.6705165735808387
+      },
+      "targeted_attack_proxy": 0.6702958952594792,
+      "date_shift_stability": 0.02376425855513308,
+      "pseudonym_stability": 0.0,
+      "rotated_secret_changes_pseudonyms": true,
+      "attack_metrics": {
+        "A2_A3_mean_true_probability": 0.0664977680381566,
+        "A4_confident_profile_share": 0.20833333333333334,
+        "A5_targeted_mean_probability": 0.6702958952594792,
+        "A5_decoy_matches": 0,
+        "A5_global_shift_recovered": false,
+        "record_units": 773,
+        "profiles": 118,
+        "A1_literal_direct_share": 0.0,
+        "A6_inversion_share": 0.0,
+        "A7_stable_record_pseudonym_share": 0.0,
+        "A7_stable_date_position_share": 0.02376425855513308
+      },
+      "secondary_contract": true
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "version": "release-gate-heldout-variants-v1",
+  "scope": "Frozen, independently authored synthetic held-out variants for multilingual names and contact fields; not organizer practice or hidden data.",
+  "records": [
+    {
+      "file": "en_registry.csv",
+      "content": "Record Subject,Kin Witness,Reach Code,Diagnosis,Medicine,Dose,BP\nVareli Ostmere,Davren Ostmere,9345678123,Asthma,Salbutamol,100 mcg,118/74\n",
+      "pii": ["Vareli Ostmere", "Davren Ostmere", "9345678123"],
+      "clinical": ["Asthma", "Salbutamol", "100 mcg", "118/74"]
+    },
+    {
+      "file": "en_note.txt",
+      "content": "Patient identity: Melora Kestrel\nHousehold relative: Orven Kestrel\nTelephone line: 9876543210\nAssessment: rheumatoid arthritis\nTreatment: Methotrexate 10 mg weekly\nAttending clinician: Dr. Saira Mehta\n",
+      "pii": ["Melora Kestrel", "Orven Kestrel", "9876543210"],
+      "clinical": ["rheumatoid arthritis", "Methotrexate 10 mg weekly"]
+    },
+    {
+      "file": "en_nested.json",
+      "content": "{\"record\":{\"beneficiaryHandle\":\"Tavira Northam\",\"accompanyingPerson\":\"Ralen Northam\",\"mobileNumber\":\"9123456780\",\"care\":{\"diagnosis\":\"migraine\",\"medicine\":\"Propranolol 20 mg\",\"measurement\":\"Pulse 72 bpm\"}}}",
+      "pii": ["Tavira Northam", "Ralen Northam", "9123456780"],
+      "clinical": ["migraine", "Propranolol 20 mg", "Pulse 72 bpm"]
+    },
+    {
+      "file": "hi_note.txt",
+      "content": "पंजीकृत रोगी: कीर्ति नायर\nसंबंधी साक्षी: मनोज नायर\nदूरभाष: ९८७६५४३२१०\nमूल्यांकन: दमा\nदवा: Budesonide 200 mcg\nनाड़ी 76 bpm\n",
+      "pii": ["कीर्ति नायर", "मनोज नायर", "९८७६५४३२१०"],
+      "clinical": ["दमा", "Budesonide 200 mcg", "नाड़ी 76 bpm"]
+    },
+    {
+      "file": "hi_registry.csv",
+      "content": "लाभार्थी की पहचान,परिवार सदस्य,मोबाइल संपर्क,निदान,दवा,खुराक\nसमीरा राव,विवेक राव,९८८७७६६५५४,उच्च रक्तचाप,Amlodipine,5 mg\n",
+      "pii": ["समीरा राव", "विवेक राव", "९८८७७६६५५४"],
+      "clinical": ["उच्च रक्तचाप", "Amlodipine", "5 mg"]
+    },
+    {
+      "file": "hi_nested.json",
+      "content": "{\"प्रकरण\":{\"रोगी नामांकित\":\"अदिति सेन\",\"आश्रित अभिभावक\":\"सुरेश सेन\",\"संपर्क क्रमांक\":\"९८७६५४३२१०\",\"उपचार\":{\"निदान\":\"मधुमेह\",\"दवा\":\"Metformin 500 mg\",\"माप\":\"शर्करा 112 mg/dL\"}}}",
+      "pii": ["अदिति सेन", "सुरेश सेन", "९८७६५४३२१०"],
+      "clinical": ["मधुमेह", "Metformin 500 mg", "शर्करा 112 mg/dL"]
+    },
+    {
+      "file": "hinglish_note.txt",
+      "content": "Patient alias: Rihana Verdan\nParivar Sakshi: Dinesh Verdan\nSampark number: 9876543210\nDiagnosis: migraine\nMedicine: Topiramate 25 mg\nPulse 78 bpm\n",
+      "pii": ["Rihana Verdan", "Dinesh Verdan", "9876543210"],
+      "clinical": ["migraine", "Topiramate 25 mg", "Pulse 78 bpm"]
+    },
+    {
+      "file": "hinglish_nested.json",
+      "content": "{\"visit\":{\"caseSubject\":\"Avira Lenor\",\"relativeObserver\":\"Kavin Lenor\",\"reachNumber\":\"9876501234\",\"care\":{\"diagnosis\":\"type 2 diabetes\",\"medicine\":\"Metformin 500 mg\",\"measurement\":\"BP 122/80\"}}}",
+      "pii": ["Avira Lenor", "Kavin Lenor", "9876501234"],
+      "clinical": ["type 2 diabetes", "Metformin 500 mg", "BP 122/80"]
+    },
+    {
+      "file": "hinglish_registry.csv",
+      "content": "Mareez Identity,Sambandhi Witness,Phone Callback,Diagnosis,Medicine,Dosage\nTarini Ovel,Rehan Ovel,9812345670,Asthma,Fluticasone,125 mcg\n",
+      "pii": ["Tarini Ovel", "Rehan Ovel", "9812345670"],
+      "clinical": ["Asthma", "Fluticasone", "125 mcg"]
+    }
+  ]
+}

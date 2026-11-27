@@ -1,0 +1,68 @@
+{
+  "train": {
+    "ner_examples": 45000,
+    "languages": {
+      "en": 15000,
+      "hi": 15000,
+      "mix": 15000
+    },
+    "unique_composed_patterns": 31093,
+    "entity_counts": {
+      "DOCTOR": 14785,
+      "CLINICAL": 36009,
+      "PIN": 11776,
+      "PATIENT": 11722,
+      "DATE": 11632,
+      "AGE": 11848,
+      "ID": 11788,
+      "ADDRESS": 11954,
+      "RELATIVE": 11913,
+      "EMAIL": 11825,
+      "PHONE": 11879
+    }
+  },
+  "validation": {
+    "ner_examples": 6000,
+    "languages": {
+      "en": 2000,
+      "hi": 2000,
+      "mix": 2000
+    },
+    "unique_composed_patterns": 4593,
+    "entity_counts": {
+      "CLINICAL": 4777,
+      "ID": 1568,
+      "PIN": 1567,
+      "DOCTOR": 2023,
+      "PATIENT": 1553,
+      "RELATIVE": 1639,
+      "ADDRESS": 1544,
+      "AGE": 1628,
+      "PHONE": 1575,
+      "DATE": 1563,
+      "EMAIL": 1589
+    }
+  },
+  "test": {
+    "ner_examples": 6000,
+    "languages": {
+      "en": 2000,
+      "hi": 2000,
+      "mix": 2000
+    },
+    "unique_composed_patterns": 4625,
+    "entity_counts": {
+      "CLINICAL": 4792,
+      "DOCTOR": 2013,
+      "DATE": 1527,
+      "RELATIVE": 1639,
+      "PATIENT": 1561,
+      "PHONE": 1573,
+      "ID": 1543,
+      "AGE": 1584,
+      "ADDRESS": 1547,
+      "PIN": 1593,
+      "EMAIL": 1587
+    }
+  }
+}

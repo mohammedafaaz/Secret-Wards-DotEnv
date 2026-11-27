@@ -1,0 +1,452 @@
+{
+  "data_manifest": {
+    "seed": 271126,
+    "source": "independent hand-authored synthetic templates; no organizer files read",
+    "splits": {
+      "train": {
+        "ner": {
+          "count": 20000,
+          "sha256": "b151caaddb6918526cd9de2815c6eca735d5115e6d505a9655313330056cae5e"
+        },
+        "linkage": {
+          "count": 12000,
+          "sha256": "7d6c91aa03404c26fbf7c845c67d19943432c476724d70c8ccdaeb0f13d59fcd"
+        }
+      },
+      "validation": {
+        "ner": {
+          "count": 5000,
+          "sha256": "23231a77adb515ad8a0ae6c60353baee10e3460213fcb65a47c09c8e4b4f61b6"
+        },
+        "linkage": {
+          "count": 3000,
+          "sha256": "ad4bc3e3c1cf98a836a6d11ba1feda55f689efff681cceb8e7f3e1eba0bbe757"
+        }
+      },
+      "test": {
+        "ner": {
+          "count": 5000,
+          "sha256": "4d410180cd8463182ca8794ca1a29bb098f00ead05e1e5d375d1c77be003b985"
+        },
+        "linkage": {
+          "count": 3000,
+          "sha256": "0f30595f1937a6c6e7417a2a6fd51ee1afb3dee477045cff1bd0095cccebdbcd"
+        }
+      }
+    }
+  },
+  "linkage": {
+    "threshold_selected_on_validation": 2.3955491326215768,
+    "validation": {
+      "tp": 520,
+      "fp": 8,
+      "fn": 980,
+      "precision": 0.9848484848484849,
+      "recall": 0.3466666666666667,
+      "f1": 0.5128205128205129,
+      "tn": 1492,
+      "candidate_pairs": 3000,
+      "accepted_pairs": 528,
+      "unresolved_pairs": 2472,
+      "scenario_counts_tp_fp_fn_tn": {
+        "0": [
+          196,
+          0,
+          104,
+          0
+        ],
+        "1": [
+          114,
+          0,
+          186,
+          0
+        ],
+        "2": [
+          90,
+          0,
+          210,
+          0
+        ],
+        "3": [
+          120,
+          0,
+          180,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          300,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          0,
+          300
+        ],
+        "6": [
+          0,
+          0,
+          0,
+          300
+        ],
+        "7": [
+          0,
+          5,
+          0,
+          295
+        ],
+        "8": [
+          0,
+          3,
+          0,
+          297
+        ],
+        "9": [
+          0,
+          0,
+          0,
+          300
+        ]
+      }
+    },
+    "test": {
+      "tp": 541,
+      "fp": 8,
+      "fn": 959,
+      "precision": 0.9854280510018215,
+      "recall": 0.3606666666666667,
+      "f1": 0.5280624694973158,
+      "tn": 1492,
+      "candidate_pairs": 3000,
+      "accepted_pairs": 549,
+      "unresolved_pairs": 2451,
+      "scenario_counts_tp_fp_fn_tn": {
+        "0": [
+          211,
+          0,
+          89,
+          0
+        ],
+        "1": [
+          106,
+          0,
+          194,
+          0
+        ],
+        "2": [
+          92,
+          0,
+          208,
+          0
+        ],
+        "3": [
+          132,
+          0,
+          168,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          300,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          0,
+          300
+        ],
+        "6": [
+          0,
+          0,
+          0,
+          300
+        ],
+        "7": [
+          0,
+          5,
+          0,
+          295
+        ],
+        "8": [
+          0,
+          3,
+          0,
+          297
+        ],
+        "9": [
+          0,
+          0,
+          0,
+          300
+        ]
+      }
+    },
+    "note": "Synthetic candidate-pair metrics only; not cross-file cluster performance or hidden scores."
+  },
+  "ner": {
+    "validation": {
+      "examples": 5000,
+      "pii_exact_span_micro": {
+        "tp": 7949,
+        "fp": 3212,
+        "fn": 2880,
+        "precision": 0.7122121673685153,
+        "recall": 0.7340474651399022,
+        "f1": 0.7229649840836744
+      },
+      "per_label": {
+        "ADDRESS": {
+          "tp": 864,
+          "fp": 238,
+          "fn": 0,
+          "precision": 0.7840290381125227,
+          "recall": 1.0,
+          "f1": 0.8789420142421159
+        },
+        "AGE": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 830,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CLINICAL": {
+          "tp": 3086,
+          "fp": 336,
+          "fn": 277,
+          "precision": 0.9018118059614261,
+          "recall": 0.9176330657151353,
+          "f1": 0.909653647752395
+        },
+        "DATE": {
+          "tp": 846,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOCTOR": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 846,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "EMAIL": {
+          "tp": 830,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ID": {
+          "tp": 864,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PATIENT": {
+          "tp": 2173,
+          "fp": 2974,
+          "fn": 321,
+          "precision": 0.4221876821449388,
+          "recall": 0.8712910986367282,
+          "f1": 0.5687737207171836
+        },
+        "PHONE": {
+          "tp": 1519,
+          "fp": 0,
+          "fn": 118,
+          "precision": 1.0,
+          "recall": 0.9279169211973122,
+          "f1": 0.9626108998732573
+        },
+        "PIN": {
+          "tp": 816,
+          "fp": 0,
+          "fn": 11,
+          "precision": 1.0,
+          "recall": 0.9866989117291415,
+          "f1": 0.9933049300060863
+        },
+        "RELATIVE": {
+          "tp": 37,
+          "fp": 0,
+          "fn": 1600,
+          "precision": 1.0,
+          "recall": 0.022602321319486866,
+          "f1": 0.04420549581839905
+        }
+      },
+      "per_language": {
+        "en": {
+          "tp": 3061,
+          "fp": 1080,
+          "fn": 828,
+          "precision": 0.7391934315382758,
+          "recall": 0.7870917973772178,
+          "f1": 0.7623910336239104
+        },
+        "hi": {
+          "tp": 2216,
+          "fp": 1127,
+          "fn": 1119,
+          "precision": 0.6628776548010769,
+          "recall": 0.6644677661169416,
+          "f1": 0.6636717580113807
+        },
+        "mix": {
+          "tp": 2672,
+          "fp": 1005,
+          "fn": 933,
+          "precision": 0.7266793581724231,
+          "recall": 0.7411927877947295,
+          "f1": 0.73386432298819
+        }
+      },
+      "protected_spans": 4209,
+      "protected_spans_overlapped_by_pii_prediction": 1123,
+      "protected_overlap_rate": 0.26680921834164883
+    },
+    "test": {
+      "examples": 5000,
+      "pii_exact_span_micro": {
+        "tp": 6775,
+        "fp": 1473,
+        "fn": 4157,
+        "precision": 0.8214112512124151,
+        "recall": 0.6197402122210025,
+        "f1": 0.7064650677789365
+      },
+      "per_label": {
+        "ADDRESS": {
+          "tp": 576,
+          "fp": 287,
+          "fn": 283,
+          "precision": 0.6674391657010429,
+          "recall": 0.670547147846333,
+          "f1": 0.6689895470383275
+        },
+        "AGE": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 836,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "CLINICAL": {
+          "tp": 3023,
+          "fp": 1426,
+          "fn": 1077,
+          "precision": 0.6794785345021354,
+          "recall": 0.7373170731707317,
+          "f1": 0.7072172183881155
+        },
+        "DATE": {
+          "tp": 530,
+          "fp": 170,
+          "fn": 297,
+          "precision": 0.7571428571428571,
+          "recall": 0.6408706166868199,
+          "f1": 0.6941715782580222
+        },
+        "DOCTOR": {
+          "tp": 1612,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMAIL": {
+          "tp": 836,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ID": {
+          "tp": 817,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PATIENT": {
+          "tp": 2232,
+          "fp": 795,
+          "fn": 1137,
+          "precision": 0.7373637264618434,
+          "recall": 0.6625111308993766,
+          "f1": 0.697936210131332
+        },
+        "PHONE": {
+          "tp": 859,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PIN": {
+          "tp": 358,
+          "fp": 0,
+          "fn": 478,
+          "precision": 1.0,
+          "recall": 0.42822966507177035,
+          "f1": 0.5996649916247907
+        },
+        "RELATIVE": {
+          "tp": 567,
+          "fp": 221,
+          "fn": 1126,
+          "precision": 0.7195431472081218,
+          "recall": 0.3349084465445954,
+          "f1": 0.45707376058041116
+        }
+      },
+      "per_language": {
+        "en": {
+          "tp": 2702,
+          "fp": 320,
+          "fn": 901,
+          "precision": 0.8941098610191925,
+          "recall": 0.7499306133777408,
+          "f1": 0.8156981132075473
+        },
+        "hi": {
+          "tp": 1139,
+          "fp": 638,
+          "fn": 2523,
+          "precision": 0.6409679234665167,
+          "recall": 0.3110322228290552,
+          "f1": 0.41882699025556175
+        },
+        "mix": {
+          "tp": 2934,
+          "fp": 515,
+          "fn": 733,
+          "precision": 0.8506813569150479,
+          "recall": 0.800109080992637,
+          "f1": 0.8246205733558178
+        }
+      },
+      "protected_spans": 5712,
+      "protected_spans_overlapped_by_pii_prediction": 278,
+      "protected_overlap_rate": 0.048669467787114847
+    }
+  }
+}

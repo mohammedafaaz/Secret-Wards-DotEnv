@@ -1,0 +1,36 @@
+{
+  "seed": 271127,
+  "source": "independent compositional synthetic templates v2; no organizer files read",
+  "splits": {
+    "train": {
+      "ner": {
+        "count": 45000,
+        "sha256": "f394e126c2d8fea94cacd0361472ed3a2c72f9a32bda385aa3e77ef5c93d9bad"
+      },
+      "linkage": {
+        "count": 30000,
+        "sha256": "fd83577f29f14f6e3f1c87e5cfaefdc27f1dcb27c07eb186621d8d685f1f9d53"
+      }
+    },
+    "validation": {
+      "ner": {
+        "count": 6000,
+        "sha256": "28e9baced42c5819cc2b408c1cedf9399e961a95c2bd056f552cc46635949f8a"
+      },
+      "linkage": {
+        "count": 5000,
+        "sha256": "a982b87ab0d2d2f72f44f7e095d33193986abc37272ba9724ae17e02cba5cb78"
+      }
+    },
+    "test": {
+      "ner": {
+        "count": 6000,
+        "sha256": "eb763b0d21cb5bb18d3fc343e8356214e13f92a645ace008fe29f071f20f1104"
+      },
+      "linkage": {
+        "count": 6000,
+        "sha256": "c92af8e8c58d1dd951743c1212f86f9b57710de0be1c3b3881b1c2441252d778"
+      }
+    }
+  }
+}

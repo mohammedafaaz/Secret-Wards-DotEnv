@@ -1,0 +1,5762 @@
+[
+  {
+    "id": "en-000",
+    "language": "en",
+    "partition": "development",
+    "text": "Client name: Hali Tavren; next of kin: Deli Sovran; residence is Fern Walk. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Hali Tavren",
+      "relative": "Deli Sovran",
+      "location": "Fern Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-001",
+    "language": "en",
+    "partition": "development",
+    "text": "Registration: Yaro Norell\nSpouse: Ovi Varell\nHome address: Banyan Row\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Yaro Norell",
+      "relative": "Ovi Varell",
+      "location": "Banyan Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-002",
+    "language": "en",
+    "partition": "development",
+    "text": "Patient name: Javi Varell; contact person: Iren Mireth; lives at Maple Court. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Javi Varell",
+      "relative": "Iren Mireth",
+      "location": "Maple Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-003",
+    "language": "en",
+    "partition": "development",
+    "text": "Subject name: Gavi Mireth; sister: Faro Darell; entered from Fern Court. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Gavi Mireth",
+      "relative": "Faro Darell",
+      "location": "Fern Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-004",
+    "language": "en",
+    "partition": "development",
+    "text": "Beneficiary: Hali Ravik; Father name: Lumi Selvik; Street address: Cedar Mews. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Hali Ravik",
+      "relative": "Lumi Selvik",
+      "location": "Cedar Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-005",
+    "language": "en",
+    "partition": "development",
+    "text": "The patient Tavi Lenvor was accompanied by her spouse Evari Quorin; she resides at Yarrow Walk. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Tavi Lenvor",
+      "relative": "Evari Quorin",
+      "location": "Yarrow Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-006",
+    "language": "en",
+    "partition": "development",
+    "text": "Patient: Faro Melvor\nD/o: Ovi Torlen\nAddress: Violet Row\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Faro Melvor",
+      "relative": "Ovi Torlen",
+      "location": "Violet Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-007",
+    "language": "en",
+    "partition": "development",
+    "text": "Patient Lumi Sernol arrived with her caregiver Waro Rilvek. Home is Umber Mews. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Lumi Sernol",
+      "relative": "Waro Rilvek",
+      "location": "Umber Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-008",
+    "language": "en",
+    "partition": "development",
+    "text": "Client name: Zeli Nolven; next of kin: Ovi Delmar; residence is Olive Walk. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Zeli Nolven",
+      "relative": "Ovi Delmar",
+      "location": "Olive Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-009",
+    "language": "en",
+    "partition": "development",
+    "text": "Registration: Hali Lenvor\nSpouse: Aver Nolven\nHome address: Nectar Rise\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Hali Lenvor",
+      "relative": "Aver Nolven",
+      "location": "Nectar Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-010",
+    "language": "en",
+    "partition": "development",
+    "text": "Patient name: Yaro Vessan; contact person: Gavi Kelmir; lives at Dawn Court. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Yaro Vessan",
+      "relative": "Gavi Kelmir",
+      "location": "Dawn Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-011",
+    "language": "en",
+    "partition": "development",
+    "text": "Subject name: Seli Mireth; sister: Iren Ravik; entered from Nectar Mews. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Seli Mireth",
+      "relative": "Iren Ravik",
+      "location": "Nectar Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-012",
+    "language": "en",
+    "partition": "development",
+    "text": "Beneficiary: Tavi Voran; Father name: Xeni Feldan; Street address: Lotus Bend. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Tavi Voran",
+      "relative": "Xeni Feldan",
+      "location": "Lotus Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-013",
+    "language": "en",
+    "partition": "development",
+    "text": "The patient Seli Sernol was accompanied by her spouse Waro Belvar; she resides at Kestrel Rise. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Seli Sernol",
+      "relative": "Waro Belvar",
+      "location": "Kestrel Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-014",
+    "language": "en",
+    "partition": "development",
+    "text": "Patient: Umi Rilvek\nD/o: Xeni Quorin\nAddress: Xenia Walk\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Umi Rilvek",
+      "relative": "Xeni Quorin",
+      "location": "Xenia Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-015",
+    "language": "en",
+    "partition": "development",
+    "text": "Patient Evari Mireth arrived with her caregiver Hali Varell. Home is Juniper Walk. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Evari Mireth",
+      "relative": "Hali Varell",
+      "location": "Juniper Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-016",
+    "language": "en",
+    "partition": "development",
+    "text": "Client name: Xeni Mireth; next of kin: Deli Tavren; residence is Zinnia Mews. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Xeni Mireth",
+      "relative": "Deli Tavren",
+      "location": "Zinnia Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-017",
+    "language": "en",
+    "partition": "development",
+    "text": "Registration: Pavi Melvor\nSpouse: Keli Varell\nHome address: Xenia Walk\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Pavi Melvor",
+      "relative": "Keli Varell",
+      "location": "Xenia Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-018",
+    "language": "en",
+    "partition": "development",
+    "text": "Patient name: Umi Voran; contact person: Evari Lorvik; lives at Nectar Bend. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Umi Voran",
+      "relative": "Evari Lorvik",
+      "location": "Nectar Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-019",
+    "language": "en",
+    "partition": "development",
+    "text": "Subject name: Hali Belvar; sister: Keli Mireth; entered from Fern Court. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Hali Belvar",
+      "relative": "Keli Mireth",
+      "location": "Fern Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-020",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Pavi Tavren; Father name: Pavi Nolven; Street address: Olive Grove. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Pavi Tavren",
+      "relative": "Pavi Nolven",
+      "location": "Olive Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-021",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Evari Tavren was accompanied by her spouse Pavi Quorin; she resides at Yarrow Rise. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Evari Tavren",
+      "relative": "Pavi Quorin",
+      "location": "Yarrow Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-022",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Seli Rilvek\nD/o: Veli Dovek\nAddress: Fern Court\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Seli Rilvek",
+      "relative": "Veli Dovek",
+      "location": "Fern Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-023",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Faro Mavor arrived with her caregiver Waro Nolven. Home is Rose Rise. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Faro Mavor",
+      "relative": "Waro Nolven",
+      "location": "Rose Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-024",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Waro Delmar; next of kin: Pavi Lorvik; residence is Cedar Walk. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Waro Delmar",
+      "relative": "Pavi Lorvik",
+      "location": "Cedar Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-025",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Hali Delmar\nSpouse: Gavi Melvor\nHome address: Lotus Grove\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Hali Delmar",
+      "relative": "Gavi Melvor",
+      "location": "Lotus Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-026",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Beli Voran; contact person: Faro Sernol; lives at Willow Mews. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Beli Voran",
+      "relative": "Faro Sernol",
+      "location": "Willow Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-027",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Aver Feldan; sister: Cavi Ravik; entered from Zinnia Grove. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Aver Feldan",
+      "relative": "Cavi Ravik",
+      "location": "Zinnia Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-028",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Aver Sovran; Father name: Qori Tovren; Street address: Saffron Rise. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Aver Sovran",
+      "relative": "Qori Tovren",
+      "location": "Saffron Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-029",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Cavi Sernol was accompanied by her spouse Cavi Varell; she resides at Cedar Mews. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Cavi Sernol",
+      "relative": "Cavi Varell",
+      "location": "Cedar Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-030",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Deli Feldan\nD/o: Tavi Darell\nAddress: Tamarind Walk\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Deli Feldan",
+      "relative": "Tavi Darell",
+      "location": "Tamarind Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-031",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Zeli Quorin arrived with her caregiver Pavi Tovren. Home is Olive Court. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Zeli Quorin",
+      "relative": "Pavi Tovren",
+      "location": "Olive Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-032",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Umi Belvar; next of kin: Keli Delmar; residence is Willow Rise. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Umi Belvar",
+      "relative": "Keli Delmar",
+      "location": "Willow Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-033",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Yaro Rilvek\nSpouse: Zeli Keldan\nHome address: Tamarind Walk\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Yaro Rilvek",
+      "relative": "Zeli Keldan",
+      "location": "Tamarind Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-034",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Gavi Feldan; contact person: Umi Kelmir; lives at Quartz Grove. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Gavi Feldan",
+      "relative": "Umi Kelmir",
+      "location": "Quartz Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-035",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Pavi Vessan; sister: Tavi Kelmir; entered from Zinnia Mews. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Pavi Vessan",
+      "relative": "Tavi Kelmir",
+      "location": "Zinnia Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-036",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Ovi Dovek; Father name: Deli Nolven; Street address: Iris Court. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Ovi Dovek",
+      "relative": "Deli Nolven",
+      "location": "Iris Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-037",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Veli Kelmir was accompanied by her spouse Deli Mireth; she resides at Willow Court. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Veli Kelmir",
+      "relative": "Deli Mireth",
+      "location": "Willow Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-038",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Keli Voran\nD/o: Yaro Kelmir\nAddress: Rose Bend\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Keli Voran",
+      "relative": "Yaro Kelmir",
+      "location": "Rose Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-039",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Neli Mavor arrived with her caregiver Cavi Lenvor. Home is Garnet Bend. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Neli Mavor",
+      "relative": "Cavi Lenvor",
+      "location": "Garnet Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-040",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Evari Voran; next of kin: Maro Torlen; residence is Hazel Grove. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Evari Voran",
+      "relative": "Maro Torlen",
+      "location": "Hazel Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-041",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Faro Torlen\nSpouse: Maro Lorvik\nHome address: Elm Row\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Faro Torlen",
+      "relative": "Maro Lorvik",
+      "location": "Elm Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-042",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Tavi Quorin; contact person: Zeli Tavren; lives at Rose Grove. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Tavi Quorin",
+      "relative": "Zeli Tavren",
+      "location": "Rose Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-043",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Waro Ravik; sister: Neli Dovek; entered from Garnet Row. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Waro Ravik",
+      "relative": "Neli Dovek",
+      "location": "Garnet Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-044",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Beli Mireth; Father name: Iren Tovren; Street address: Yarrow Mews. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Beli Mireth",
+      "relative": "Iren Tovren",
+      "location": "Yarrow Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-045",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Keli Tovren was accompanied by her spouse Tavi Nolven; she resides at Amber Lane. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Keli Tovren",
+      "relative": "Tavi Nolven",
+      "location": "Amber Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-046",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Lumi Torlen\nD/o: Deli Ravik\nAddress: Olive Rise\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Lumi Torlen",
+      "relative": "Deli Ravik",
+      "location": "Olive Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-047",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Zeli Voran arrived with her caregiver Iren Quorin. Home is Umber Grove. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Zeli Voran",
+      "relative": "Iren Quorin",
+      "location": "Umber Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-048",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Yaro Lorvik; next of kin: Aver Tovren; residence is Juniper Grove. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Yaro Lorvik",
+      "relative": "Aver Tovren",
+      "location": "Juniper Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-049",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Yaro Quorin\nSpouse: Neli Voran\nHome address: Hazel Bend\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Yaro Quorin",
+      "relative": "Neli Voran",
+      "location": "Hazel Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-050",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Veli Selvik; contact person: Neli Kelmir; lives at Fern Row. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Veli Selvik",
+      "relative": "Neli Kelmir",
+      "location": "Fern Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-051",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Ovi Darell; sister: Cavi Rilvek; entered from Umber Bend. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Ovi Darell",
+      "relative": "Cavi Rilvek",
+      "location": "Umber Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-052",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Reni Dovek; Father name: Faro Varell; Street address: Kestrel Grove. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Reni Dovek",
+      "relative": "Faro Varell",
+      "location": "Kestrel Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-053",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Yaro Keldan was accompanied by her spouse Hali Mavor; she resides at Banyan Court. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Yaro Keldan",
+      "relative": "Hali Mavor",
+      "location": "Banyan Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-054",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Hali Tovren\nD/o: Faro Nolven\nAddress: Rose Court\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Hali Tovren",
+      "relative": "Faro Nolven",
+      "location": "Rose Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-055",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Cavi Torlen arrived with her caregiver Reni Tavren. Home is Juniper Row. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Cavi Torlen",
+      "relative": "Reni Tavren",
+      "location": "Juniper Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-056",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Lumi Mireth; next of kin: Aver Mavor; residence is Dawn Rise. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Lumi Mireth",
+      "relative": "Aver Mavor",
+      "location": "Dawn Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-057",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Zeli Lenvor\nSpouse: Zeli Feldan\nHome address: Kestrel Bend\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Zeli Lenvor",
+      "relative": "Zeli Feldan",
+      "location": "Kestrel Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-058",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Evari Norell; contact person: Qori Sernol; lives at Willow Walk. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Evari Norell",
+      "relative": "Qori Sernol",
+      "location": "Willow Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-059",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Zeli Kelmir; sister: Neli Keldan; entered from Lotus Row. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Zeli Kelmir",
+      "relative": "Neli Keldan",
+      "location": "Lotus Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-060",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Qori Quorin; Father name: Waro Melvor; Street address: Cedar Bend. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Qori Quorin",
+      "relative": "Waro Melvor",
+      "location": "Cedar Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-061",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Hali Sovran was accompanied by her spouse Tavi Norell; she resides at Nectar Walk. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Hali Sovran",
+      "relative": "Tavi Norell",
+      "location": "Nectar Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-062",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Reni Selvik\nD/o: Pavi Sernol\nAddress: Kestrel Walk\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Reni Selvik",
+      "relative": "Pavi Sernol",
+      "location": "Kestrel Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-063",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Keli Melvor arrived with her caregiver Ovi Feldan. Home is Cedar Lane. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Keli Melvor",
+      "relative": "Ovi Feldan",
+      "location": "Cedar Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-064",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Seli Delmar; next of kin: Lumi Ravik; residence is Saffron Grove. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Seli Delmar",
+      "relative": "Lumi Ravik",
+      "location": "Saffron Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-065",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Ovi Quorin\nSpouse: Reni Delmar\nHome address: Tamarind Grove\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Ovi Quorin",
+      "relative": "Reni Delmar",
+      "location": "Tamarind Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-066",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Neli Mireth; contact person: Umi Dovek; lives at Tamarind Bend. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Neli Mireth",
+      "relative": "Umi Dovek",
+      "location": "Tamarind Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-067",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Evari Torlen; sister: Umi Vessan; entered from Juniper Bend. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Evari Torlen",
+      "relative": "Umi Vessan",
+      "location": "Juniper Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-068",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Waro Feldan; Father name: Hali Kelmir; Street address: Olive Bend. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Waro Feldan",
+      "relative": "Hali Kelmir",
+      "location": "Olive Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-069",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Faro Delmar was accompanied by her spouse Zeli Belvar; she resides at Olive Rise. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Faro Delmar",
+      "relative": "Zeli Belvar",
+      "location": "Olive Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-070",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Maro Keldan\nD/o: Javi Melvor\nAddress: Saffron Mews\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Maro Keldan",
+      "relative": "Javi Melvor",
+      "location": "Saffron Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-071",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Waro Kelmir arrived with her caregiver Beli Delmar. Home is Nectar Lane. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Waro Kelmir",
+      "relative": "Beli Delmar",
+      "location": "Nectar Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-072",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Reni Kelmir; next of kin: Keli Feldan; residence is Kestrel Mews. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Reni Kelmir",
+      "relative": "Keli Feldan",
+      "location": "Kestrel Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-073",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Hali Quorin\nSpouse: Beli Rilvek\nHome address: Kestrel Court\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Hali Quorin",
+      "relative": "Beli Rilvek",
+      "location": "Kestrel Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-074",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Deli Mavor; contact person: Javi Vessan; lives at Rose Mews. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Deli Mavor",
+      "relative": "Javi Vessan",
+      "location": "Rose Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-075",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Evari Rilvek; sister: Reni Rilvek; entered from Olive Walk. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Evari Rilvek",
+      "relative": "Reni Rilvek",
+      "location": "Olive Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-076",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Deli Varell; Father name: Ovi Nolven; Street address: Elm Row. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Deli Varell",
+      "relative": "Ovi Nolven",
+      "location": "Elm Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-077",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Aver Lorvik was accompanied by her spouse Gavi Voran; she resides at Zinnia Lane. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Aver Lorvik",
+      "relative": "Gavi Voran",
+      "location": "Zinnia Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-078",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Qori Kelmir\nD/o: Zeli Tovren\nAddress: Tamarind Row\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Qori Kelmir",
+      "relative": "Zeli Tovren",
+      "location": "Tamarind Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-079",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Seli Tavren arrived with her caregiver Cavi Feldan. Home is Quartz Walk. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Seli Tavren",
+      "relative": "Cavi Feldan",
+      "location": "Quartz Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-080",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Seli Keldan; next of kin: Waro Selvik; residence is Nectar Walk. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Seli Keldan",
+      "relative": "Waro Selvik",
+      "location": "Nectar Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-081",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Veli Voran\nSpouse: Ovi Rilvek\nHome address: Violet Rise\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Veli Voran",
+      "relative": "Ovi Rilvek",
+      "location": "Violet Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-082",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Beli Torlen; contact person: Maro Selvik; lives at Maple Lane. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Beli Torlen",
+      "relative": "Maro Selvik",
+      "location": "Maple Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-083",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Seli Dovek; sister: Cavi Selvik; entered from Juniper Grove. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Seli Dovek",
+      "relative": "Cavi Selvik",
+      "location": "Juniper Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-084",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Faro Sovran; Father name: Faro Voran; Street address: Garnet Court. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Faro Sovran",
+      "relative": "Faro Voran",
+      "location": "Garnet Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-085",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Gavi Norell was accompanied by her spouse Aver Tavren; she resides at Fern Rise. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Gavi Norell",
+      "relative": "Aver Tavren",
+      "location": "Fern Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-086",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Waro Voran\nD/o: Evari Feldan\nAddress: Pine Court\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Waro Voran",
+      "relative": "Evari Feldan",
+      "location": "Pine Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-087",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Ovi Keldan arrived with her caregiver Beli Sernol. Home is Amber Mews. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Ovi Keldan",
+      "relative": "Beli Sernol",
+      "location": "Amber Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-088",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Javi Tavren; next of kin: Aver Vessan; residence is Amber Mews. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Javi Tavren",
+      "relative": "Aver Vessan",
+      "location": "Amber Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-089",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Maro Sovran\nSpouse: Deli Rilvek\nHome address: Yarrow Bend\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Maro Sovran",
+      "relative": "Deli Rilvek",
+      "location": "Yarrow Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-090",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Pavi Darell; contact person: Qori Lenvor; lives at Willow Grove. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Pavi Darell",
+      "relative": "Qori Lenvor",
+      "location": "Willow Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-091",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Qori Darell; sister: Ovi Voran; entered from Juniper Walk. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Qori Darell",
+      "relative": "Ovi Voran",
+      "location": "Juniper Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-092",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Seli Sovran; Father name: Yaro Melvor; Street address: Zinnia Row. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Seli Sovran",
+      "relative": "Yaro Melvor",
+      "location": "Zinnia Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-093",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Pavi Belvar was accompanied by her spouse Yaro Tavren; she resides at Cedar Grove. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Pavi Belvar",
+      "relative": "Yaro Tavren",
+      "location": "Cedar Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-094",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Faro Dovek\nD/o: Veli Quorin\nAddress: Iris Bend\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Faro Dovek",
+      "relative": "Veli Quorin",
+      "location": "Iris Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-095",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Qori Mireth arrived with her caregiver Iren Torlen. Home is Fern Walk. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Qori Mireth",
+      "relative": "Iren Torlen",
+      "location": "Fern Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-096",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Seli Voran; next of kin: Umi Ravik; residence is Fern Bend. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Seli Voran",
+      "relative": "Umi Ravik",
+      "location": "Fern Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-097",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Pavi Feldan\nSpouse: Zeli Delmar\nHome address: Amber Court\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Pavi Feldan",
+      "relative": "Zeli Delmar",
+      "location": "Amber Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-098",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Pavi Mireth; contact person: Umi Delmar; lives at Elm Lane. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Pavi Mireth",
+      "relative": "Umi Delmar",
+      "location": "Elm Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-099",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Maro Darell; sister: Gavi Vessan; entered from Dawn Bend. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Maro Darell",
+      "relative": "Gavi Vessan",
+      "location": "Dawn Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-100",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Maro Mireth; Father name: Faro Feldan; Street address: Rose Mews. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Maro Mireth",
+      "relative": "Faro Feldan",
+      "location": "Rose Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-101",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Maro Feldan was accompanied by her spouse Umi Lenvor; she resides at Juniper Mews. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Maro Feldan",
+      "relative": "Umi Lenvor",
+      "location": "Juniper Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-102",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Reni Nolven\nD/o: Aver Kelmir\nAddress: Tamarind Bend\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Reni Nolven",
+      "relative": "Aver Kelmir",
+      "location": "Tamarind Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-103",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Veli Feldan arrived with her caregiver Evari Lenvor. Home is Hazel Row. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Veli Feldan",
+      "relative": "Evari Lenvor",
+      "location": "Hazel Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-104",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Maro Tovren; next of kin: Pavi Selvik; residence is Willow Row. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Maro Tovren",
+      "relative": "Pavi Selvik",
+      "location": "Willow Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-105",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Faro Lorvik\nSpouse: Seli Feldan\nHome address: Kestrel Rise\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Faro Lorvik",
+      "relative": "Seli Feldan",
+      "location": "Kestrel Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-106",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Umi Mireth; contact person: Ovi Sernol; lives at Elm Bend. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Umi Mireth",
+      "relative": "Ovi Sernol",
+      "location": "Elm Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-107",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Veli Norell; sister: Cavi Darell; entered from Violet Court. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Veli Norell",
+      "relative": "Cavi Darell",
+      "location": "Violet Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-108",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Reni Sovran; Father name: Xeni Norell; Street address: Amber Court. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Reni Sovran",
+      "relative": "Xeni Norell",
+      "location": "Amber Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-109",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Waro Keldan was accompanied by her spouse Umi Varell; she resides at Zinnia Walk. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Waro Keldan",
+      "relative": "Umi Varell",
+      "location": "Zinnia Walk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-110",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Aver Voran\nD/o: Hali Torlen\nAddress: Hazel Grove\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Aver Voran",
+      "relative": "Hali Torlen",
+      "location": "Hazel Grove"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-111",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Beli Lenvor arrived with her caregiver Seli Vessan. Home is Iris Row. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Beli Lenvor",
+      "relative": "Seli Vessan",
+      "location": "Iris Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-112",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Deli Lenvor; next of kin: Iren Feldan; residence is Cedar Bend. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Deli Lenvor",
+      "relative": "Iren Feldan",
+      "location": "Cedar Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-113",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Iren Lorvik\nSpouse: Tavi Keldan\nHome address: Xenia Bend\nGlucose 94 mg/dL; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Iren Lorvik",
+      "relative": "Tavi Keldan",
+      "location": "Xenia Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-114",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Beli Darell; contact person: Zeli Rilvek; lives at Pine Rise. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Beli Darell",
+      "relative": "Zeli Rilvek",
+      "location": "Pine Rise"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-115",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Subject name: Lumi Lenvor; sister: Neli Varell; entered from Pine Court. Temperature 37 C; Metformin 500 mg.",
+    "pii": {
+      "patient": "Lumi Lenvor",
+      "relative": "Neli Varell",
+      "location": "Pine Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-116",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Beneficiary: Hali Lorvik; Father name: Xeni Varell; Street address: Xenia Row. BP 120/80; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Hali Lorvik",
+      "relative": "Xeni Varell",
+      "location": "Xenia Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-117",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "The patient Seli Nolven was accompanied by her spouse Yaro Selvik; she resides at Iris Row. HbA1c 6.1%; Metformin 500 mg.",
+    "pii": {
+      "patient": "Seli Nolven",
+      "relative": "Yaro Selvik",
+      "location": "Iris Row"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-118",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Lumi Nolven\nD/o: Reni Lorvik\nAddress: Rose Court\nOxygen saturation 98%; BP 118/76.",
+    "pii": {
+      "patient": "Lumi Nolven",
+      "relative": "Reni Lorvik",
+      "location": "Rose Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "en-119",
+    "language": "en",
+    "partition": "frozen-evaluation",
+    "text": "Patient Qori Sovran arrived with her caregiver Qori Mavor. Home is Xenia Court. Pulse 72 bpm; Dr. Kiran Malik reviewed.",
+    "pii": {
+      "patient": "Qori Sovran",
+      "relative": "Qori Mavor",
+      "location": "Xenia Court"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-000",
+    "language": "hi",
+    "partition": "development",
+    "text": "पंजीकरण: तवि वेथर; परिजन: निरा सोरिल; निवास स्थल: चमेली पथ। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "तवि वेथर",
+      "relative": "निरा सोरिल",
+      "location": "चमेली पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-001",
+    "language": "hi",
+    "partition": "development",
+    "text": "रोगी: सवेन कावेन; पुत्री: भिरा दोरव; घर का पता: रागवन विहार। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "सवेन कावेन",
+      "relative": "भिरा दोरव",
+      "location": "रागवन विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-002",
+    "language": "hi",
+    "partition": "development",
+    "text": "नाम: ओविर तेलव; माता का नाम: मिवा नाविर; पता: केसर आंगन। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "ओविर तेलव",
+      "relative": "मिवा नाविर",
+      "location": "केसर आंगन"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-003",
+    "language": "hi",
+    "partition": "development",
+    "text": "मरीज मिवा कुलन के साथ बहन रेवा सेलव आईं; निवास: केसर कुंज। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "मिवा कुलन",
+      "relative": "रेवा सेलव",
+      "location": "केसर कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-004",
+    "language": "hi",
+    "partition": "development",
+    "text": "रजिस्ट्रेशन: दुवि वेथर; भाई: मिवा राविन; घर: सूरज आंगन। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "दुवि वेथर",
+      "relative": "मिवा राविन",
+      "location": "सूरज आंगन"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-005",
+    "language": "hi",
+    "partition": "development",
+    "text": "मरीज: लिरे शाविर\nपिता: दुवि वेलोर\nग्राम: रागवन गली\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "लिरे शाविर",
+      "relative": "दुवि वेलोर",
+      "location": "रागवन गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-006",
+    "language": "hi",
+    "partition": "development",
+    "text": "रोगी मिवा मोरिन को परिजन निरा पेलव लाए; घर का पता: कुंज नगर। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "मिवा मोरिन",
+      "relative": "निरा पेलव",
+      "location": "कुंज नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-007",
+    "language": "hi",
+    "partition": "development",
+    "text": "नाम: अवे निवोर; साथी: ओविर देलर; निवास स्थल: गुलमोहर आंगन। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "अवे निवोर",
+      "relative": "ओविर देलर",
+      "location": "गुलमोहर आंगन"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-008",
+    "language": "hi",
+    "partition": "development",
+    "text": "पंजीकरण: शिरे केलव; परिजन: निरा शाविर; निवास स्थल: नीलकमल कुंज। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "शिरे केलव",
+      "relative": "निरा शाविर",
+      "location": "नीलकमल कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-009",
+    "language": "hi",
+    "partition": "development",
+    "text": "रोगी: शिरे निलव; पुत्री: यवे कुलन; घर का पता: चमेली कुंज। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "शिरे निलव",
+      "relative": "यवे कुलन",
+      "location": "चमेली कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-010",
+    "language": "hi",
+    "partition": "development",
+    "text": "नाम: नीवि मिरोन; माता का नाम: भिरा नाविर; पता: कुंज गली। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "नीवि मिरोन",
+      "relative": "भिरा नाविर",
+      "location": "कुंज गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-011",
+    "language": "hi",
+    "partition": "development",
+    "text": "मरीज लोवि तोरिन के साथ बहन रुवि गेलोन आईं; निवास: चंद्रवन कुंज। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "लोवि तोरिन",
+      "relative": "रुवि गेलोन",
+      "location": "चंद्रवन कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-012",
+    "language": "hi",
+    "partition": "development",
+    "text": "रजिस्ट्रेशन: नीवि तिरव; भाई: वेनु देलर; घर: केसर मार्ग। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "नीवि तिरव",
+      "relative": "वेनु देलर",
+      "location": "केसर मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-013",
+    "language": "hi",
+    "partition": "development",
+    "text": "मरीज: दुवि दोरव\nपिता: फेना शाविर\nग्राम: नीलकमल गली\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "दुवि दोरव",
+      "relative": "फेना शाविर",
+      "location": "नीलकमल गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-014",
+    "language": "hi",
+    "partition": "development",
+    "text": "रोगी शिरे पेलव को परिजन तवि तेलव लाए; घर का पता: केसर चौक। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "शिरे पेलव",
+      "relative": "तवि तेलव",
+      "location": "केसर चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-015",
+    "language": "hi",
+    "partition": "development",
+    "text": "नाम: यवे राविन; साथी: रेवा राविन; निवास स्थल: अमलतास विहार। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "यवे राविन",
+      "relative": "रेवा राविन",
+      "location": "अमलतास विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-016",
+    "language": "hi",
+    "partition": "development",
+    "text": "पंजीकरण: भिरा देलर; परिजन: पिरे देलर; निवास स्थल: गुलमोहर नगर। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "भिरा देलर",
+      "relative": "पिरे देलर",
+      "location": "गुलमोहर नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-017",
+    "language": "hi",
+    "partition": "development",
+    "text": "रोगी: किवा रुवन; पुत्री: पिरे सेलव; घर का पता: नीलकमल पथ। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "किवा रुवन",
+      "relative": "पिरे सेलव",
+      "location": "नीलकमल पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-018",
+    "language": "hi",
+    "partition": "development",
+    "text": "नाम: लिरे तिरव; माता का नाम: भिरा राविन; पता: गुलमोहर नगर। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "लिरे तिरव",
+      "relative": "भिरा राविन",
+      "location": "गुलमोहर नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-019",
+    "language": "hi",
+    "partition": "development",
+    "text": "मरीज अवे सोरिल के साथ बहन अवे केलव आईं; निवास: बेला गली। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "अवे सोरिल",
+      "relative": "अवे केलव",
+      "location": "बेला गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-020",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: तवि मिरोन; भाई: दुवि मिरोन; घर: पीपल आंगन। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "तवि मिरोन",
+      "relative": "दुवि मिरोन",
+      "location": "पीपल आंगन"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-021",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: शिरे सोरिल\nपिता: करे कावेन\nग्राम: रागवन विहार\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "शिरे सोरिल",
+      "relative": "करे कावेन",
+      "location": "रागवन विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-022",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी तवि तिरव को परिजन जिवा निलव लाए; घर का पता: गुलमोहर गली। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "तवि तिरव",
+      "relative": "जिवा निलव",
+      "location": "गुलमोहर गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-023",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: लिरे गेलोन; साथी: करे सोरिल; निवास स्थल: अमलतास विहार। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "लिरे गेलोन",
+      "relative": "करे सोरिल",
+      "location": "अमलतास विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-024",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: निरा लिरोन; परिजन: चिरे शाविर; निवास स्थल: बेला गली। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "निरा लिरोन",
+      "relative": "चिरे शाविर",
+      "location": "बेला गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-025",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: निरा देलर; पुत्री: वेनु वेथर; घर का पता: नीलकमल मार्ग। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "निरा देलर",
+      "relative": "वेनु वेथर",
+      "location": "नीलकमल मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-026",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: नीवि रुवन; माता का नाम: हिवा तोरिन; पता: चंद्रवन मार्ग। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "नीवि रुवन",
+      "relative": "हिवा तोरिन",
+      "location": "चंद्रवन मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-027",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज लिरे पेलव के साथ बहन दुवि देलर आईं; निवास: पीपल चौक। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "लिरे पेलव",
+      "relative": "दुवि देलर",
+      "location": "पीपल चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-028",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: पिरे लिरोन; भाई: वेनु तिरव; घर: केसर विहार। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "पिरे लिरोन",
+      "relative": "वेनु तिरव",
+      "location": "केसर विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-029",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: दुवि रुवन\nपिता: पिरे तिरव\nग्राम: रागवन गली\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "दुवि रुवन",
+      "relative": "पिरे तिरव",
+      "location": "रागवन गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-030",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी वेनु मिरोन को परिजन चिरे रुवन लाए; घर का पता: पीपल चौक। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "वेनु मिरोन",
+      "relative": "चिरे रुवन",
+      "location": "पीपल चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-031",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: ओविर शाविर; साथी: सवेन सोरिल; निवास स्थल: बेला मार्ग। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "ओविर शाविर",
+      "relative": "सवेन सोरिल",
+      "location": "बेला मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-032",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: अवे तिरव; परिजन: गुवि सेलव; निवास स्थल: सूरज चौक। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "अवे तिरव",
+      "relative": "गुवि सेलव",
+      "location": "सूरज चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-033",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: तवि केलव; पुत्री: फेना सेलव; घर का पता: मोरपंख मार्ग। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "तवि केलव",
+      "relative": "फेना सेलव",
+      "location": "मोरपंख मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-034",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: निरा सेलव; माता का नाम: पिरे तोरिन; पता: रागवन पथ। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "निरा सेलव",
+      "relative": "पिरे तोरिन",
+      "location": "रागवन पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-035",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज चिरे सोरिल के साथ बहन रेवा वेलोर आईं; निवास: चमेली पथ। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "चिरे सोरिल",
+      "relative": "रेवा वेलोर",
+      "location": "चमेली पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-036",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: अवे मिरोन; भाई: रेवा शाविर; घर: कुंज विहार। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "अवे मिरोन",
+      "relative": "रेवा शाविर",
+      "location": "कुंज विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-037",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: चिरे वोरन\nपिता: यवे केलव\nग्राम: केसर कुंज\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "चिरे वोरन",
+      "relative": "यवे केलव",
+      "location": "केसर कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-038",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी ओविर राविन को परिजन रुवि तोरिन लाए; घर का पता: केसर मार्ग। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "ओविर राविन",
+      "relative": "रुवि तोरिन",
+      "location": "केसर मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-039",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: दुवि कुलन; साथी: अवे तोरिन; निवास स्थल: पीपल गली। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "दुवि कुलन",
+      "relative": "अवे तोरिन",
+      "location": "पीपल गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-040",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: किवा सोरिल; परिजन: रेवा नाविर; निवास स्थल: केसर पथ। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "किवा सोरिल",
+      "relative": "रेवा नाविर",
+      "location": "केसर पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-041",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: सवेन केलव; पुत्री: किवा तिरव; घर का पता: चमेली चौक। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "सवेन केलव",
+      "relative": "किवा तिरव",
+      "location": "चमेली चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-042",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: मिवा देलर; माता का नाम: मिवा लिरोन; पता: पीपल नगर। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "मिवा देलर",
+      "relative": "मिवा लिरोन",
+      "location": "पीपल नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-043",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज लिरे देलर के साथ बहन पिरे निवोर आईं; निवास: चमेली मार्ग। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "लिरे देलर",
+      "relative": "पिरे निवोर",
+      "location": "चमेली मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-044",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: भिरा वोरन; भाई: वेनु नाविर; घर: पीपल विहार। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "भिरा वोरन",
+      "relative": "वेनु नाविर",
+      "location": "पीपल विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-045",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: लोवि राविन\nपिता: हिवा शाविर\nग्राम: गुलमोहर मार्ग\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "लोवि राविन",
+      "relative": "हिवा शाविर",
+      "location": "गुलमोहर मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-046",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी शिरे वोरन को परिजन यवे वोरन लाए; घर का पता: चमेली नगर। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "शिरे वोरन",
+      "relative": "यवे वोरन",
+      "location": "चमेली नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-047",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: चिरे पेलव; साथी: गुवि केलव; निवास स्थल: चंद्रवन विहार। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "चिरे पेलव",
+      "relative": "गुवि केलव",
+      "location": "चंद्रवन विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-048",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: फेना मोरिन; परिजन: फेना देलर; निवास स्थल: केसर नगर। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "फेना मोरिन",
+      "relative": "फेना देलर",
+      "location": "केसर नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-049",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: पिरे सोरिल; पुत्री: यवे दोरव; घर का पता: नीलकमल आंगन। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "पिरे सोरिल",
+      "relative": "यवे दोरव",
+      "location": "नीलकमल आंगन"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-050",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: लिरे वोरन; माता का नाम: चिरे निलव; पता: बेला चौक। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "लिरे वोरन",
+      "relative": "चिरे निलव",
+      "location": "बेला चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-051",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज रुवि सेलव के साथ बहन मिवा तिरव आईं; निवास: नीलकमल चौक। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "रुवि सेलव",
+      "relative": "मिवा तिरव",
+      "location": "नीलकमल चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-052",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: चिरे सेलव; भाई: रुवि दोरव; घर: मोरपंख विहार। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "चिरे सेलव",
+      "relative": "रुवि दोरव",
+      "location": "मोरपंख विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-053",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: तवि रुवन\nपिता: ओविर सोरिल\nग्राम: नीलकमल विहार\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "तवि रुवन",
+      "relative": "ओविर सोरिल",
+      "location": "नीलकमल विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-054",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी यवे मोरिन को परिजन सवेन तोरिन लाए; घर का पता: गुलमोहर पथ। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "यवे मोरिन",
+      "relative": "सवेन तोरिन",
+      "location": "गुलमोहर पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-055",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: करे निलव; साथी: वेनु कावेन; निवास स्थल: कुंज पथ। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "करे निलव",
+      "relative": "वेनु कावेन",
+      "location": "कुंज पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-056",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: दुवि गेलोन; परिजन: यवे कावेन; निवास स्थल: अमलतास पथ। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "दुवि गेलोन",
+      "relative": "यवे कावेन",
+      "location": "अमलतास पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-057",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: फेना मिरोन; पुत्री: हिवा सेलव; घर का पता: नीलकमल नगर। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "फेना मिरोन",
+      "relative": "हिवा सेलव",
+      "location": "नीलकमल नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-058",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: ओविर गेलोन; माता का नाम: नीवि सेलव; पता: रागवन आंगन। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "ओविर गेलोन",
+      "relative": "नीवि सेलव",
+      "location": "रागवन आंगन"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-059",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज करे देलर के साथ बहन यवे देलर आईं; निवास: पीपल चौक। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "करे देलर",
+      "relative": "यवे देलर",
+      "location": "पीपल चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-060",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: हिवा देलर; भाई: फेना पेलव; घर: नीलकमल चौक। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "हिवा देलर",
+      "relative": "फेना पेलव",
+      "location": "नीलकमल चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-061",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: सवेन तिरव\nपिता: नीवि लिरोन\nग्राम: केसर पथ\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "सवेन तिरव",
+      "relative": "नीवि लिरोन",
+      "location": "केसर पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-062",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी किवा नाविर को परिजन चिरे तिरव लाए; घर का पता: कुंज कुंज। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "किवा नाविर",
+      "relative": "चिरे तिरव",
+      "location": "कुंज कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-063",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: वेनु दोरव; साथी: लिरे दोरव; निवास स्थल: अमलतास चौक। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "वेनु दोरव",
+      "relative": "लिरे दोरव",
+      "location": "अमलतास चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-064",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: फेना निवोर; परिजन: फेना गेलोन; निवास स्थल: चमेली गली। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "फेना निवोर",
+      "relative": "फेना गेलोन",
+      "location": "चमेली गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-065",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: किवा तोरिन; पुत्री: रुवि कुलन; घर का पता: चमेली पथ। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "किवा तोरिन",
+      "relative": "रुवि कुलन",
+      "location": "चमेली पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-066",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: नीवि निलव; माता का नाम: शिरे गेलोन; पता: चमेली विहार। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "नीवि निलव",
+      "relative": "शिरे गेलोन",
+      "location": "चमेली विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-067",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज करे वेलोर के साथ बहन यवे नाविर आईं; निवास: रागवन चौक। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "करे वेलोर",
+      "relative": "यवे नाविर",
+      "location": "रागवन चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-068",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: अवे नाविर; भाई: फेना वेथर; घर: केसर नगर। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "अवे नाविर",
+      "relative": "फेना वेथर",
+      "location": "केसर नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-069",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: भिरा सोरिल\nपिता: लोवि शाविर\nग्राम: नीलकमल पथ\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "भिरा सोरिल",
+      "relative": "लोवि शाविर",
+      "location": "नीलकमल पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-070",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी अवे देलर को परिजन भिरा पेलव लाए; घर का पता: कुंज आंगन। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "अवे देलर",
+      "relative": "भिरा पेलव",
+      "location": "कुंज आंगन"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-071",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: ओविर पेलव; साथी: जिवा मिरोन; निवास स्थल: नीलकमल विहार। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "ओविर पेलव",
+      "relative": "जिवा मिरोन",
+      "location": "नीलकमल विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-072",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: किवा पेलव; परिजन: निरा तेलव; निवास स्थल: बेला आंगन। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "किवा पेलव",
+      "relative": "निरा तेलव",
+      "location": "बेला आंगन"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-073",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: करे दोरव; पुत्री: जिवा नाविर; घर का पता: केसर कुंज। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "करे दोरव",
+      "relative": "जिवा नाविर",
+      "location": "केसर कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-074",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: लोवि कावेन; माता का नाम: नीवि तोरिन; पता: बेला आंगन। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "लोवि कावेन",
+      "relative": "नीवि तोरिन",
+      "location": "बेला आंगन"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-075",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज करे केलव के साथ बहन गुवि गेलोन आईं; निवास: अमलतास नगर। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "करे केलव",
+      "relative": "गुवि गेलोन",
+      "location": "अमलतास नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-076",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: सवेन वेथर; भाई: मिवा गेलोन; घर: पीपल मार्ग। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "सवेन वेथर",
+      "relative": "मिवा गेलोन",
+      "location": "पीपल मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-077",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: दुवि कावेन\nपिता: पिरे केलव\nग्राम: केसर कुंज\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "दुवि कावेन",
+      "relative": "पिरे केलव",
+      "location": "केसर कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-078",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी गुवि निवोर को परिजन यवे लिरोन लाए; घर का पता: नीलकमल विहार। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "गुवि निवोर",
+      "relative": "यवे लिरोन",
+      "location": "नीलकमल विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-079",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: चिरे मोरिन; साथी: भिरा लिरोन; निवास स्थल: बेला आंगन। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "चिरे मोरिन",
+      "relative": "भिरा लिरोन",
+      "location": "बेला आंगन"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-080",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: रेवा रुवन; परिजन: नीवि राविन; निवास स्थल: केसर मार्ग। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "रेवा रुवन",
+      "relative": "नीवि राविन",
+      "location": "केसर मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-081",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: पिरे राविन; पुत्री: वेनु सोरिल; घर का पता: कुंज नगर। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "पिरे राविन",
+      "relative": "वेनु सोरिल",
+      "location": "कुंज नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-082",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: शिरे सेलव; माता का नाम: सवेन राविन; पता: केसर विहार। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "शिरे सेलव",
+      "relative": "सवेन राविन",
+      "location": "केसर विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-083",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज वेनु केलव के साथ बहन पिरे वोरन आईं; निवास: पीपल पथ। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "वेनु केलव",
+      "relative": "पिरे वोरन",
+      "location": "पीपल पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-084",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: रुवि वेथर; भाई: ओविर तोरिन; घर: बेला मार्ग। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "रुवि वेथर",
+      "relative": "ओविर तोरिन",
+      "location": "बेला मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-085",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: वेनु सेलव\nपिता: तवि पेलव\nग्राम: नीलकमल कुंज\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "वेनु सेलव",
+      "relative": "तवि पेलव",
+      "location": "नीलकमल कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-086",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी जिवा शाविर को परिजन सवेन मोरिन लाए; घर का पता: केसर कुंज। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "जिवा शाविर",
+      "relative": "सवेन मोरिन",
+      "location": "केसर कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-087",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: लोवि लिरोन; साथी: जिवा दोरव; निवास स्थल: गुलमोहर चौक। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "लोवि लिरोन",
+      "relative": "जिवा दोरव",
+      "location": "गुलमोहर चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-088",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: करे तोरिन; परिजन: भिरा केलव; निवास स्थल: बेला नगर। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "करे तोरिन",
+      "relative": "भिरा केलव",
+      "location": "बेला नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-089",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: जिवा मोरिन; पुत्री: रेवा दोरव; घर का पता: चमेली चौक। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "जिवा मोरिन",
+      "relative": "रेवा दोरव",
+      "location": "चमेली चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-090",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: किवा निवोर; माता का नाम: लोवि तिरव; पता: नीलकमल गली। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "किवा निवोर",
+      "relative": "लोवि तिरव",
+      "location": "नीलकमल गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-091",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज ओविर रुवन के साथ बहन दुवि शाविर आईं; निवास: पीपल नगर। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "ओविर रुवन",
+      "relative": "दुवि शाविर",
+      "location": "पीपल नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-092",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: निरा नाविर; भाई: यवे मिरोन; घर: मोरपंख पथ। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "निरा नाविर",
+      "relative": "यवे मिरोन",
+      "location": "मोरपंख पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-093",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: मिवा पेलव\nपिता: फेना रुवन\nग्राम: नीलकमल नगर\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "मिवा पेलव",
+      "relative": "फेना रुवन",
+      "location": "नीलकमल नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-094",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी जिवा सेलव को परिजन किवा कुलन लाए; घर का पता: कुंज चौक। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "जिवा सेलव",
+      "relative": "किवा कुलन",
+      "location": "कुंज चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-095",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: सवेन कुलन; साथी: ओविर मोरिन; निवास स्थल: गुलमोहर पथ। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "सवेन कुलन",
+      "relative": "ओविर मोरिन",
+      "location": "गुलमोहर पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-096",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: मिवा शाविर; परिजन: सवेन निलव; निवास स्थल: गुलमोहर कुंज। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "मिवा शाविर",
+      "relative": "सवेन निलव",
+      "location": "गुलमोहर कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-097",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: यवे वेलोर; पुत्री: भिरा तिरव; घर का पता: मोरपंख गली। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "यवे वेलोर",
+      "relative": "भिरा तिरव",
+      "location": "मोरपंख गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-098",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: फेना कावेन; माता का नाम: हिवा केलव; पता: नीलकमल गली। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "फेना कावेन",
+      "relative": "हिवा केलव",
+      "location": "नीलकमल गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-099",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज गुवि नाविर के साथ बहन मिवा सेलव आईं; निवास: चंद्रवन नगर। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "गुवि नाविर",
+      "relative": "मिवा सेलव",
+      "location": "चंद्रवन नगर"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-100",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: रेवा वेथर; भाई: सवेन दोरव; घर: चमेली आंगन। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "रेवा वेथर",
+      "relative": "सवेन दोरव",
+      "location": "चमेली आंगन"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-101",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: हिवा राविन\nपिता: हिवा वेलोर\nग्राम: सूरज विहार\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "हिवा राविन",
+      "relative": "हिवा वेलोर",
+      "location": "सूरज विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-102",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी करे मोरिन को परिजन लोवि गेलोन लाए; घर का पता: रागवन पथ। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "करे मोरिन",
+      "relative": "लोवि गेलोन",
+      "location": "रागवन पथ"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-103",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: दुवि सेलव; साथी: मिवा तेलव; निवास स्थल: रागवन चौक। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "दुवि सेलव",
+      "relative": "मिवा तेलव",
+      "location": "रागवन चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-104",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: लोवि कुलन; परिजन: नीवि नाविर; निवास स्थल: चंद्रवन चौक। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "लोवि कुलन",
+      "relative": "नीवि नाविर",
+      "location": "चंद्रवन चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-105",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: भिरा कावेन; पुत्री: भिरा गेलोन; घर का पता: अमलतास मार्ग। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "भिरा कावेन",
+      "relative": "भिरा गेलोन",
+      "location": "अमलतास मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-106",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: वेनु मोरिन; माता का नाम: लोवि दोरव; पता: रागवन मार्ग। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "वेनु मोरिन",
+      "relative": "लोवि दोरव",
+      "location": "रागवन मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-107",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज रेवा मोरिन के साथ बहन तवि कावेन आईं; निवास: सूरज चौक। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "रेवा मोरिन",
+      "relative": "तवि कावेन",
+      "location": "सूरज चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-108",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: रेवा तिरव; भाई: रेवा मिरोन; घर: अमलतास गली। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "रेवा तिरव",
+      "relative": "रेवा मिरोन",
+      "location": "अमलतास गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-109",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: किवा राविन\nपिता: रुवि वोरन\nग्राम: गुलमोहर कुंज\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "किवा राविन",
+      "relative": "रुवि वोरन",
+      "location": "गुलमोहर कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-110",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी शिरे निवोर को परिजन रुवि पेलव लाए; घर का पता: केसर चौक। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "शिरे निवोर",
+      "relative": "रुवि पेलव",
+      "location": "केसर चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-111",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: निरा वेलोर; साथी: जिवा तेलव; निवास स्थल: नीलकमल मार्ग। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "निरा वेलोर",
+      "relative": "जिवा तेलव",
+      "location": "नीलकमल मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-112",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "पंजीकरण: पिरे वेलोर; परिजन: मिवा केलव; निवास स्थल: मोरपंख विहार। बीपी 118/76; मेटफॉर्मिन 500 mg; Dr. Renu Sethi ने समीक्षा की।",
+    "pii": {
+      "patient": "पिरे वेलोर",
+      "relative": "मिवा केलव",
+      "location": "मोरपंख विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-113",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी: सवेन तेलव; पुत्री: पिरे शाविर; घर का पता: पीपल मार्ग। नाड़ी 72 bpm; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "सवेन तेलव",
+      "relative": "पिरे शाविर",
+      "location": "पीपल मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-114",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: गुवि तोरिन; माता का नाम: ओविर लिरोन; पता: केसर मार्ग। ग्लूकोज़ 94 mg/dL; Dr. Kiran Malik।",
+    "pii": {
+      "patient": "गुवि तोरिन",
+      "relative": "ओविर लिरोन",
+      "location": "केसर मार्ग"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-115",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज लिरे मिरोन के साथ बहन रुवि मोरिन आईं; निवास: मोरपंख कुंज। नाड़ी 72 bpm; दवा 5 mg।",
+    "pii": {
+      "patient": "लिरे मिरोन",
+      "relative": "रुवि मोरिन",
+      "location": "मोरपंख कुंज"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-116",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रजिस्ट्रेशन: निरा केलव; भाई: ओविर निलव; घर: बेला विहार। रक्तचाप 120/80; मेटफॉर्मिन 500 mg।",
+    "pii": {
+      "patient": "निरा केलव",
+      "relative": "ओविर निलव",
+      "location": "बेला विहार"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-117",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "मरीज: जिवा वोरन\nपिता: लिरे केलव\nग्राम: बेला गली\nतापमान 37 C; बीपी 118/76।",
+    "pii": {
+      "patient": "जिवा वोरन",
+      "relative": "लिरे केलव",
+      "location": "बेला गली"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-118",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "रोगी चिरे तेलव को परिजन अवे कुलन लाए; घर का पता: कुंज चौक। ग्लूकोज़ 94 mg/dL; दवा 5 mg।",
+    "pii": {
+      "patient": "चिरे तेलव",
+      "relative": "अवे कुलन",
+      "location": "कुंज चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hi-119",
+    "language": "hi",
+    "partition": "frozen-evaluation",
+    "text": "नाम: रुवि केलव; साथी: यवे सोरिल; निवास स्थल: पीपल चौक। नाड़ी 72 bpm; Dr. Renu Sethi।",
+    "pii": {
+      "patient": "रुवि केलव",
+      "relative": "यवे सोरिल",
+      "location": "पीपल चौक"
+    },
+    "clinical": [
+      "120/80",
+      "मेटफॉर्मिन 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-000",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Patient name: Nivara Nolen; wife: Mireli Dovran; ghar: SilverFern Chowk. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Nivara Nolen",
+      "relative": "Mireli Dovran",
+      "location": "SilverFern Chowk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-001",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Registration: Lunavi Mireth; papa: Senavi Dovran; home address: MorPankh Gali. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Lunavi Mireth",
+      "relative": "Senavi Dovran",
+      "location": "MorPankh Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-002",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Patient Nareli Luvak ko sister Senavi Neroth laaye; Pata: Banyan Colony. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Nareli Luvak",
+      "relative": "Senavi Neroth",
+      "location": "Banyan Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-003",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Name: Vireya Sorell; W/o: Lunavi Mavik; address: Violet Mews. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Vireya Sorell",
+      "relative": "Lunavi Mavik",
+      "location": "Violet Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-004",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Client name: Pavira Mireth; contact person: Nareli Velmir; residence is Juniper Mews. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Pavira Mireth",
+      "relative": "Nareli Velmir",
+      "location": "Juniper Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-005",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Patient Zoreva Teren with spouse Dovira Dovek; she lives at Amaltas Path. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Zoreva Teren",
+      "relative": "Dovira Dovek",
+      "location": "Amaltas Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-006",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Patient: Pavira Norrin; father name: Evelin Korin; entered from Peacock Bagh Road. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Pavira Norrin",
+      "relative": "Evelin Korin",
+      "location": "Peacock Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-007",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Naam: Yuvira Luvak; relative name: Lunavi Toran; ghar: Kesar Lane. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Yuvira Luvak",
+      "relative": "Lunavi Toran",
+      "location": "Kesar Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-008",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Patient name: Senavi Norrin; wife: Nareli Nolen; ghar: Gulmohar Mews. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Senavi Norrin",
+      "relative": "Nareli Nolen",
+      "location": "Gulmohar Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-009",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Registration: Senavi Darell; papa: Evelin Keldon; home address: Juniper Colony. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Senavi Darell",
+      "relative": "Evelin Keldon",
+      "location": "Juniper Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-010",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Patient Mireli Mireth ko sister Nareli Lorin laaye; Pata: Neelkamal Mews. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Mireli Mireth",
+      "relative": "Nareli Lorin",
+      "location": "Neelkamal Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-011",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Name: Yuvira Mireth; W/o: Rilena Darell; address: Neelkamal Path. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Yuvira Mireth",
+      "relative": "Rilena Darell",
+      "location": "Neelkamal Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-012",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Client name: Zoreva Vossel; contact person: Mireli Nolen; residence is Banyan Path. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Zoreva Vossel",
+      "relative": "Mireli Nolen",
+      "location": "Banyan Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-013",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Patient Yuvira Toran with spouse Yuvira Lorin; she lives at Chand Bagh Road. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Yuvira Toran",
+      "relative": "Yuvira Lorin",
+      "location": "Chand Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-014",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Patient: Pavira Tovren; father name: Kelira Neroth; entered from MorPankh Colony. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Pavira Tovren",
+      "relative": "Kelira Neroth",
+      "location": "MorPankh Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-015",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Naam: Zoreva Selvar; relative name: Mireli Norrin; ghar: SilverFern Chowk. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Zoreva Selvar",
+      "relative": "Mireli Norrin",
+      "location": "SilverFern Chowk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-016",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Patient name: Wenira Nolen; wife: Juvina Neroth; ghar: Amaltas Bagh Road. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Wenira Nolen",
+      "relative": "Juvina Neroth",
+      "location": "Amaltas Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-017",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Registration: Wenira Mavik; papa: Yuvira Sorell; home address: Chand Lane. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Wenira Mavik",
+      "relative": "Yuvira Sorell",
+      "location": "Chand Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-018",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Patient Kivela Meloth ko sister Mireli Veldan laaye; Pata: SilverFern Bagh Road. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Kivela Meloth",
+      "relative": "Mireli Veldan",
+      "location": "SilverFern Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-019",
+    "language": "hinglish",
+    "partition": "development",
+    "text": "Name: Kelira Velmir; W/o: Wenira Velmir; address: Marigold Mews. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Kelira Velmir",
+      "relative": "Wenira Velmir",
+      "location": "Marigold Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-020",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Farela Sorell; contact person: Senavi Luvak; residence is Violet Bagh Road. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Farela Sorell",
+      "relative": "Senavi Luvak",
+      "location": "Violet Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-021",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Nivara Toran with spouse Tavira Darell; she lives at MorPankh Lane. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Nivara Toran",
+      "relative": "Tavira Darell",
+      "location": "MorPankh Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-022",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Pavira Teren; father name: Yuvira Tovren; entered from SilverFern Bagh Road. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Pavira Teren",
+      "relative": "Yuvira Tovren",
+      "location": "SilverFern Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-023",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Farela Keldon; relative name: Kivela Teren; ghar: Peacock Bagh Road. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Farela Keldon",
+      "relative": "Kivela Teren",
+      "location": "Peacock Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-024",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Belira Ravell; wife: Nareli Senol; ghar: Violet Bagh Road. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Belira Ravell",
+      "relative": "Nareli Senol",
+      "location": "Violet Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-025",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Kelira Mireth; papa: Belira Lorin; home address: Gulmohar Gali. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Kelira Mireth",
+      "relative": "Belira Lorin",
+      "location": "Gulmohar Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-026",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Belira Korin ko sister Farela Tovren laaye; Pata: Marigold Bagh Road. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Belira Korin",
+      "relative": "Farela Tovren",
+      "location": "Marigold Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-027",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Tavira Lorin; W/o: Gavira Velmir; address: Kesar Gali. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Tavira Lorin",
+      "relative": "Gavira Velmir",
+      "location": "Kesar Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-028",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Senavi Vossel; contact person: Kivela Toran; residence is Juniper Path. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Senavi Vossel",
+      "relative": "Kivela Toran",
+      "location": "Juniper Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-029",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Toravi Korin with spouse Senavi Korin; she lives at Neelkamal Colony. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Toravi Korin",
+      "relative": "Senavi Korin",
+      "location": "Neelkamal Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-030",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Tavira Veldan; father name: Nivara Mireth; entered from Chand Path. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Tavira Veldan",
+      "relative": "Nivara Mireth",
+      "location": "Chand Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-031",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Tavira Senol; relative name: Vireya Meloth; ghar: Neelkamal Lane. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Tavira Senol",
+      "relative": "Vireya Meloth",
+      "location": "Neelkamal Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-032",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Ovelia Meloth; wife: Evelin Nolen; ghar: Amaltas Bagh Road. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Ovelia Meloth",
+      "relative": "Evelin Nolen",
+      "location": "Amaltas Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-033",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Harela Ravell; papa: Kivela Veldan; home address: Neelkamal Lane. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Harela Ravell",
+      "relative": "Kivela Veldan",
+      "location": "Neelkamal Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-034",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Vireya Velmir ko sister Kelira Lorin laaye; Pata: Banyan Gali. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Vireya Velmir",
+      "relative": "Kelira Lorin",
+      "location": "Banyan Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-035",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Tavira Vana; W/o: Tavira Luvak; address: Violet Colony. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Tavira Vana",
+      "relative": "Tavira Luvak",
+      "location": "Violet Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-036",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Tavira Selvar; contact person: Dovira Luvak; residence is SilverFern Gali. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Tavira Selvar",
+      "relative": "Dovira Luvak",
+      "location": "SilverFern Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-037",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Wenira Luvak with spouse Nareli Vana; she lives at MorPankh Path. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Wenira Luvak",
+      "relative": "Nareli Vana",
+      "location": "MorPankh Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-038",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Lunavi Teren; father name: Zoreva Veldan; entered from Neelkamal Bend. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Lunavi Teren",
+      "relative": "Zoreva Veldan",
+      "location": "Neelkamal Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-039",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Tavira Velmir; relative name: Nareli Meloth; ghar: Neelkamal Mews. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Tavira Velmir",
+      "relative": "Nareli Meloth",
+      "location": "Neelkamal Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-040",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Evelin Meloth; wife: Rilena Neroth; ghar: Kesar Lane. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Evelin Meloth",
+      "relative": "Rilena Neroth",
+      "location": "Kesar Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-041",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Toravi Senol; papa: Juvina Mireth; home address: MorPankh Gali. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Toravi Senol",
+      "relative": "Juvina Mireth",
+      "location": "MorPankh Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-042",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Juvina Toran ko sister Gavira Luvak laaye; Pata: Gulmohar Bagh Road. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Juvina Toran",
+      "relative": "Gavira Luvak",
+      "location": "Gulmohar Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-043",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Gavira Toran; W/o: Belira Selvar; address: Chand Path. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Gavira Toran",
+      "relative": "Belira Selvar",
+      "location": "Chand Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-044",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Kivela Vossel; contact person: Juvina Luvak; residence is Neelkamal Lane. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Kivela Vossel",
+      "relative": "Juvina Luvak",
+      "location": "Neelkamal Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-045",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Kivela Neroth with spouse Dovira Selvar; she lives at Marigold Path. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Kivela Neroth",
+      "relative": "Dovira Selvar",
+      "location": "Marigold Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-046",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Vireya Luvak; father name: Evelin Norrin; entered from Juniper Lane. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Vireya Luvak",
+      "relative": "Evelin Norrin",
+      "location": "Juniper Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-047",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Evelin Selvar; relative name: Toravi Meloth; ghar: Chand Path. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Evelin Selvar",
+      "relative": "Toravi Meloth",
+      "location": "Chand Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-048",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Tavira Mireth; wife: Rilena Keldon; ghar: Neelkamal Bend. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Tavira Mireth",
+      "relative": "Rilena Keldon",
+      "location": "Neelkamal Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-049",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Mireli Keldon; papa: Harela Luvak; home address: Peacock Mews. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Mireli Keldon",
+      "relative": "Harela Luvak",
+      "location": "Peacock Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-050",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Toravi Toran ko sister Nareli Keldon laaye; Pata: Neelkamal Colony. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Toravi Toran",
+      "relative": "Nareli Keldon",
+      "location": "Neelkamal Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-051",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Rilena Nolen; W/o: Kivela Tovren; address: Neelkamal Lane. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Rilena Nolen",
+      "relative": "Kivela Tovren",
+      "location": "Neelkamal Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-052",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Juvina Tovren; contact person: Soreva Veldan; residence is Kesar Chowk. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Juvina Tovren",
+      "relative": "Soreva Veldan",
+      "location": "Kesar Chowk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-053",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Senavi Toran with spouse Kivela Velmir; she lives at Violet Bend. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Senavi Toran",
+      "relative": "Kivela Velmir",
+      "location": "Violet Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-054",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Kivela Sorell; father name: Dovira Lorin; entered from Amaltas Chowk. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Kivela Sorell",
+      "relative": "Dovira Lorin",
+      "location": "Amaltas Chowk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-055",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Mireli Dovek; relative name: Nivara Mavik; ghar: SilverFern Mews. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Mireli Dovek",
+      "relative": "Nivara Mavik",
+      "location": "SilverFern Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-056",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Zoreva Nolen; wife: Nivara Sorell; ghar: Peacock Mews. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Zoreva Nolen",
+      "relative": "Nivara Sorell",
+      "location": "Peacock Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-057",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Belira Toran; papa: Kelira Dovran; home address: SilverFern Bend. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Belira Toran",
+      "relative": "Kelira Dovran",
+      "location": "SilverFern Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-058",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Farela Vana ko sister Senavi Tovren laaye; Pata: Peacock Bagh Road. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Farela Vana",
+      "relative": "Senavi Tovren",
+      "location": "Peacock Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-059",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Nivara Lorin; W/o: Wenira Vossel; address: Chand Chowk. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Nivara Lorin",
+      "relative": "Wenira Vossel",
+      "location": "Chand Chowk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-060",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Zoreva Sorell; contact person: Yuvira Velmir; residence is Neelkamal Path. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Zoreva Sorell",
+      "relative": "Yuvira Velmir",
+      "location": "Neelkamal Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-061",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Belira Mavik with spouse Ovelia Vana; she lives at Marigold Bagh Road. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Belira Mavik",
+      "relative": "Ovelia Vana",
+      "location": "Marigold Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-062",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Rilena Dovek; father name: Soreva Dovek; entered from SilverFern Bagh Road. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Rilena Dovek",
+      "relative": "Soreva Dovek",
+      "location": "SilverFern Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-063",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Soreva Meloth; relative name: Wenira Senol; ghar: Neelkamal Path. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Soreva Meloth",
+      "relative": "Wenira Senol",
+      "location": "Neelkamal Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-064",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Tavira Ravell; wife: Soreva Keldon; ghar: Amaltas Chowk. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Tavira Ravell",
+      "relative": "Soreva Keldon",
+      "location": "Amaltas Chowk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-065",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Farela Mavik; papa: Rilena Senol; home address: Banyan Bend. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Farela Mavik",
+      "relative": "Rilena Senol",
+      "location": "Banyan Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-066",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Toravi Lorin ko sister Dovira Darell laaye; Pata: Amaltas Lane. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Toravi Lorin",
+      "relative": "Dovira Darell",
+      "location": "Amaltas Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-067",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Harela Nolen; W/o: Juvina Veldan; address: Peacock Bagh Road. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Harela Nolen",
+      "relative": "Juvina Veldan",
+      "location": "Peacock Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-068",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Harela Vossel; contact person: Nareli Dovek; residence is Kesar Gali. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Harela Vossel",
+      "relative": "Nareli Dovek",
+      "location": "Kesar Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-069",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Vireya Senol with spouse Tavira Norrin; she lives at Kesar Gali. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Vireya Senol",
+      "relative": "Tavira Norrin",
+      "location": "Kesar Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-070",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Toravi Teren; father name: Dovira Neroth; entered from Violet Chowk. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Toravi Teren",
+      "relative": "Dovira Neroth",
+      "location": "Violet Chowk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-071",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Nareli Selvar; relative name: Vireya Selvar; ghar: Amaltas Bend. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Nareli Selvar",
+      "relative": "Vireya Selvar",
+      "location": "Amaltas Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-072",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Kelira Ravell; wife: Toravi Mireth; ghar: Kesar Lane. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Kelira Ravell",
+      "relative": "Toravi Mireth",
+      "location": "Kesar Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-073",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Wenira Sorell; papa: Toravi Luvak; home address: Marigold Path. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Wenira Sorell",
+      "relative": "Toravi Luvak",
+      "location": "Marigold Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-074",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Juvina Selvar ko sister Nivara Senol laaye; Pata: Neelkamal Bend. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Juvina Selvar",
+      "relative": "Nivara Senol",
+      "location": "Neelkamal Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-075",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Wenira Teren; W/o: Harela Toran; address: Neelkamal Bend. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Wenira Teren",
+      "relative": "Harela Toran",
+      "location": "Neelkamal Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-076",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Soreva Selvar; contact person: Pavira Mavik; residence is MorPankh Bend. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Soreva Selvar",
+      "relative": "Pavira Mavik",
+      "location": "MorPankh Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-077",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Ovelia Luvak with spouse Tavira Keldon; she lives at Gulmohar Bend. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Ovelia Luvak",
+      "relative": "Tavira Keldon",
+      "location": "Gulmohar Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-078",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Farela Luvak; father name: Juvina Keldon; entered from Banyan Gali. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Farela Luvak",
+      "relative": "Juvina Keldon",
+      "location": "Banyan Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-079",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Wenira Norrin; relative name: Zoreva Luvak; ghar: Juniper Colony. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Wenira Norrin",
+      "relative": "Zoreva Luvak",
+      "location": "Juniper Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-080",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Harela Keldon; wife: Lunavi Lorin; ghar: Juniper Path. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Harela Keldon",
+      "relative": "Lunavi Lorin",
+      "location": "Juniper Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-081",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Nivara Dovek; papa: Wenira Keldon; home address: MorPankh Lane. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Nivara Dovek",
+      "relative": "Wenira Keldon",
+      "location": "MorPankh Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-082",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Juvina Dovek ko sister Senavi Nolen laaye; Pata: Marigold Mews. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Juvina Dovek",
+      "relative": "Senavi Nolen",
+      "location": "Marigold Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-083",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Harela Sorell; W/o: Wenira Toran; address: Neelkamal Lane. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Harela Sorell",
+      "relative": "Wenira Toran",
+      "location": "Neelkamal Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-084",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Vireya Lorin; contact person: Senavi Senol; residence is Amaltas Colony. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Vireya Lorin",
+      "relative": "Senavi Senol",
+      "location": "Amaltas Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-085",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Nareli Tovren with spouse Lunavi Velmir; she lives at Peacock Gali. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Nareli Tovren",
+      "relative": "Lunavi Velmir",
+      "location": "Peacock Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-086",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Vireya Teren; father name: Pavira Luvak; entered from Peacock Gali. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Vireya Teren",
+      "relative": "Pavira Luvak",
+      "location": "Peacock Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-087",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Toravi Keldon; relative name: Belira Neroth; ghar: Chand Lane. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Toravi Keldon",
+      "relative": "Belira Neroth",
+      "location": "Chand Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-088",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Zoreva Norrin; wife: Zoreva Dovran; ghar: Marigold Lane. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Zoreva Norrin",
+      "relative": "Zoreva Dovran",
+      "location": "Marigold Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-089",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Pavira Korin; papa: Dovira Mavik; home address: Juniper Path. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Pavira Korin",
+      "relative": "Dovira Mavik",
+      "location": "Juniper Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-090",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Ovelia Dovran ko sister Kivela Lorin laaye; Pata: Kesar Chowk. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Ovelia Dovran",
+      "relative": "Kivela Lorin",
+      "location": "Kesar Chowk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-091",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Ovelia Vossel; W/o: Nareli Ravell; address: Kesar Bagh Road. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Ovelia Vossel",
+      "relative": "Nareli Ravell",
+      "location": "Kesar Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-092",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Kelira Selvar; contact person: Kivela Keldon; residence is Kesar Bend. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Kelira Selvar",
+      "relative": "Kivela Keldon",
+      "location": "Kesar Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-093",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Evelin Senol with spouse Vireya Keldon; she lives at Chand Chowk. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Evelin Senol",
+      "relative": "Vireya Keldon",
+      "location": "Chand Chowk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-094",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Dovira Meloth; father name: Belira Mireth; entered from Peacock Lane. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Dovira Meloth",
+      "relative": "Belira Mireth",
+      "location": "Peacock Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-095",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Belira Luvak; relative name: Toravi Ravell; ghar: Chand Colony. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Belira Luvak",
+      "relative": "Toravi Ravell",
+      "location": "Chand Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-096",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Farela Teren; wife: Belira Vana; ghar: Kesar Bagh Road. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Farela Teren",
+      "relative": "Belira Vana",
+      "location": "Kesar Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-097",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Kelira Sorell; papa: Nivara Luvak; home address: Violet Bend. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Kelira Sorell",
+      "relative": "Nivara Luvak",
+      "location": "Violet Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-098",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Dovira Norrin ko sister Nareli Sorell laaye; Pata: Neelkamal Colony. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Dovira Norrin",
+      "relative": "Nareli Sorell",
+      "location": "Neelkamal Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-099",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Pavira Veldan; W/o: Wenira Neroth; address: Amaltas Path. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Pavira Veldan",
+      "relative": "Wenira Neroth",
+      "location": "Amaltas Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-100",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Gavira Veldan; contact person: Belira Teren; residence is Peacock Bagh Road. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Gavira Veldan",
+      "relative": "Belira Teren",
+      "location": "Peacock Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-101",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Mireli Tovren with spouse Farela Darell; she lives at Kesar Chowk. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Mireli Tovren",
+      "relative": "Farela Darell",
+      "location": "Kesar Chowk"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-102",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Pavira Selvar; father name: Harela Mireth; entered from Marigold Bagh Road. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Pavira Selvar",
+      "relative": "Harela Mireth",
+      "location": "Marigold Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-103",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Harela Neroth; relative name: Tavira Dovran; ghar: Banyan Bend. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Harela Neroth",
+      "relative": "Tavira Dovran",
+      "location": "Banyan Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-104",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Vireya Vana; wife: Lunavi Luvak; ghar: SilverFern Colony. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Vireya Vana",
+      "relative": "Lunavi Luvak",
+      "location": "SilverFern Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-105",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Tavira Neroth; papa: Juvina Senol; home address: Peacock Mews. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Tavira Neroth",
+      "relative": "Juvina Senol",
+      "location": "Peacock Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-106",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Senavi Mavik ko sister Kelira Mavik laaye; Pata: Violet Bend. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Senavi Mavik",
+      "relative": "Kelira Mavik",
+      "location": "Violet Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-107",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Yuvira Mavik; W/o: Nareli Dovran; address: Neelkamal Path. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Yuvira Mavik",
+      "relative": "Nareli Dovran",
+      "location": "Neelkamal Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-108",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Wenira Meloth; contact person: Vireya Mavik; residence is Amaltas Path. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Wenira Meloth",
+      "relative": "Vireya Mavik",
+      "location": "Amaltas Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-109",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Gavira Nolen with spouse Nivara Norrin; she lives at MorPankh Bend. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Gavira Nolen",
+      "relative": "Nivara Norrin",
+      "location": "MorPankh Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-110",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Rilena Meloth; father name: Belira Velmir; entered from MorPankh Colony. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Rilena Meloth",
+      "relative": "Belira Velmir",
+      "location": "MorPankh Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-111",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Evelin Dovek; relative name: Rilena Tovren; ghar: Chand Bend. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Evelin Dovek",
+      "relative": "Rilena Tovren",
+      "location": "Chand Bend"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-112",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient name: Vireya Nolen; wife: Soreva Norrin; ghar: Banyan Path. BP 118/76; Metformin 500 mg; Dr. Renu Sethi reviewed.",
+    "pii": {
+      "patient": "Vireya Nolen",
+      "relative": "Soreva Norrin",
+      "location": "Banyan Path"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-113",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Registration: Ovelia Velmir; papa: Lunavi Dovek; home address: Gulmohar Mews. Glucose 94 mg/dL; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Ovelia Velmir",
+      "relative": "Lunavi Dovek",
+      "location": "Gulmohar Mews"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-114",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Kivela Dovran ko sister Evelin Mavik laaye; Pata: SilverFern Bagh Road. Pulse 72 bpm; Aspirin 75 mg.",
+    "pii": {
+      "patient": "Kivela Dovran",
+      "relative": "Evelin Mavik",
+      "location": "SilverFern Bagh Road"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-115",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Name: Yuvira Nolen; W/o: Nivara Veldan; address: Violet Lane. BP 120/80; Metformin 500 mg.",
+    "pii": {
+      "patient": "Yuvira Nolen",
+      "relative": "Nivara Veldan",
+      "location": "Violet Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-116",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Client name: Nivara Vana; contact person: Senavi Lorin; residence is Marigold Gali. HbA1c 6.1%; Dr. Renu Sethi.",
+    "pii": {
+      "patient": "Nivara Vana",
+      "relative": "Senavi Lorin",
+      "location": "Marigold Gali"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-117",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient Vireya Veldan with spouse Tavira Vossel; she lives at SilverFern Colony. Pulse 72 bpm; Metformin 500 mg.",
+    "pii": {
+      "patient": "Vireya Veldan",
+      "relative": "Tavira Vossel",
+      "location": "SilverFern Colony"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-118",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Patient: Evelin Sorell; father name: Evelin Luvak; entered from Gulmohar Lane. Temperature 37 C; Dr. Kiran Malik.",
+    "pii": {
+      "patient": "Evelin Sorell",
+      "relative": "Evelin Luvak",
+      "location": "Gulmohar Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  },
+  {
+    "id": "hinglish-119",
+    "language": "hinglish",
+    "partition": "frozen-evaluation",
+    "text": "Naam: Harela Mavik; relative name: Vireya Mireth; ghar: Amaltas Lane. BP 118/76; Metformin 500 mg.",
+    "pii": {
+      "patient": "Harela Mavik",
+      "relative": "Vireya Mireth",
+      "location": "Amaltas Lane"
+    },
+    "clinical": [
+      "118/76",
+      "Metformin 500 mg",
+      "Dr. Renu Sethi"
+    ]
+  }
+]

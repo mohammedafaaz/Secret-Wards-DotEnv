@@ -1,0 +1,644 @@
+{
+  "resourceType": "Bundle",
+  "id": "4e9994e8-b017-4135-b124-b59d1c3f9435",
+  "meta": {
+    "lastUpdated": "2026-06-14T12:00:00+05:30",
+    "profile": [
+      "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"
+    ]
+  },
+  "identifier": {
+    "system": "https://jeevanjyoti.hospital.example/bundles",
+    "value": "4e9994e8-b017-4135-b124-b59d1c3f9435"
+  },
+  "type": "document",
+  "timestamp": "2026-06-14T12:00:00+05:30",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:792d7b4a-bac1-4f4b-8644-10d3e9fdf3c4",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "792d7b4a-bac1-4f4b-8644-10d3e9fdf3c4",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373942005",
+              "display": "Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c",
+          "display": "Fatima Khatoon"
+        },
+        "encounter": {
+          "reference": "urn:uuid:94da07fe-5a0f-4a81-bf84-dc36f75b6cf0"
+        },
+        "date": "2026-06-14T12:00:00+05:30",
+        "author": [
+          {
+            "reference": "urn:uuid:1a0ec2fc-cc4d-407c-9f58-4b29f87f9deb",
+            "display": "Dr. Vandana Kulshrestha"
+          }
+        ],
+        "title": "Discharge Summary",
+        "section": [
+          {
+            "title": "Diagnosis",
+            "entry": [
+              {
+                "reference": "urn:uuid:cab9842b-8443-4c28-a176-8e0b6bd0515c"
+              },
+              {
+                "reference": "urn:uuid:48071ac3-3466-4ac3-867a-8b02d23b86de"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "entry": [
+              {
+                "reference": "urn:uuid:d88ad052-905c-48ea-9a85-42e41127c5ba"
+              },
+              {
+                "reference": "urn:uuid:8fe1fb4d-014f-4510-81f5-575664e2ebae"
+              },
+              {
+                "reference": "urn:uuid:1b151b53-e65b-402b-a17a-c0c2f3d0a84a"
+              },
+              {
+                "reference": "urn:uuid:bdd1386f-a63b-465e-b2fd-578cd6042eff"
+              },
+              {
+                "reference": "urn:uuid:d984e683-845a-4470-877e-5e517b24b9ed"
+              },
+              {
+                "reference": "urn:uuid:59f695e3-8450-472b-b301-d8c854e1b49b"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "2c03b9d9-d0db-4445-afd4-9a290a6a132c",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Fatima Khatoon, 46 yrs, female, JJH-0077357</div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number"
+                }
+              ]
+            },
+            "system": "https://jeevanjyoti.hospital.example/uhid",
+            "value": "JJH-0077357"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-7090-9253-5239"
+          }
+        ],
+        "name": [
+          {
+            "text": "Fatima Khatoon",
+            "given": [
+              "Fatima"
+            ],
+            "family": "Khatoon"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-9272783661",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1979-08-23",
+        "address": [
+          {
+            "line": [
+              "Makan No. 41, near Hanuman Mandir, Tehsil Nanpara, Distt. Bahraich"
+            ],
+            "city": "Shivganj Khurd",
+            "district": "Bahraich",
+            "state": "Uttar Pradesh",
+            "postalCode": "271077",
+            "country": "IN"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Husband"
+              }
+            ],
+            "name": {
+              "text": "Akram Shaikh"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "url": "https://raksha.example/fhir/StructureDefinition/mothers-name",
+            "valueString": "Nasreen Devi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1a0ec2fc-cc4d-407c-9f58-4b29f87f9deb",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1a0ec2fc-cc4d-407c-9f58-4b29f87f9deb",
+        "name": [
+          {
+            "text": "Dr. Vandana Kulshrestha"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "text": "MD Medicine"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7702f9ba-ff53-4c03-a9a0-7af82e80110c",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "7702f9ba-ff53-4c03-a9a0-7af82e80110c",
+        "name": "Jeevan Jyoti Charitable Hospital",
+        "address": [
+          {
+            "city": "Barabanki",
+            "state": "Uttar Pradesh",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:94da07fe-5a0f-4a81-bf84-dc36f75b6cf0",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "94da07fe-5a0f-4a81-bf84-dc36f75b6cf0",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "identifier": [
+          {
+            "system": "https://jeevanjyoti.hospital.example/ipd",
+            "value": "IP/26/00144"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "period": {
+          "start": "2026-06-04T08:45:00+05:30",
+          "end": "2026-06-14T12:00:00+05:30"
+        },
+        "location": [
+          {
+            "location": {
+              "display": "Ward 2 (Medicine)"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "urn:uuid:7702f9ba-ff53-4c03-a9a0-7af82e80110c"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cab9842b-8443-4c28-a176-8e0b6bd0515c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cab9842b-8443-4c28-a176-8e0b6bd0515c",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus without complications"
+            }
+          ],
+          "text": "Type 2 diabetes mellitus without complications"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "encounter": {
+          "reference": "urn:uuid:94da07fe-5a0f-4a81-bf84-dc36f75b6cf0"
+        },
+        "recordedDate": "2026-06-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:48071ac3-3466-4ac3-867a-8b02d23b86de",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "48071ac3-3466-4ac3-867a-8b02d23b86de",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I10",
+              "display": "Essential (primary) hypertension"
+            }
+          ],
+          "text": "Essential (primary) hypertension"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "encounter": {
+          "reference": "urn:uuid:94da07fe-5a0f-4a81-bf84-dc36f75b6cf0"
+        },
+        "recordedDate": "2026-06-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c5606926-4305-47a0-9ef4-9da41c9ee1c6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c5606926-4305-47a0-9ef4-9da41c9ee1c6",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "effectiveDateTime": "2026-06-04T08:45:00+05:30",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 170,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 92,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cf05a0c0-86f3-466e-9c6d-6a79bd9d395a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cf05a0c0-86f3-466e-9c6d-6a79bd9d395a",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Haemoglobin"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "effectiveDateTime": "2026-06-04T08:45:00+05:30",
+        "valueQuantity": {
+          "value": 11.1,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b8d07dc3-86dc-45d1-8aab-5d7a8d54cd40",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b8d07dc3-86dc-45d1-8aab-5d7a8d54cd40",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "HbA1c"
+            }
+          ],
+          "text": "HbA1c"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "effectiveDateTime": "2026-06-04T08:45:00+05:30",
+        "valueQuantity": {
+          "value": 7.7,
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c50bfeff-9db9-465b-acf0-9a569f482261",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c50bfeff-9db9-465b-acf0-9a569f482261",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Random Blood Sugar"
+            }
+          ],
+          "text": "Random Blood Sugar"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "effectiveDateTime": "2026-06-04T08:45:00+05:30",
+        "valueQuantity": {
+          "value": 91,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b945742e-09a6-4e0f-b0de-a2075bd27e73",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b945742e-09a6-4e0f-b0de-a2075bd27e73",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Serum Creatinine"
+            }
+          ],
+          "text": "Serum Creatinine"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "effectiveDateTime": "2026-06-04T08:45:00+05:30",
+        "valueQuantity": {
+          "value": 0.8,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bc6bced9-96cf-48c3-8cac-245bd3cf3a66",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bc6bced9-96cf-48c3-8cac-245bd3cf3a66",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Total WBC Count"
+            }
+          ],
+          "text": "Total WBC Count"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "effectiveDateTime": "2026-06-04T08:45:00+05:30",
+        "valueQuantity": {
+          "value": 9898,
+          "unit": "/uL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dc22c49b-62b9-4c43-aed3-f205b0f5e33a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dc22c49b-62b9-4c43-aed3-f205b0f5e33a",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Serum Sodium"
+            }
+          ],
+          "text": "Serum Sodium"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "effectiveDateTime": "2026-06-04T08:45:00+05:30",
+        "valueQuantity": {
+          "value": 128,
+          "unit": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d88ad052-905c-48ea-9a85-42e41127c5ba",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "d88ad052-905c-48ea-9a85-42e41127c5ba",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Metformin 500 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "authoredOn": "2026-06-14",
+        "dosageInstruction": [
+          {
+            "text": "500 mg BD (1-0-1) after meals"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8fe1fb4d-014f-4510-81f5-575664e2ebae",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "8fe1fb4d-014f-4510-81f5-575664e2ebae",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Glimepiride 1 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "authoredOn": "2026-06-14",
+        "dosageInstruction": [
+          {
+            "text": "1 mg OD (1-0-0) before breakfast"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1b151b53-e65b-402b-a17a-c0c2f3d0a84a",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1b151b53-e65b-402b-a17a-c0c2f3d0a84a",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Amlodipine 5 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "authoredOn": "2026-06-14",
+        "dosageInstruction": [
+          {
+            "text": "5 mg OD (0-0-1) at night"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bdd1386f-a63b-465e-b2fd-578cd6042eff",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "bdd1386f-a63b-465e-b2fd-578cd6042eff",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Telmisartan 40 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "authoredOn": "2026-06-14",
+        "dosageInstruction": [
+          {
+            "text": "40 mg OD (1-0-0) morning"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d984e683-845a-4470-877e-5e517b24b9ed",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "d984e683-845a-4470-877e-5e517b24b9ed",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Ramipril 5 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "authoredOn": "2026-06-14",
+        "dosageInstruction": [
+          {
+            "text": "5 mg OD (0-0-1) at night"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59f695e3-8450-472b-b301-d8c854e1b49b",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "59f695e3-8450-472b-b301-d8c854e1b49b",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Pantoprazole 40 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:2c03b9d9-d0db-4445-afd4-9a290a6a132c"
+        },
+        "authoredOn": "2026-06-14",
+        "dosageInstruction": [
+          {
+            "text": "40 mg OD (1-0-0) before breakfast"
+          }
+        ]
+      }
+    }
+  ]
+}

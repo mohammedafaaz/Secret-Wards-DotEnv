@@ -1,0 +1,102 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Arogya Seva Sadan",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-09-28T18:00:00+05:30"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/09/00093",
+      "patient_ref": "UHID-010678",
+      "visit_date": "2026-09-12",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O fever for 4 days",
+      "history": "H/O TB 10 yrs back, completed ATT",
+      "vitals": {
+        "bp": "141/97",
+        "pulse": 65,
+        "temp_f": 97.6,
+        "spo2": 98,
+        "weight_kg": 63
+      },
+      "diagnosis": [
+        {
+          "code": "A09",
+          "display": "Infectious gastroenteritis and colitis, unspecified"
+        },
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "ORS",
+          "strength": "1 sachet",
+          "frequency": "after each loose stool",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Mary didi ka BP 141/97, bukhar utar gaya hai. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/09/00094",
+      "patient_ref": "UHID-010623",
+      "visit_date": "2026-09-13",
+      "department": "Pulmonology",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O breathlessness on exertion x 2 weeks",
+      "history": "K/C/O hypothyroidism",
+      "vitals": {
+        "bp": "111/72",
+        "pulse": 113,
+        "temp_f": 98.4,
+        "spo2": 95,
+        "weight_kg": 70
+      },
+      "diagnosis": [
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Manoj ka BP 111/72, BP abhi bhi high hai. Review after 2 weeks.",
+      "address_note": "C/O Ramesh Yadav, Ward 8",
+      "reviewed_by": "Dr. Ramesh Srivastava reviewed the patient."
+    }
+  ]
+}

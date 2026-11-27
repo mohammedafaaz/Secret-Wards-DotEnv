@@ -1,0 +1,16 @@
+{
+  "system": "Helpdesk",
+  "tickets": [
+    {
+      "id": "HD-1042",
+      "category": "billing query",
+      "meta": {
+        "raised_by": {
+          "name": "Ilavenil Bhattacharya",
+          "callback": "6069109411"
+        }
+      },
+      "status": "closed"
+    }
+  ]
+}

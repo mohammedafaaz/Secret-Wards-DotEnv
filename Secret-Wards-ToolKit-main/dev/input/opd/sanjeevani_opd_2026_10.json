@@ -1,0 +1,203 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Sanjeevani Multispeciality Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-10-28T18:00:00+05:30"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/10/00181",
+      "patient_ref": "SNJ/26/064473",
+      "visit_date": "06/10/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "3 हफ़्ते से खांसी",
+      "history": "H/O TB 8 yrs back, completed ATT",
+      "vitals": {
+        "bp": "117/66",
+        "pulse": 89,
+        "temp_f": 97.6,
+        "spo2": 93,
+        "weight_kg": 68
+      },
+      "diagnosis": [
+        {
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Metformin",
+          "strength": "500 mg",
+          "frequency": "1-0-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Glimepiride",
+          "strength": "1 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Sunita ka BP 117/66, dawai time pe le rahe hain. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/10/00182",
+      "patient_ref": "SNJ/26/064279",
+      "visit_date": "01/10/2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "C/O pain abdomen x 8 days",
+      "history": "K/C/O HTN on treatment",
+      "vitals": {
+        "bp": "104/76",
+        "pulse": 108,
+        "temp_f": 99.0,
+        "spo2": 97,
+        "weight_kg": 9
+      },
+      "diagnosis": [
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        },
+        {
+          "code": "N18.3",
+          "display": "Chronic kidney disease, stage 3"
+        },
+        {
+          "code": "J44.9",
+          "display": "Chronic obstructive pulmonary disease, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Salbutamol inhaler",
+          "strength": "100 mcg",
+          "frequency": "2 puffs",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Salma behenji ka BP 104/76, khana kam kha rahe hain. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/10/00183",
+      "patient_ref": "SNJ/26/064508",
+      "visit_date": "19/10/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O cough with expectoration x 7 weeks",
+      "history": "H/O TB 8 yrs back, completed ATT",
+      "vitals": {
+        "bp": "127/76",
+        "pulse": 90,
+        "temp_f": 97.9,
+        "spo2": 94,
+        "weight_kg": 12
+      },
+      "diagnosis": [
+        {
+          "code": "N39.0",
+          "display": "Urinary tract infection, site not specified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Doxycycline",
+          "strength": "100 mg",
+          "frequency": "1-0-1",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Fatima amma ka BP 127/76, raat ko neend theek se aayi. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/10/00184",
+      "patient_ref": "SNJ/26/064279",
+      "visit_date": "01/10/2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "khansi 2 hafte se",
+      "history": "K/C/O DM2 x 2 yrs",
+      "vitals": {
+        "bp": "106/86",
+        "pulse": 118,
+        "temp_f": 99.0,
+        "spo2": 94,
+        "weight_kg": 38
+      },
+      "diagnosis": [
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        },
+        {
+          "code": "N18.3",
+          "display": "Chronic kidney disease, stage 3"
+        },
+        {
+          "code": "J44.9",
+          "display": "Chronic obstructive pulmonary disease, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Salbutamol inhaler",
+          "strength": "100 mcg",
+          "frequency": "2 puffs",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Salma ka BP 106/86, ulti band ho gayi. Review after 2 weeks.",
+      "patient": {
+        "name": "Salma Ansari",
+        "age_sex": "45/F",
+        "mobile": "+91-8626381027"
+      }
+    }
+  ]
+}

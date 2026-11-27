@@ -1,0 +1,77 @@
+{
+ "lab": "Pathkind Labs (Lucknow)",
+ "report_type": "Diagnostic report",
+ "patient": {
+  "name": "Sukhwinder Kaur",
+  "age": 44,
+  "sex": "F",
+  "phone": "8863625768",
+  "hospital_uhid": "SNJ/26/064423"
+ },
+ "referred_by": "Dr. Ramesh Srivastava",
+ "collected": "2026-07-06T09:30:00+05:30",
+ "panels": [
+  {
+   "name": "Routine",
+   "results": [
+    {
+     "test": "Haemoglobin",
+     "loinc": "718-7",
+     "value": 8.6,
+     "unit": "g/dL",
+     "range": "12.0-16.0"
+    },
+    {
+     "test": "HbA1c",
+     "loinc": "4548-4",
+     "value": 8.0,
+     "unit": "%",
+     "range": "4.0-5.6"
+    },
+    {
+     "test": "Random Blood Sugar",
+     "loinc": "2345-7",
+     "value": 209,
+     "unit": "mg/dL",
+     "range": "70-140"
+    },
+    {
+     "test": "Serum Creatinine",
+     "loinc": "2160-0",
+     "value": 2.5,
+     "unit": "mg/dL",
+     "range": "0.6-1.2"
+    },
+    {
+     "test": "TSH",
+     "loinc": "3016-3",
+     "value": 1.77,
+     "unit": "mIU/L",
+     "range": "0.4-4.0"
+    },
+    {
+     "test": "Platelet Count",
+     "loinc": "777-3",
+     "value": 246000,
+     "unit": "/uL",
+     "range": "150000-410000"
+    },
+    {
+     "test": "Total WBC Count",
+     "loinc": "6690-2",
+     "value": 9636,
+     "unit": "/uL",
+     "range": "4000-11000"
+    },
+    {
+     "test": "Serum Sodium",
+     "loinc": "2951-2",
+     "value": 139,
+     "unit": "mmol/L",
+     "range": "135-145"
+    }
+   ]
+  }
+ ],
+ "remarks": "Sample received from Sukhwinder's attendant (W/o Kuldeep Singh)."
+}

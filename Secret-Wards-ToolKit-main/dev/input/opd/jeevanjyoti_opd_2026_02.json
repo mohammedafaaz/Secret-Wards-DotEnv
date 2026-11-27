@@ -1,0 +1,284 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Jeevan Jyoti Charitable Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-02-28T18:00:00+05:30"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/02/00101",
+      "patient_ref": "JJH-0076893",
+      "visit_date": "11-02-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "6 दिन से पेट दर्द",
+      "history": "H/O TB 10 yrs back, completed ATT",
+      "vitals": {
+        "bp": "121/71",
+        "pulse": 113,
+        "temp_f": 97.9,
+        "spo2": 91,
+        "weight_kg": 68
+      },
+      "diagnosis": [
+        {
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        },
+        {
+          "code": "N39.0",
+          "display": "Urinary tract infection, site not specified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Metformin",
+          "strength": "500 mg",
+          "frequency": "1-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Glimepiride",
+          "strength": "1 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Doxycycline",
+          "strength": "100 mg",
+          "frequency": "1-0-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Neha didi ka BP 121/71, dawai time pe le rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Neha Paswan",
+        "age_sex": "66/F",
+        "mobile": "+91-9652293109"
+      }
+    },
+    {
+      "visit_id": "OPD/26/02/00102",
+      "patient_ref": "JJH-0077025",
+      "visit_date": "21-02-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O headache and giddiness x 8 days",
+      "history": "K/C/O hypothyroidism",
+      "vitals": {
+        "bp": "117/73",
+        "pulse": 70,
+        "temp_f": 98.4,
+        "spo2": 89,
+        "weight_kg": 92
+      },
+      "diagnosis": [
+        {
+          "code": "A09",
+          "display": "Infectious gastroenteritis and colitis, unspecified"
+        },
+        {
+          "code": "J45.9",
+          "display": "Asthma, unspecified"
+        },
+        {
+          "code": "D64.9",
+          "display": "Anaemia, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "ORS",
+          "strength": "1 sachet",
+          "frequency": "after each loose stool",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Salbutamol inhaler",
+          "strength": "100 mcg",
+          "frequency": "2 puffs",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Ferrous sulphate + Folic acid",
+          "strength": "100 mg + 0.5 mg",
+          "frequency": "0-1-0",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Fatima ka BP 117/73, BP abhi bhi high hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Fatima Qureshi",
+        "age_sex": "0/F",
+        "mobile": "+91-9334843599"
+      }
+    },
+    {
+      "visit_id": "OPD/26/02/00103",
+      "patient_ref": "JJH-0076900",
+      "visit_date": "06-02-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O cough with expectoration x 4 weeks",
+      "history": "K/C/O hypothyroidism",
+      "vitals": {
+        "bp": "150/91",
+        "pulse": 98,
+        "temp_f": 98.7,
+        "spo2": 96,
+        "weight_kg": 40
+      },
+      "diagnosis": [
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        },
+        {
+          "code": "E03.9",
+          "display": "Hypothyroidism, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Levothyroxine",
+          "strength": "50 mcg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Asha ka BP 150/91, chal phir sakte hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Asha Rajput",
+        "age_sex": "48/F",
+        "mobile": "+91-8069773173"
+      }
+    },
+    {
+      "visit_id": "OPD/26/02/00104",
+      "patient_ref": "JJH-0077463",
+      "visit_date": "21-02-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "6 दिन से चक्कर आना",
+      "history": "No H/O DM/HTN",
+      "vitals": {
+        "bp": "147/91",
+        "pulse": 100,
+        "temp_f": 98.1,
+        "spo2": 96,
+        "weight_kg": 22
+      },
+      "diagnosis": [
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Sunil ji ka BP 147/91, bukhar utar gaya hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Sunil Lodhi",
+        "age_sex": "30/M",
+        "mobile": "+91-7951990358"
+      }
+    },
+    {
+      "visit_id": "OPD/26/02/00105",
+      "patient_ref": "JJH-0077484",
+      "visit_date": "12-02-2026",
+      "department": "Nephrology",
+      "doctor": "Dr. Kavya Menon",
+      "complaints": "khansi 2 hafte se",
+      "history": "H/O TB 3 yrs back, completed ATT",
+      "vitals": {
+        "bp": "112/77",
+        "pulse": 67,
+        "temp_f": 99.0,
+        "spo2": 93,
+        "weight_kg": 26
+      },
+      "diagnosis": [
+        {
+          "code": "N18.3",
+          "display": "Chronic kidney disease, stage 3"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Shanti ka BP 112/77, ulti band ho gayi. Review after 2 weeks.",
+      "patient": {
+        "name": "Shanti Chaudhary",
+        "age_sex": "49/F",
+        "mobile": "+91-8081120924"
+      }
+    }
+  ]
+}

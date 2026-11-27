@@ -1,0 +1,66 @@
+sample_id,patient_name,age_sex,uhid,ref_doctor,test,result,unit,ref_range,collected_on,reported_on
+S26000187,Rina Nishad,65/F,JJH-0076928,Dr. Vandana Kulshrestha,Haemoglobin,13.5,g/dL,12.0-16.0,15/10/2026,15/10/2026
+S26000187,Rina Nishad,65/F,JJH-0076928,Dr. Vandana Kulshrestha,Random Blood Sugar,189,mg/dL,70-140,15/10/2026,15/10/2026
+S26000187,REENA NISHAD,65/F,JJH-0076928,Dr. Vandana Kulshrestha,Serum Creatinine,2.7,mg/dL,0.6-1.2,15/10/2026,15/10/2026
+S26000187,Rina Nishad,65/F,JJH-0076928,Dr. Vandana Kulshrestha,Total WBC Count,9339,/uL,4000-11000,15/10/2026,15/10/2026
+S26000187,Reena Nishad,65/F,JJH-0076928,Dr. Vandana Kulshrestha,Serum Sodium,135,mmol/L,135-145,15/10/2026,15/10/2026
+S26000188,SHYAM CHAUDHARY,91/M,SNJ/26/064211,Dr. Harjeet Bedi,Haemoglobin,10.0,g/dL,12.0-16.0,04/02/2026,04/02/2026
+S26000188,SHYAM CHAUDHARY,91/M,SNJ/26/064211,Dr. Harjeet Bedi,Random Blood Sugar,99,mg/dL,70-140,04/02/2026,04/02/2026
+S26000188,Shyaam Choudhary,91/M,SNJ/26/064211,Dr. Harjeet Bedi,Serum Creatinine,0.9,mg/dL,0.6-1.2,04/02/2026,04/02/2026
+S26000188,SHYAM CHAUDHARY,91/M,SNJ/26/064211,Dr. Harjeet Bedi,Total WBC Count,5593,/uL,4000-11000,04/02/2026,04/02/2026
+S26000188,Shyaam Choudhary,91/M,SNJ/26/064211,Dr. Harjeet Bedi,Serum Sodium,140,mmol/L,135-145,04/02/2026,04/02/2026
+S26000189,Jaspreet Singh,46/M,JJH-0077157,Dr. Ramesh Srivastava,Haemoglobin,8.6,g/dL,12.0-16.0,15/05/2026,16/05/2026
+S26000189,Jaspreet Singh,46/M,JJH-0077157,Dr. Ramesh Srivastava,Random Blood Sugar,235,mg/dL,70-140,15/05/2026,16/05/2026
+S26000189,Jaspreet Singh,46/M,JJH-0077157,Dr. Ramesh Srivastava,Serum Creatinine,2.0,mg/dL,0.6-1.2,15/05/2026,16/05/2026
+S26000189,JASPREET SINGH,46/M,JJH-0077157,Dr. Ramesh Srivastava,Platelet Count,175000,/uL,150000-410000,15/05/2026,16/05/2026
+S26000189,Jaspreet Singh,46/M,JJH-0077157,Dr. Ramesh Srivastava,Total WBC Count,11000,/uL,4000-11000,15/05/2026,16/05/2026
+S26000189,JASPREET SINGH,46/M,JJH-0077157,Dr. Ramesh Srivastava,Serum Sodium,145,mmol/L,135-145,15/05/2026,16/05/2026
+S26000190,Brijesh Yadav,27/M,JJH-0077243,Dr. Vandana Kulshrestha,Haemoglobin,14.7,g/dL,12.0-16.0,01/09/2026,03/09/2026
+S26000190,BRIJESH YADAV,27/M,JJH-0077243,Dr. Vandana Kulshrestha,Random Blood Sugar,290,mg/dL,70-140,01/09/2026,03/09/2026
+S26000190,Brijesh Yadav,27/M,JJH-0077243,Dr. Vandana Kulshrestha,Serum Creatinine,2.2,mg/dL,0.6-1.2,01/09/2026,03/09/2026
+S26000190,Brijesh Yadav,27/M,JJH-0077243,Dr. Vandana Kulshrestha,TSH,3.53,mIU/L,0.4-4.0,01/09/2026,03/09/2026
+S26000190,BRIJESH YADAV,27/M,JJH-0077243,Dr. Vandana Kulshrestha,Total WBC Count,7669,/uL,4000-11000,01/09/2026,03/09/2026
+S26000190,BRIJESH YADAV,27/M,JJH-0077243,Dr. Vandana Kulshrestha,Serum Sodium,131,mmol/L,135-145,01/09/2026,03/09/2026
+S26000191,Kamal Thakur,25/M,JJH-0077270,Dr. Vandana Kulshrestha,Haemoglobin,15.0,g/dL,12.0-16.0,24/03/2026,26/03/2026
+S26000191,Kamal Thakur,25/M,JJH-0077270,Dr. Vandana Kulshrestha,Random Blood Sugar,219,mg/dL,70-140,24/03/2026,26/03/2026
+S26000191,Kamal Thakur,25/M,JJH-0077270,Dr. Vandana Kulshrestha,Serum Creatinine,2.7,mg/dL,0.6-1.2,24/03/2026,26/03/2026
+S26000191,Kamal Thakur,25/M,JJH-0077270,Dr. Vandana Kulshrestha,Platelet Count,288000,/uL,150000-410000,24/03/2026,26/03/2026
+S26000191,KAMAL THAKUR,25/M,JJH-0077270,Dr. Vandana Kulshrestha,Total WBC Count,8510,/uL,4000-11000,24/03/2026,26/03/2026
+S26000191,KAMAL THAKUR,25/M,JJH-0077270,Dr. Vandana Kulshrestha,Serum Sodium,128,mmol/L,135-145,24/03/2026,26/03/2026
+S26000192,KAMAL THAKUR,26/M,JJH-0077270,Dr. Vandana Kulshrestha,Haemoglobin,12.5,g/dL,12.0-16.0,13/10/2026,15/10/2026
+S26000192,Kamal Thakur,26/M,JJH-0077270,Dr. Vandana Kulshrestha,Random Blood Sugar,143,mg/dL,70-140,13/10/2026,15/10/2026
+S26000192,Kamal Thakur,26/M,JJH-0077270,Dr. Vandana Kulshrestha,Serum Creatinine,3.2,mg/dL,0.6-1.2,13/10/2026,15/10/2026
+S26000192,Kamal Thakur,26/M,JJH-0077270,Dr. Vandana Kulshrestha,Total WBC Count,12000,/uL,4000-11000,13/10/2026,15/10/2026
+S26000192,Kamal Thakur,26/M,JJH-0077270,Dr. Vandana Kulshrestha,Serum Sodium,129,mmol/L,135-145,13/10/2026,15/10/2026
+S26000193,Harish Pandeya,21/M,JJH-0077320,Dr. Harjeet Bedi,Haemoglobin,7.5,g/dL,12.0-16.0,23/10/2026,23/10/2026
+S26000193,HARISH PANDEY,21/M,JJH-0077320,Dr. Harjeet Bedi,Random Blood Sugar,163,mg/dL,70-140,23/10/2026,23/10/2026
+S26000193,HARISH PANDEY,21/M,JJH-0077320,Dr. Harjeet Bedi,Serum Creatinine,1.2,mg/dL,0.6-1.2,23/10/2026,23/10/2026
+S26000193,Harish Pandey,21/M,JJH-0077320,Dr. Harjeet Bedi,Total WBC Count,13000,/uL,4000-11000,23/10/2026,23/10/2026
+S26000193,Harish Pandey,21/M,JJH-0077320,Dr. Harjeet Bedi,Serum Sodium,133,mmol/L,135-145,23/10/2026,23/10/2026
+S26000194,MANOJ YADAV,65/M,UHID-010623,Dr. Ramesh Srivastava,Haemoglobin,12.0,g/dL,12.0-16.0,26/09/2026,27/09/2026
+S26000194,MANOJ YADAV,65/M,UHID-010623,Dr. Ramesh Srivastava,Random Blood Sugar,292,mg/dL,70-140,26/09/2026,27/09/2026
+S26000194,Manoj Yadav,65/M,UHID-010623,Dr. Ramesh Srivastava,Serum Creatinine,0.8,mg/dL,0.6-1.2,26/09/2026,27/09/2026
+S26000194,Manoj Yadav,65/M,UHID-010623,Dr. Ramesh Srivastava,Platelet Count,107000,/uL,150000-410000,26/09/2026,27/09/2026
+S26000194,Manoj Yadav,65/M,UHID-010623,Dr. Ramesh Srivastava,Total WBC Count,16000,/uL,4000-11000,26/09/2026,27/09/2026
+S26000194,MANOJ YADAV,65/M,UHID-010623,Dr. Ramesh Srivastava,Serum Sodium,137,mmol/L,135-145,26/09/2026,27/09/2026
+S26000195,Sarita Tiwari,9/F,JJH-0077386,Dr. Harjeet Bedi,Haemoglobin,12.6,g/dL,12.0-16.0,17/05/2026,18/05/2026
+S26000195,Sarita Tiwari,9/F,JJH-0077386,Dr. Harjeet Bedi,Random Blood Sugar,235,mg/dL,70-140,17/05/2026,18/05/2026
+S26000195,Sarita Tiwari,9/F,JJH-0077386,Dr. Harjeet Bedi,Serum Creatinine,3.3,mg/dL,0.6-1.2,17/05/2026,18/05/2026
+S26000195,SARITA TIWARI,9/F,JJH-0077386,Dr. Harjeet Bedi,Total WBC Count,5807,/uL,4000-11000,17/05/2026,18/05/2026
+S26000195,Sarita Tiwari,9/F,JJH-0077386,Dr. Harjeet Bedi,Serum Sodium,135,mmol/L,135-145,17/05/2026,18/05/2026
+S26000196,SUNITA VERMA,69/F,SNJ/26/064473,Dr. Ramesh Srivastava,Haemoglobin,10.8,g/dL,12.0-16.0,06/10/2026,07/10/2026
+S26000196,SUNITA VERMA,69/F,SNJ/26/064473,Dr. Ramesh Srivastava,HbA1c,8.5,%,4.0-5.6,06/10/2026,07/10/2026
+S26000196,Suneeta Verma,69/F,SNJ/26/064473,Dr. Ramesh Srivastava,Random Blood Sugar,127,mg/dL,70-140,06/10/2026,07/10/2026
+S26000196,SUNITA VERMA,69/F,SNJ/26/064473,Dr. Ramesh Srivastava,Serum Creatinine,1.7,mg/dL,0.6-1.2,06/10/2026,07/10/2026
+S26000196,SUNITA VERMA,69/F,SNJ/26/064473,Dr. Ramesh Srivastava,Total WBC Count,8229,/uL,4000-11000,06/10/2026,07/10/2026
+S26000196,Sunita Verma,69/F,SNJ/26/064473,Dr. Ramesh Srivastava,Serum Sodium,127,mmol/L,135-145,06/10/2026,07/10/2026
+S26000197,SUNIL MISHRA,69/M,SNJ/26/064511,Dr. Vandana Kulshrestha,Haemoglobin,12.0,g/dL,12.0-16.0,29/05/2026,30/05/2026
+S26000197,SUNIL MISHRA,69/M,SNJ/26/064511,Dr. Vandana Kulshrestha,Random Blood Sugar,106,mg/dL,70-140,29/05/2026,30/05/2026
+S26000197,Sunil Mishra,69/M,SNJ/26/064511,Dr. Vandana Kulshrestha,Serum Creatinine,1.2,mg/dL,0.6-1.2,29/05/2026,30/05/2026
+S26000197,SUNIL MISHRA,69/M,SNJ/26/064511,Dr. Vandana Kulshrestha,Total WBC Count,4902,/uL,4000-11000,29/05/2026,30/05/2026
+S26000197,SUNIL MISHRA,69/M,SNJ/26/064511,Dr. Vandana Kulshrestha,Serum Sodium,127,mmol/L,135-145,29/05/2026,30/05/2026
+S26000198,SHANTI CHAUDHARY,49/F,JJH-0077484,Dr. Imtiaz Ahmed,Haemoglobin,11.0,g/dL,12.0-16.0,10/02/2026,12/02/2026
+S26000198,Shanti Chaudhary,49/F,JJH-0077484,Dr. Imtiaz Ahmed,Random Blood Sugar,320,mg/dL,70-140,10/02/2026,12/02/2026
+S26000198,Shanti Chaudhary,49/F,JJH-0077484,Dr. Imtiaz Ahmed,Serum Creatinine,2.2,mg/dL,0.6-1.2,10/02/2026,12/02/2026
+S26000198,Shanti Chaudhari,49/F,JJH-0077484,Dr. Imtiaz Ahmed,Total WBC Count,11000,/uL,4000-11000,10/02/2026,12/02/2026
+S26000198,Shanthi Choudhary,49/F,JJH-0077484,Dr. Imtiaz Ahmed,Serum Sodium,130,mmol/L,135-145,10/02/2026,12/02/2026

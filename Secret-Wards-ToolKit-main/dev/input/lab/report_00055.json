@@ -1,0 +1,63 @@
+{
+ "lab": "Pathkind Labs (Lucknow)",
+ "report_type": "Diagnostic report",
+ "patient": {
+  "name": "Manoj Yadav",
+  "age": 65,
+  "sex": "M",
+  "phone": "8921678541",
+  "hospital_uhid": "UHID-010623"
+ },
+ "referred_by": "Dr. Ramesh Srivastava",
+ "collected": "2026-09-13T09:30:00+05:30",
+ "panels": [
+  {
+   "name": "Routine",
+   "results": [
+    {
+     "test": "Haemoglobin",
+     "loinc": "718-7",
+     "value": 14.5,
+     "unit": "g/dL",
+     "range": "12.0-16.0"
+    },
+    {
+     "test": "Random Blood Sugar",
+     "loinc": "2345-7",
+     "value": 313,
+     "unit": "mg/dL",
+     "range": "70-140"
+    },
+    {
+     "test": "Serum Creatinine",
+     "loinc": "2160-0",
+     "value": 1.1,
+     "unit": "mg/dL",
+     "range": "0.6-1.2"
+    },
+    {
+     "test": "TSH",
+     "loinc": "3016-3",
+     "value": 6.79,
+     "unit": "mIU/L",
+     "range": "0.4-4.0"
+    },
+    {
+     "test": "Total WBC Count",
+     "loinc": "6690-2",
+     "value": 11000,
+     "unit": "/uL",
+     "range": "4000-11000"
+    },
+    {
+     "test": "Serum Sodium",
+     "loinc": "2951-2",
+     "value": 130,
+     "unit": "mmol/L",
+     "range": "135-145"
+    }
+   ]
+  }
+ ],
+ "remarks": "Sample received from Manoj's attendant (S/o Ramesh Yadav)."
+}

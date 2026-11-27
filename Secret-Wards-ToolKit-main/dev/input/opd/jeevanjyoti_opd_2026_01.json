@@ -1,0 +1,104 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Jeevan Jyoti Charitable Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-01-28T18:00:00+05:30"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/01/00099",
+      "patient_ref": "JJH-0077389",
+      "visit_date": "29-01-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "pet mein dard 6 din se",
+      "history": "K/C/O DM2 x 12 yrs",
+      "vitals": {
+        "bp": "125/73",
+        "pulse": 71,
+        "temp_f": 99.6,
+        "spo2": 96,
+        "weight_kg": 70
+      },
+      "diagnosis": [
+        {
+          "code": "D64.9",
+          "display": "Anaemia, unspecified"
+        },
+        {
+          "code": "J18.9",
+          "display": "Pneumonia, unspecified organism"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ferrous sulphate + Folic acid",
+          "strength": "100 mg + 0.5 mg",
+          "frequency": "0-1-0",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Azithromycin",
+          "strength": "500 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Rukhsana behenji ka BP 125/73, dawai time pe le rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Rukhsana Siddiqi",
+        "age_sex": "73/F",
+        "mobile": "+91-9473687554"
+      }
+    },
+    {
+      "visit_id": "OPD/26/01/00100",
+      "patient_ref": "JJH-0077058",
+      "visit_date": "12-01-2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "3 दिन से पेट दर्द",
+      "history": "No H/O DM/HTN",
+      "vitals": {
+        "bp": "135/75",
+        "pulse": 95,
+        "temp_f": 98.8,
+        "spo2": 91,
+        "weight_kg": 63
+      },
+      "diagnosis": [
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Sukhwinder ji ka BP 135/75, dawai time pe le rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Sukhvinder Kaur",
+        "age_sex": "27/F",
+        "mobile": "+91-7804494655"
+      }
+    }
+  ]
+}

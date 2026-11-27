@@ -1,0 +1,2 @@
+bill_no,uhid,patient_name,pmjay_id,payer_pan,policy_no,package_code,procedure,admission_date,discharge_date,amount_inr,status
+BL/26/000238,DHH2026-084999,Sunita Patel,PMJAY-UP-9179092733,HSYPP6166T,,SG039B,Laparoscopic cholecystectomy,26/10/2026,30/10/2026,26000,approved

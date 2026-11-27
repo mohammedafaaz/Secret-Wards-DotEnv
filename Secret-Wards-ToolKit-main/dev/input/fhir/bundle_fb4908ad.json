@@ -1,0 +1,537 @@
+{
+  "resourceType": "Bundle",
+  "id": "6cdf34c1-cac8-4096-81cc-4f7e072aa31e",
+  "meta": {
+    "lastUpdated": "2026-10-12T12:00:00+05:30",
+    "profile": [
+      "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"
+    ]
+  },
+  "identifier": {
+    "system": "https://jeevanjyoti.hospital.example/bundles",
+    "value": "6cdf34c1-cac8-4096-81cc-4f7e072aa31e"
+  },
+  "type": "document",
+  "timestamp": "2026-10-12T12:00:00+05:30",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:4ba70f89-b58e-4478-b3f9-0d86dc8709d5",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "4ba70f89-b58e-4478-b3f9-0d86dc8709d5",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373942005",
+              "display": "Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731",
+          "display": "Irfan Malik"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3f5f5af4-0ab4-4fa4-a70b-18be98238bcb"
+        },
+        "date": "2026-10-12T12:00:00+05:30",
+        "author": [
+          {
+            "reference": "urn:uuid:4f1b62b7-b9a2-4392-a6c9-aacdfa810cf5",
+            "display": "Dr. Harjeet Bedi"
+          }
+        ],
+        "title": "Discharge Summary",
+        "section": [
+          {
+            "title": "Diagnosis",
+            "entry": [
+              {
+                "reference": "urn:uuid:514bc9b7-f81d-4430-8e3a-a7ce0b526226"
+              },
+              {
+                "reference": "urn:uuid:b6ae9c60-4286-4730-8390-bd257f0acd4c"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "entry": [
+              {
+                "reference": "urn:uuid:8d80e651-e324-4f4f-aca4-fa78a1fad8c8"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "be442f72-56ad-4a2d-9213-1f46f7df7731",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Irfan Malik, 97 yrs, male, JJH-0077508</div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number"
+                }
+              ]
+            },
+            "system": "https://jeevanjyoti.hospital.example/uhid",
+            "value": "JJH-0077508"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-5093-7000-2893"
+          }
+        ],
+        "name": [
+          {
+            "text": "Irfan Malik",
+            "given": [
+              "Irfan"
+            ],
+            "family": "Malik"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-7419406242",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1928-11-29",
+        "address": [
+          {
+            "line": [
+              "H.No. 295, near Kali Mata Mandir, Tehsil Nawabganj, Distt. Barabanki"
+            ],
+            "city": "Gopalganj Khurd",
+            "district": "Barabanki",
+            "state": "Uttar Pradesh",
+            "postalCode": "225035",
+            "country": "IN"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Father"
+              }
+            ],
+            "name": {
+              "text": "Shahid Malik"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "url": "https://raksha.example/fhir/StructureDefinition/mothers-name",
+            "valueString": "Salma Devi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4f1b62b7-b9a2-4392-a6c9-aacdfa810cf5",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "4f1b62b7-b9a2-4392-a6c9-aacdfa810cf5",
+        "name": [
+          {
+            "text": "Dr. Harjeet Bedi"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "text": "MD Pulmonary Medicine"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:217ff41f-70d5-45ae-835b-63cfa03375ea",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "217ff41f-70d5-45ae-835b-63cfa03375ea",
+        "name": "Jeevan Jyoti Charitable Hospital",
+        "address": [
+          {
+            "city": "Barabanki",
+            "state": "Uttar Pradesh",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3f5f5af4-0ab4-4fa4-a70b-18be98238bcb",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "3f5f5af4-0ab4-4fa4-a70b-18be98238bcb",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "identifier": [
+          {
+            "system": "https://jeevanjyoti.hospital.example/ipd",
+            "value": "IP/26/00159"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "period": {
+          "start": "2026-10-08T15:45:00+05:30",
+          "end": "2026-10-12T12:00:00+05:30"
+        },
+        "location": [
+          {
+            "location": {
+              "display": "Ward 1 (Pulmonology)"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "urn:uuid:217ff41f-70d5-45ae-835b-63cfa03375ea"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:514bc9b7-f81d-4430-8e3a-a7ce0b526226",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "514bc9b7-f81d-4430-8e3a-a7ce0b526226",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J44.9",
+              "display": "Chronic obstructive pulmonary disease, unspecified"
+            }
+          ],
+          "text": "Chronic obstructive pulmonary disease, unspecified"
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3f5f5af4-0ab4-4fa4-a70b-18be98238bcb"
+        },
+        "recordedDate": "2026-10-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b6ae9c60-4286-4730-8390-bd257f0acd4c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b6ae9c60-4286-4730-8390-bd257f0acd4c",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "B55.0",
+              "display": "Visceral leishmaniasis (kala-azar)"
+            }
+          ],
+          "text": "Visceral leishmaniasis (kala-azar)"
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3f5f5af4-0ab4-4fa4-a70b-18be98238bcb"
+        },
+        "recordedDate": "2026-10-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:273ebced-d773-4c60-8c61-5c912a50c21f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "273ebced-d773-4c60-8c61-5c912a50c21f",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "effectiveDateTime": "2026-10-08T15:45:00+05:30",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 116,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 86,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a4d53f36-71c2-4dad-bb29-08349f9b67c1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a4d53f36-71c2-4dad-bb29-08349f9b67c1",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Haemoglobin"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "effectiveDateTime": "2026-10-08T15:45:00+05:30",
+        "valueQuantity": {
+          "value": 14.5,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:24666e70-32f6-4aeb-b6fb-f1b2f0b8a0b3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "24666e70-32f6-4aeb-b6fb-f1b2f0b8a0b3",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Random Blood Sugar"
+            }
+          ],
+          "text": "Random Blood Sugar"
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "effectiveDateTime": "2026-10-08T15:45:00+05:30",
+        "valueQuantity": {
+          "value": 271,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4bc2b7ae-8fd7-428b-a96a-709da6c48a2b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4bc2b7ae-8fd7-428b-a96a-709da6c48a2b",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Serum Creatinine"
+            }
+          ],
+          "text": "Serum Creatinine"
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "effectiveDateTime": "2026-10-08T15:45:00+05:30",
+        "valueQuantity": {
+          "value": 3.4,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:93368d52-86de-4263-8902-419343ba0fb6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "93368d52-86de-4263-8902-419343ba0fb6",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Total WBC Count"
+            }
+          ],
+          "text": "Total WBC Count"
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "effectiveDateTime": "2026-10-08T15:45:00+05:30",
+        "valueQuantity": {
+          "value": 7521,
+          "unit": "/uL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4a851cbd-d79c-4264-b0d7-85317a6e5cfd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4a851cbd-d79c-4264-b0d7-85317a6e5cfd",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Serum Sodium"
+            }
+          ],
+          "text": "Serum Sodium"
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "effectiveDateTime": "2026-10-08T15:45:00+05:30",
+        "valueQuantity": {
+          "value": 136,
+          "unit": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8d80e651-e324-4f4f-aca4-fa78a1fad8c8",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "8d80e651-e324-4f4f-aca4-fa78a1fad8c8",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Salbutamol inhaler 100 mcg"
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "authoredOn": "2026-10-12",
+        "dosageInstruction": [
+          {
+            "text": "100 mcg SOS (2 puffs) when breathless"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:38807972-a6b2-4545-b107-bf706420e267",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "38807972-a6b2-4545-b107-bf706420e267",
+        "status": "completed",
+        "code": {
+          "text": "Whipple procedure (pancreaticoduodenectomy)"
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "performedDateTime": "2026-10-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:954fab9e-5c8d-42a5-98e4-0d880f41362c",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "954fab9e-5c8d-42a5-98e4-0d880f41362c",
+        "status": "current",
+        "type": {
+          "text": "Referral letter"
+        },
+        "subject": {
+          "reference": "urn:uuid:be442f72-56ad-4a2d-9213-1f46f7df7731"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "language": "en",
+              "data": "UmVmZXJyYWw6IElyZmFuIE1hbGlrIChKSkgtMDA3NzUwOCksIG1vYmlsZSA3NDE5NDA2MjQyLCByZWZlcnJlZCBmb3IgZm9sbG93LXVwIG9mIENocm9uaWMgb2JzdHJ1Y3RpdmUgcHVsbW9uYXJ5IGRpc2Vhc2UsIHVuc3BlY2lmaWVkLg==",
+              "title": "Referral letter"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

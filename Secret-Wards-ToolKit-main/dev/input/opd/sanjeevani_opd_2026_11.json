@@ -1,0 +1,111 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Sanjeevani Multispeciality Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-11-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Kavita_Pandey_064371\\visits_2026_11.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/11/00185",
+      "patient_ref": "SNJ/26/064371",
+      "visit_date": "07/11/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O pain abdomen x 8 days",
+      "history": "K/C/O HTN on treatment",
+      "vitals": {
+        "bp": "162/98",
+        "pulse": 109,
+        "temp_f": 97.8,
+        "spo2": 93,
+        "weight_kg": 77
+      },
+      "diagnosis": [
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        },
+        {
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Metformin",
+          "strength": "500 mg",
+          "frequency": "1-0-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Glimepiride",
+          "strength": "1 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Kavita didi ka BP 162/98, dawai time pe le rahe hain. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/11/00186",
+      "patient_ref": "SNJ/26/064611",
+      "visit_date": "10/11/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O cough with expectoration x 8 weeks",
+      "history": "H/O TB 4 yrs back, completed ATT",
+      "vitals": {
+        "bp": "117/71",
+        "pulse": 105,
+        "temp_f": 98.4,
+        "spo2": 96,
+        "weight_kg": 14
+      },
+      "diagnosis": [
+        {
+          "code": "E83.0",
+          "display": "Wilson's disease"
+        },
+        {
+          "code": "I25.1",
+          "display": "Atherosclerotic heart disease"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Atorvastatin",
+          "strength": "10 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Farida behenji ka BP 117/71, khana kam kha rahe hain. Review after 2 weeks."
+    }
+  ]
+}

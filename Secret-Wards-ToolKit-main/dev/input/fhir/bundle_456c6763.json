@@ -1,0 +1,508 @@
+{
+  "resourceType": "Bundle",
+  "id": "461d4b78-6eef-4c55-ba7c-968753616318",
+  "meta": {
+    "lastUpdated": "2026-07-28T09:00:00+05:30",
+    "profile": [
+      "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"
+    ],
+    "source": "#SNJ/26/064441"
+  },
+  "identifier": {
+    "system": "https://sanjeevani.hospital.example/bundles",
+    "value": "461d4b78-6eef-4c55-ba7c-968753616318"
+  },
+  "type": "document",
+  "timestamp": "2026-07-28T09:00:00+05:30",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:4fdb2c08-c9ef-4ab8-acdc-a9c5f35331cc",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "4fdb2c08-c9ef-4ab8-acdc-a9c5f35331cc",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373942005",
+              "display": "Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd",
+          "display": "Naresh Chaudhary"
+        },
+        "encounter": {
+          "reference": "urn:uuid:c999a953-e740-4646-839a-05057e6d8468"
+        },
+        "date": "2026-07-28T09:00:00+05:30",
+        "author": [
+          {
+            "reference": "urn:uuid:11d7ff9f-ae22-449c-bb7e-f959aad82220",
+            "display": "Dr. Harjeet Bedi"
+          }
+        ],
+        "title": "Discharge Summary",
+        "section": [
+          {
+            "title": "Diagnosis",
+            "entry": [
+              {
+                "reference": "urn:uuid:94b0443f-8071-4a71-acf1-b43a8f2e55d1"
+              },
+              {
+                "reference": "urn:uuid:c15c4208-73c2-4d45-ad56-9ba459c4e630"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "entry": [
+              {
+                "reference": "urn:uuid:f7ba73c8-5a15-4449-92e4-c26e845aa0dd"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "76b6980b-5c2d-4743-b2db-367658e454fd",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Naresh Chaudhary, 95 yrs, male, SNJ/26/064441</div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number"
+                }
+              ]
+            },
+            "system": "https://sanjeevani.hospital.example/uhid",
+            "value": "SNJ/26/064441"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-4812-6888-4174"
+          }
+        ],
+        "name": [
+          {
+            "text": "Naresh Chaudhary",
+            "given": [
+              "Naresh"
+            ],
+            "family": "Chaudhary"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-7008653422",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1930-08-23",
+        "address": [
+          {
+            "line": [
+              "H.No. 389, near Panchayat Bhawan, Tehsil Nanpara, Distt. Bahraich"
+            ],
+            "city": "Shivgarh",
+            "district": "Bahraich",
+            "state": "Uttar Pradesh",
+            "postalCode": "271132",
+            "country": "IN"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Father"
+              }
+            ],
+            "name": {
+              "text": "Anil Chaudhary"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:11d7ff9f-ae22-449c-bb7e-f959aad82220",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "11d7ff9f-ae22-449c-bb7e-f959aad82220",
+        "name": [
+          {
+            "text": "Dr. Harjeet Bedi"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "text": "MD Pulmonary Medicine"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fb54274f-295e-481f-9cf3-1f2319c81775",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "fb54274f-295e-481f-9cf3-1f2319c81775",
+        "name": "Sanjeevani Multispeciality Hospital",
+        "address": [
+          {
+            "city": "Lucknow",
+            "state": "Uttar Pradesh",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c999a953-e740-4646-839a-05057e6d8468",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "c999a953-e740-4646-839a-05057e6d8468",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "identifier": [
+          {
+            "system": "https://sanjeevani.hospital.example/ipd",
+            "value": "IPD-2026-00460"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd"
+        },
+        "period": {
+          "start": "2026-07-23T12:00:00+05:30",
+          "end": "2026-07-28T09:00:00+05:30"
+        },
+        "location": [
+          {
+            "location": {
+              "display": "Ward 2 (Pulmonology)"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "urn:uuid:fb54274f-295e-481f-9cf3-1f2319c81775"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:94b0443f-8071-4a71-acf1-b43a8f2e55d1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "94b0443f-8071-4a71-acf1-b43a8f2e55d1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J45.9",
+              "display": "Asthma, unspecified"
+            }
+          ],
+          "text": "Asthma, unspecified"
+        },
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd"
+        },
+        "encounter": {
+          "reference": "urn:uuid:c999a953-e740-4646-839a-05057e6d8468"
+        },
+        "recordedDate": "2026-07-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c15c4208-73c2-4d45-ad56-9ba459c4e630",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c15c4208-73c2-4d45-ad56-9ba459c4e630",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A82.9",
+              "display": "Rabies, unspecified"
+            }
+          ],
+          "text": "Rabies, unspecified"
+        },
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd"
+        },
+        "encounter": {
+          "reference": "urn:uuid:c999a953-e740-4646-839a-05057e6d8468"
+        },
+        "recordedDate": "2026-07-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6561ad76-5918-43a1-a701-ffd7ec2c8499",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6561ad76-5918-43a1-a701-ffd7ec2c8499",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd"
+        },
+        "effectiveDateTime": "2026-07-23T12:00:00+05:30",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 119,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 85,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e1802609-72e3-4bd2-9514-0da8a56ce1ae",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e1802609-72e3-4bd2-9514-0da8a56ce1ae",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Haemoglobin"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd"
+        },
+        "effectiveDateTime": "2026-07-23T12:00:00+05:30",
+        "valueQuantity": {
+          "value": 9.1,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9fbec6e4-4f92-47bb-a558-9dbcaa531cc9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9fbec6e4-4f92-47bb-a558-9dbcaa531cc9",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Random Blood Sugar"
+            }
+          ],
+          "text": "Random Blood Sugar"
+        },
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd"
+        },
+        "effectiveDateTime": "2026-07-23T12:00:00+05:30",
+        "valueQuantity": {
+          "value": 261,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6b91cf8e-2062-467f-a864-14227149dd7b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6b91cf8e-2062-467f-a864-14227149dd7b",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Serum Creatinine"
+            }
+          ],
+          "text": "Serum Creatinine"
+        },
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd"
+        },
+        "effectiveDateTime": "2026-07-23T12:00:00+05:30",
+        "valueQuantity": {
+          "value": 1.8,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d142f0e4-632f-4287-b4c0-a57d5549045d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d142f0e4-632f-4287-b4c0-a57d5549045d",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Total WBC Count"
+            }
+          ],
+          "text": "Total WBC Count"
+        },
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd"
+        },
+        "effectiveDateTime": "2026-07-23T12:00:00+05:30",
+        "valueQuantity": {
+          "value": 5589,
+          "unit": "/uL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:093317b2-dbab-4eb7-bc1a-0a3a21e9011d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "093317b2-dbab-4eb7-bc1a-0a3a21e9011d",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Serum Sodium"
+            }
+          ],
+          "text": "Serum Sodium"
+        },
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd"
+        },
+        "effectiveDateTime": "2026-07-23T12:00:00+05:30",
+        "valueQuantity": {
+          "value": 138,
+          "unit": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f7ba73c8-5a15-4449-92e4-c26e845aa0dd",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "f7ba73c8-5a15-4449-92e4-c26e845aa0dd",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Salbutamol inhaler 100 mcg"
+        },
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd"
+        },
+        "authoredOn": "2026-07-28",
+        "dosageInstruction": [
+          {
+            "text": "100 mcg SOS (2 puffs) when breathless"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2d66cf73-e4bc-4a4c-90b3-be277e3f31ab",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "2d66cf73-e4bc-4a4c-90b3-be277e3f31ab",
+        "status": "completed",
+        "code": {
+          "text": "Deep brain stimulation"
+        },
+        "subject": {
+          "reference": "urn:uuid:76b6980b-5c2d-4743-b2db-367658e454fd"
+        },
+        "performedDateTime": "2026-07-23"
+      }
+    }
+  ]
+}

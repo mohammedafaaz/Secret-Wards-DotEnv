@@ -1,0 +1,233 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Sanjeevani Multispeciality Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-02-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Rajan_Chauhan_064330\\visits_2026_02.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/02/00152",
+      "patient_ref": "SNJ/26/064330",
+      "visit_date": "24/02/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "7 din se bukhar",
+      "history": "H/O snake bite 6 yrs back",
+      "vitals": {
+        "bp": "122/68",
+        "pulse": 89,
+        "temp_f": 101.6,
+        "spo2": 95,
+        "weight_kg": 81
+      },
+      "diagnosis": [
+        {
+          "code": "A01.0",
+          "display": "Typhoid fever"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ceftriaxone",
+          "strength": "1 g",
+          "frequency": "IV",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Rajan bhai ka BP 122/68, sugar control nahi hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Rajan Chauhan",
+        "age_sex": "71/M",
+        "mobile": "+91-7724271168"
+      }
+    },
+    {
+      "visit_id": "OPD/26/02/00153",
+      "patient_ref": "SNJ/26/064254",
+      "visit_date": "12/02/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O burning micturition x 3 days",
+      "history": "H/O TB 4 yrs back, completed ATT",
+      "vitals": {
+        "bp": "130/76",
+        "pulse": 106,
+        "temp_f": 102.8,
+        "spo2": 89,
+        "weight_kg": 89
+      },
+      "diagnosis": [
+        {
+          "code": "A01.0",
+          "display": "Typhoid fever"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ceftriaxone",
+          "strength": "1 g",
+          "frequency": "IV",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Jaspreet ka BP 130/76, khana kam kha rahe hain. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/02/00154",
+      "patient_ref": "SNJ/26/064545",
+      "visit_date": "07/02/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O loose stools x 9 days",
+      "history": "K/C/O HTN on treatment",
+      "vitals": {
+        "bp": "126/73",
+        "pulse": 79,
+        "temp_f": 103.3,
+        "spo2": 96,
+        "weight_kg": 86
+      },
+      "diagnosis": [
+        {
+          "code": "A01.0",
+          "display": "Typhoid fever"
+        },
+        {
+          "code": "D64.9",
+          "display": "Anaemia, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ceftriaxone",
+          "strength": "1 g",
+          "frequency": "IV",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Ferrous sulphate + Folic acid",
+          "strength": "100 mg + 0.5 mg",
+          "frequency": "0-1-0",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Shabana amma ka BP 126/73, raat ko neend theek se aayi. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/02/00155",
+      "patient_ref": "SNJ/26/064211",
+      "visit_date": "04/02/2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "C/O loose stools x 5 days",
+      "history": "K/C/O DM2 x 6 yrs",
+      "vitals": {
+        "bp": "108/67",
+        "pulse": 105,
+        "temp_f": 97.9,
+        "spo2": 98,
+        "weight_kg": 15
+      },
+      "diagnosis": [
+        {
+          "code": "J45.9",
+          "display": "Asthma, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Salbutamol inhaler",
+          "strength": "100 mcg",
+          "frequency": "2 puffs",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Shyam ka BP 108/67, raat ko neend theek se aayi. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/02/00156",
+      "patient_ref": "SNJ/26/064427",
+      "visit_date": "18/02/2026",
+      "department": "Neurology",
+      "doctor": "Dr. Sameer Rizvi",
+      "complaints": "C/O cough with expectoration x 8 weeks",
+      "history": "H/O TB 2 yrs back, completed ATT",
+      "vitals": {
+        "bp": "121/79",
+        "pulse": 96,
+        "temp_f": 97.6,
+        "spo2": 91,
+        "weight_kg": 85
+      },
+      "diagnosis": [
+        {
+          "code": "G51.0",
+          "display": "Bell's palsy"
+        },
+        {
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Metformin",
+          "strength": "500 mg",
+          "frequency": "1-0-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Glimepiride",
+          "strength": "1 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Zainab ka BP 121/79, chal phir sakte hain. Review after 2 weeks."
+    }
+  ]
+}

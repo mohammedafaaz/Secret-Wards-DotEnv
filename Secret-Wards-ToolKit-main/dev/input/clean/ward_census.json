@@ -1,0 +1,42 @@
+{
+  "hospital": "Sanjeevani Multispeciality Hospital",
+  "week": "2026-W44",
+  "wards": [
+    {
+      "ward": "Ward 1",
+      "beds": 30,
+      "occupied": 21,
+      "dengue_cases": 1
+    },
+    {
+      "ward": "Ward 2",
+      "beds": 30,
+      "occupied": 17,
+      "dengue_cases": 5
+    },
+    {
+      "ward": "Ward 3",
+      "beds": 30,
+      "occupied": 21,
+      "dengue_cases": 3
+    },
+    {
+      "ward": "Ward 4",
+      "beds": 30,
+      "occupied": 19,
+      "dengue_cases": 2
+    },
+    {
+      "ward": "Ward 5",
+      "beds": 30,
+      "occupied": 20,
+      "dengue_cases": 0
+    },
+    {
+      "ward": "Ward 6",
+      "beds": 30,
+      "occupied": 13,
+      "dengue_cases": 4
+    }
+  ]
+}

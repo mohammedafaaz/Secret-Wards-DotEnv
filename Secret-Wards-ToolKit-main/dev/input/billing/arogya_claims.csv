@@ -1,0 +1,4 @@
+bill_no,uhid,patient_name,pmjay_id,payer_pan,policy_no,package_code,procedure,admission_date,discharge_date,amount_inr,status
+BL/26/000235,UHID-010607,Mohammad Shahid,,DCSPS3454E,POL/33/83255643,SG050A,Inguinal hernia repair,13/01/2026,18/01/2026,91000,settled
+BL/26/000236,UHID-010623,MANOJ YADAV,PMJAY-UP-3398744800,JKCPY2954A,,MG064A,Haemodialysis session,26/09/2026,08/10/2026,15000,pending
+BL/26/000237,UHID-010660,Parvati Pandey,PMJAY-UP-3333150894,EWVPP1403H,,SG039B,Laparoscopic cholecystectomy,11/10/2026,21/10/2026,79500,approved

@@ -1,0 +1,535 @@
+{
+  "resourceType": "Bundle",
+  "id": "1620bc22-64de-42a7-ab2d-c1e93063dc61",
+  "meta": {
+    "lastUpdated": "2026-04-23T12:00:00+05:30",
+    "profile": [
+      "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"
+    ]
+  },
+  "identifier": {
+    "system": "https://jeevanjyoti.hospital.example/bundles",
+    "value": "1620bc22-64de-42a7-ab2d-c1e93063dc61"
+  },
+  "type": "document",
+  "timestamp": "2026-04-23T12:00:00+05:30",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:9fe013fc-d620-4ba8-93ed-41483f3f5a33",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "9fe013fc-d620-4ba8-93ed-41483f3f5a33",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373942005",
+              "display": "Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202",
+          "display": "Zainab Siddiqui"
+        },
+        "encounter": {
+          "reference": "urn:uuid:ca5d167b-bd32-4999-9cd8-d9a67ca3bcc3"
+        },
+        "date": "2026-04-23T12:00:00+05:30",
+        "author": [
+          {
+            "reference": "urn:uuid:16fb81a3-53cf-4a50-9363-40f92999ea98",
+            "display": "Dr. Vandana Kulshrestha"
+          }
+        ],
+        "title": "Discharge Summary",
+        "section": [
+          {
+            "title": "Diagnosis",
+            "entry": [
+              {
+                "reference": "urn:uuid:637cadbc-82e0-4150-a470-4d261cd8142a"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "entry": [
+              {
+                "reference": "urn:uuid:6cc3d321-9f5a-4592-8636-1f10fff3a691"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "00bde1ad-6a9a-4961-a90b-5b7caf34b202",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Zainab Siddiqui, 23 yrs, female, JJH-0077112</div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number"
+                }
+              ]
+            },
+            "system": "https://jeevanjyoti.hospital.example/uhid",
+            "value": "JJH-0077112"
+          }
+        ],
+        "name": [
+          {
+            "text": "Zainab Siddiqui",
+            "given": [
+              "Zainab"
+            ],
+            "family": "Siddiqui"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-7312200406",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2003-03-20",
+        "address": [
+          {
+            "line": [
+              "H.No. 86, Ward 18, Mohalla Kashiram Colony, near Gurudwara, Tehsil Nanpara, Distt. Bahraich"
+            ],
+            "city": "Devgarh Kalan",
+            "district": "Bahraich",
+            "state": "Uttar Pradesh",
+            "postalCode": "271132",
+            "country": "IN"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Husband"
+              }
+            ],
+            "name": {
+              "text": "Salim Siddiqui"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "url": "https://raksha.example/fhir/StructureDefinition/mothers-name",
+            "valueString": "Salma Devi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:16fb81a3-53cf-4a50-9363-40f92999ea98",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "16fb81a3-53cf-4a50-9363-40f92999ea98",
+        "name": [
+          {
+            "text": "Dr. Vandana Kulshrestha"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "text": "MD Medicine"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7bcd38f4-ab27-476b-9d65-1267e8c1af55",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "7bcd38f4-ab27-476b-9d65-1267e8c1af55",
+        "name": "Jeevan Jyoti Charitable Hospital",
+        "address": [
+          {
+            "city": "Barabanki",
+            "state": "Uttar Pradesh",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ca5d167b-bd32-4999-9cd8-d9a67ca3bcc3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "ca5d167b-bd32-4999-9cd8-d9a67ca3bcc3",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "identifier": [
+          {
+            "system": "https://jeevanjyoti.hospital.example/ipd",
+            "value": "IP/26/00126"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "period": {
+          "start": "2026-04-21T17:15:00+05:30",
+          "end": "2026-04-23T12:00:00+05:30"
+        },
+        "location": [
+          {
+            "location": {
+              "display": "Ward 9 (Medicine)"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "urn:uuid:7bcd38f4-ab27-476b-9d65-1267e8c1af55"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:637cadbc-82e0-4150-a470-4d261cd8142a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "637cadbc-82e0-4150-a470-4d261cd8142a",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E03.9",
+              "display": "Hypothyroidism, unspecified"
+            }
+          ],
+          "text": "Hypothyroidism, unspecified"
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "encounter": {
+          "reference": "urn:uuid:ca5d167b-bd32-4999-9cd8-d9a67ca3bcc3"
+        },
+        "recordedDate": "2026-04-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8eccf0c6-ee74-4f06-9d5e-225ea31de590",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8eccf0c6-ee74-4f06-9d5e-225ea31de590",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "effectiveDateTime": "2026-04-21T17:15:00+05:30",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 134,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 82,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9b5a995d-7803-4276-a8ff-40e6bcc7ec48",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9b5a995d-7803-4276-a8ff-40e6bcc7ec48",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Haemoglobin"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "effectiveDateTime": "2026-04-21T17:15:00+05:30",
+        "valueQuantity": {
+          "value": 9.2,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5154ebc0-2553-42f5-abb0-781c12cb2a6b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5154ebc0-2553-42f5-abb0-781c12cb2a6b",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "HbA1c"
+            }
+          ],
+          "text": "HbA1c"
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "effectiveDateTime": "2026-04-21T17:15:00+05:30",
+        "valueQuantity": {
+          "value": 8.2,
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bca60f7e-1196-4cba-a0ec-74cae78d8b16",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bca60f7e-1196-4cba-a0ec-74cae78d8b16",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Random Blood Sugar"
+            }
+          ],
+          "text": "Random Blood Sugar"
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "effectiveDateTime": "2026-04-21T17:15:00+05:30",
+        "valueQuantity": {
+          "value": 111,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ad12498f-1df9-4895-8cc5-ef79c3b941a0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ad12498f-1df9-4895-8cc5-ef79c3b941a0",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Serum Creatinine"
+            }
+          ],
+          "text": "Serum Creatinine"
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "effectiveDateTime": "2026-04-21T17:15:00+05:30",
+        "valueQuantity": {
+          "value": 3.2,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:304fd17b-8717-458b-ac0d-ec21bb9f20b8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "304fd17b-8717-458b-ac0d-ec21bb9f20b8",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3016-3",
+              "display": "TSH"
+            }
+          ],
+          "text": "TSH"
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "effectiveDateTime": "2026-04-21T17:15:00+05:30",
+        "valueQuantity": {
+          "value": 2.18,
+          "unit": "mIU/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab7565d0-8320-4886-98bf-5e88d098bf64",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ab7565d0-8320-4886-98bf-5e88d098bf64",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Total WBC Count"
+            }
+          ],
+          "text": "Total WBC Count"
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "effectiveDateTime": "2026-04-21T17:15:00+05:30",
+        "valueQuantity": {
+          "value": 16000,
+          "unit": "/uL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:831aad7f-b11d-44d2-862b-e8535a8debf9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "831aad7f-b11d-44d2-862b-e8535a8debf9",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Serum Sodium"
+            }
+          ],
+          "text": "Serum Sodium"
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "effectiveDateTime": "2026-04-21T17:15:00+05:30",
+        "valueQuantity": {
+          "value": 142,
+          "unit": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6cc3d321-9f5a-4592-8636-1f10fff3a691",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "6cc3d321-9f5a-4592-8636-1f10fff3a691",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Levothyroxine 50 mcg"
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "authoredOn": "2026-04-23",
+        "dosageInstruction": [
+          {
+            "text": "50 mcg OD (1-0-0) empty stomach"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7454f7b9-63d0-476f-a810-5f1f29fd6b21",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "7454f7b9-63d0-476f-a810-5f1f29fd6b21",
+        "status": "current",
+        "type": {
+          "text": "Referral letter"
+        },
+        "subject": {
+          "reference": "urn:uuid:00bde1ad-6a9a-4961-a90b-5b7caf34b202"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "language": "en",
+              "data": "UmVmZXJyYWw6IFphaW5hYiBTaWRkaXF1aSAoSkpILTAwNzcxMTIpLCBtb2JpbGUgNzMxMjIwMDQwNiwgcmVmZXJyZWQgZm9yIGZvbGxvdy11cCBvZiBIeXBvdGh5cm9pZGlzbSwgdW5zcGVjaWZpZWQu",
+              "title": "Referral letter"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

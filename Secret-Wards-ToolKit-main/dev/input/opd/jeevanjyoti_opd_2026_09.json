@@ -1,0 +1,175 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Jeevan Jyoti Charitable Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-09-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Sukhwinder_Kaur_0077058\\visits_2026_09.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/09/00139",
+      "patient_ref": "JJH-0077058",
+      "visit_date": "19-09-2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "C/O fever for 7 days",
+      "history": "K/C/O DM2 x 10 yrs",
+      "vitals": {
+        "bp": "114/75",
+        "pulse": 102,
+        "temp_f": 98.0,
+        "spo2": 93,
+        "weight_kg": 80
+      },
+      "diagnosis": [
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Sukhwinder ji ka BP 114/75, khana kam kha rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Sukhwinder Kaur",
+        "age_sex": "27/F",
+        "mobile": "+91-7804494655"
+      }
+    },
+    {
+      "visit_id": "OPD/26/09/00140",
+      "patient_ref": "JJH-0077243",
+      "visit_date": "01-09-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O pain abdomen x 6 days",
+      "history": "No H/O DM/HTN",
+      "vitals": {
+        "bp": "133/69",
+        "pulse": 66,
+        "temp_f": 101.3,
+        "spo2": 96,
+        "weight_kg": 76
+      },
+      "diagnosis": [
+        {
+          "code": "A01.0",
+          "display": "Typhoid fever"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ceftriaxone",
+          "strength": "1 g",
+          "frequency": "IV",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Brijesh sahab ka BP 133/69, bukhar utar gaya hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Brijesh Yadav",
+        "age_sex": "27/M",
+        "mobile": "+91-6939821446"
+      }
+    },
+    {
+      "visit_id": "OPD/26/09/00141",
+      "patient_ref": "JJH-0077320",
+      "visit_date": "23-09-2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "C/O cough with expectoration x 8 weeks",
+      "history": "K/C/O HTN on treatment",
+      "vitals": {
+        "bp": "142/98",
+        "pulse": 99,
+        "temp_f": 102.4,
+        "spo2": 97,
+        "weight_kg": 58
+      },
+      "diagnosis": [
+        {
+          "code": "J18.9",
+          "display": "Pneumonia, unspecified organism"
+        },
+        {
+          "code": "A09",
+          "display": "Infectious gastroenteritis and colitis, unspecified"
+        },
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Azithromycin",
+          "strength": "500 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "ORS",
+          "strength": "1 sachet",
+          "frequency": "after each loose stool",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Harish ka BP 142/98, dawai time pe le rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Harish Pandey",
+        "age_sex": "21/M",
+        "mobile": "+91-7148988804"
+      }
+    }
+  ]
+}

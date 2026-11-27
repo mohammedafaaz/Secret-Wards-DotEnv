@@ -1,0 +1,56 @@
+{
+ "lab": "City Diagnostics",
+ "report_type": "Diagnostic report",
+ "patient": {
+  "name": "Shanthi Chaudhari",
+  "age": 49,
+  "sex": "F",
+  "phone": "8081120924",
+  "hospital_uhid": "JJH-0077484"
+ },
+ "referred_by": "Dr. Kavya Menon",
+ "collected": "2026-02-12T09:30:00+05:30",
+ "panels": [
+  {
+   "name": "Routine",
+   "results": [
+    {
+     "test": "Haemoglobin",
+     "loinc": "718-7",
+     "value": 12.1,
+     "unit": "g/dL",
+     "range": "12.0-16.0"
+    },
+    {
+     "test": "Random Blood Sugar",
+     "loinc": "2345-7",
+     "value": 121,
+     "unit": "mg/dL",
+     "range": "70-140"
+    },
+    {
+     "test": "Serum Creatinine",
+     "loinc": "2160-0",
+     "value": 2.0,
+     "unit": "mg/dL",
+     "range": "0.6-1.2"
+    },
+    {
+     "test": "Total WBC Count",
+     "loinc": "6690-2",
+     "value": 13000,
+     "unit": "/uL",
+     "range": "4000-11000"
+    },
+    {
+     "test": "Serum Sodium",
+     "loinc": "2951-2",
+     "value": 138,
+     "unit": "mmol/L",
+     "range": "135-145"
+    }
+   ]
+  }
+ ],
+ "remarks": "Sample received from Shanti's attendant (W/o Prakash Tiwari)."
+}

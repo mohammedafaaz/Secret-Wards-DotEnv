@@ -1,0 +1,42 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Arogya Seva Sadan",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-02-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Anita_Sharma_010565\\visits_2026_02.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/02/00085",
+      "patient_ref": "UHID-010565",
+      "visit_date": "2026-02-15",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O pain abdomen x 7 days",
+      "history": "K/C/O DM2 x 8 yrs",
+      "vitals": {
+        "bp": "112/78",
+        "pulse": 90,
+        "temp_f": 97.9,
+        "spo2": 98,
+        "weight_kg": 9
+      },
+      "diagnosis": [
+        {
+          "code": "K50.9",
+          "display": "Crohn's disease, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Anita behenji ka BP 112/78, ulti band ho gayi. Review after 2 weeks."
+    }
+  ]
+}

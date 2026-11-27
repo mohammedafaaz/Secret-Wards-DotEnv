@@ -1,0 +1,468 @@
+{
+  "resourceType": "Bundle",
+  "id": "e67e9296-c8e8-48a9-9149-f13bd5a04c72",
+  "meta": {
+    "lastUpdated": "2026-02-20T12:00:00+05:30",
+    "profile": [
+      "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"
+    ]
+  },
+  "identifier": {
+    "system": "https://jeevanjyoti.hospital.example/bundles",
+    "value": "e67e9296-c8e8-48a9-9149-f13bd5a04c72"
+  },
+  "type": "document",
+  "timestamp": "2026-02-20T12:00:00+05:30",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:73f4757a-1266-4e44-92e3-637dc91d3fcb",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "73f4757a-1266-4e44-92e3-637dc91d3fcb",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373942005",
+              "display": "Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5",
+          "display": "Shanti Chaudhary"
+        },
+        "encounter": {
+          "reference": "urn:uuid:c1819fd0-b468-4ede-a286-97bf01206b65"
+        },
+        "date": "2026-02-20T12:00:00+05:30",
+        "author": [
+          {
+            "reference": "urn:uuid:d7a2688d-b15b-47fd-92cd-714104f2a2c9",
+            "display": "Dr. Imtiaz Ahmed"
+          }
+        ],
+        "title": "Discharge Summary",
+        "section": [
+          {
+            "title": "Diagnosis",
+            "entry": [
+              {
+                "reference": "urn:uuid:8ebf67d8-b4b8-48a5-9d9e-4e9176cd8ef2"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "entry": [
+              {
+                "reference": "urn:uuid:38135e67-4b67-44b8-a3cc-6fac6ee1e600"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "231534ba-b5a2-4297-8eda-6d777802e4f5",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Shanti Chaudhary, 49 yrs, female, JJH-0077484</div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number"
+                }
+              ]
+            },
+            "system": "https://jeevanjyoti.hospital.example/uhid",
+            "value": "JJH-0077484"
+          }
+        ],
+        "name": [
+          {
+            "text": "Shanti Chaudhary",
+            "given": [
+              "Shanti"
+            ],
+            "family": "Chaudhary"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-8081120924",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1976-02-19",
+        "address": [
+          {
+            "line": [
+              "House 87, Tehsil Haidergarh, Distt. Barabanki"
+            ],
+            "city": "Shivmau Khurd",
+            "district": "Barabanki",
+            "state": "Uttar Pradesh",
+            "postalCode": "225362",
+            "country": "IN"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Husband"
+              }
+            ],
+            "name": {
+              "text": "Prakash Tiwari"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d7a2688d-b15b-47fd-92cd-714104f2a2c9",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "d7a2688d-b15b-47fd-92cd-714104f2a2c9",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Ahmed"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "text": "MS Surgery"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e361b7a1-7098-4898-a064-beec70670405",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "e361b7a1-7098-4898-a064-beec70670405",
+        "name": "Jeevan Jyoti Charitable Hospital",
+        "address": [
+          {
+            "city": "Barabanki",
+            "state": "Uttar Pradesh",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c1819fd0-b468-4ede-a286-97bf01206b65",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "c1819fd0-b468-4ede-a286-97bf01206b65",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "identifier": [
+          {
+            "system": "https://jeevanjyoti.hospital.example/ipd",
+            "value": "IP/26/00151"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5"
+        },
+        "period": {
+          "start": "2026-02-10T12:45:00+05:30",
+          "end": "2026-02-20T12:00:00+05:30"
+        },
+        "location": [
+          {
+            "location": {
+              "display": "Ward 6 (Surgery)"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "urn:uuid:e361b7a1-7098-4898-a064-beec70670405"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8ebf67d8-b4b8-48a5-9d9e-4e9176cd8ef2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8ebf67d8-b4b8-48a5-9d9e-4e9176cd8ef2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "N18.3",
+              "display": "Chronic kidney disease, stage 3"
+            }
+          ],
+          "text": "Chronic kidney disease, stage 3"
+        },
+        "subject": {
+          "reference": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5"
+        },
+        "encounter": {
+          "reference": "urn:uuid:c1819fd0-b468-4ede-a286-97bf01206b65"
+        },
+        "recordedDate": "2026-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2408ddf8-cc3c-4777-a83e-a61c1022010a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2408ddf8-cc3c-4777-a83e-a61c1022010a",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5"
+        },
+        "effectiveDateTime": "2026-02-10T12:45:00+05:30",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 131,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 76,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:539d9eee-1a8a-4ed1-8f78-7ee5e47ed2f8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "539d9eee-1a8a-4ed1-8f78-7ee5e47ed2f8",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Haemoglobin"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5"
+        },
+        "effectiveDateTime": "2026-02-10T12:45:00+05:30",
+        "valueQuantity": {
+          "value": 11.0,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4fcc7029-56ca-49a4-a216-255295775c98",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4fcc7029-56ca-49a4-a216-255295775c98",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Random Blood Sugar"
+            }
+          ],
+          "text": "Random Blood Sugar"
+        },
+        "subject": {
+          "reference": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5"
+        },
+        "effectiveDateTime": "2026-02-10T12:45:00+05:30",
+        "valueQuantity": {
+          "value": 320,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b82add95-914c-4755-9c4d-64ec2d165d75",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b82add95-914c-4755-9c4d-64ec2d165d75",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Serum Creatinine"
+            }
+          ],
+          "text": "Serum Creatinine"
+        },
+        "subject": {
+          "reference": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5"
+        },
+        "effectiveDateTime": "2026-02-10T12:45:00+05:30",
+        "valueQuantity": {
+          "value": 2.2,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0b164e7e-56c9-43b2-9456-8f7858410008",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0b164e7e-56c9-43b2-9456-8f7858410008",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Total WBC Count"
+            }
+          ],
+          "text": "Total WBC Count"
+        },
+        "subject": {
+          "reference": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5"
+        },
+        "effectiveDateTime": "2026-02-10T12:45:00+05:30",
+        "valueQuantity": {
+          "value": 11000,
+          "unit": "/uL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4971d013-4dc0-4fe7-b17c-84ba43cbf077",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4971d013-4dc0-4fe7-b17c-84ba43cbf077",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Serum Sodium"
+            }
+          ],
+          "text": "Serum Sodium"
+        },
+        "subject": {
+          "reference": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5"
+        },
+        "effectiveDateTime": "2026-02-10T12:45:00+05:30",
+        "valueQuantity": {
+          "value": 130,
+          "unit": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:38135e67-4b67-44b8-a3cc-6fac6ee1e600",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "38135e67-4b67-44b8-a3cc-6fac6ee1e600",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Amlodipine 5 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5"
+        },
+        "authoredOn": "2026-02-20",
+        "dosageInstruction": [
+          {
+            "text": "5 mg OD (0-0-1) at night"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d5dacb8c-1edf-4f17-ba70-891264f2bddc",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "d5dacb8c-1edf-4f17-ba70-891264f2bddc",
+        "status": "completed",
+        "code": {
+          "text": "Inguinal hernia repair"
+        },
+        "subject": {
+          "reference": "urn:uuid:231534ba-b5a2-4297-8eda-6d777802e4f5"
+        },
+        "performedDateTime": "2026-02-10"
+      }
+    }
+  ]
+}

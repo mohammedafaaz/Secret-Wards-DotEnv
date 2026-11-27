@@ -1,0 +1,307 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Sanjeevani Multispeciality Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-08-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Kamal_Thakur_064351\\visits_2026_08.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/08/00170",
+      "patient_ref": "SNJ/26/064351",
+      "visit_date": "05/08/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O cough with expectoration x 4 weeks",
+      "history": "K/C/O DM2 x 6 yrs",
+      "vitals": {
+        "bp": "130/82",
+        "pulse": 90,
+        "temp_f": 102.5,
+        "spo2": 97,
+        "weight_kg": 76
+      },
+      "diagnosis": [
+        {
+          "code": "B54",
+          "display": "Unspecified malaria"
+        },
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Artesunate",
+          "strength": "100 mg",
+          "frequency": "1-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Kamal babu ka BP 130/82, sugar control nahi hai. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/08/00171",
+      "patient_ref": "SNJ/26/064441",
+      "visit_date": "21/08/2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "C/O pain abdomen x 6 days",
+      "history": "H/O snake bite 5 yrs back",
+      "vitals": {
+        "bp": "121/74",
+        "pulse": 99,
+        "temp_f": 98.6,
+        "spo2": 91,
+        "weight_kg": 13
+      },
+      "diagnosis": [
+        {
+          "code": "J45.9",
+          "display": "Asthma, unspecified"
+        },
+        {
+          "code": "A82.9",
+          "display": "Rabies, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Salbutamol inhaler",
+          "strength": "100 mcg",
+          "frequency": "2 puffs",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Naresh ji ka BP 121/74, chal phir sakte hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Naresh Chaudhary",
+        "age_sex": "95/M",
+        "mobile": "+91-7008653422"
+      }
+    },
+    {
+      "visit_id": "OPD/26/08/00172",
+      "patient_ref": "SNJ/26/064511",
+      "visit_date": "13/08/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O headache and giddiness x 3 days",
+      "history": "H/O TB 6 yrs back, completed ATT",
+      "vitals": {
+        "bp": "142/104",
+        "pulse": 76,
+        "temp_f": 99.0,
+        "spo2": 94,
+        "weight_kg": 82
+      },
+      "diagnosis": [
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        },
+        {
+          "code": "N18.3",
+          "display": "Chronic kidney disease, stage 3"
+        },
+        {
+          "code": "A09",
+          "display": "Infectious gastroenteritis and colitis, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "ORS",
+          "strength": "1 sachet",
+          "frequency": "after each loose stool",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Sunil sahab ka BP 142/104, khana kam kha rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Sunil Mishra",
+        "age_sex": "70/M",
+        "mobile": "+91-8717142312"
+      }
+    },
+    {
+      "visit_id": "OPD/26/08/00173",
+      "patient_ref": "SNJ/26/064423",
+      "visit_date": "19/08/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O burning micturition x 4 days",
+      "history": "K/C/O hypothyroidism",
+      "vitals": {
+        "bp": "112/74",
+        "pulse": 77,
+        "temp_f": 102.4,
+        "spo2": 97,
+        "weight_kg": 18
+      },
+      "diagnosis": [
+        {
+          "code": "A97.9",
+          "display": "Dengue, unspecified"
+        },
+        {
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        },
+        {
+          "code": "E27.1",
+          "display": "Addison's disease"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Metformin",
+          "strength": "500 mg",
+          "frequency": "1-0-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Glimepiride",
+          "strength": "1 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Sukhwinder ji ka BP 112/74, khana kam kha rahe hain. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/08/00174",
+      "patient_ref": "SNJ/26/064441",
+      "visit_date": "06/08/2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "C/O loose stools x 8 days",
+      "history": "K/C/O hypothyroidism",
+      "vitals": {
+        "bp": "123/84",
+        "pulse": 98,
+        "temp_f": 98.5,
+        "spo2": 95,
+        "weight_kg": 85
+      },
+      "diagnosis": [
+        {
+          "code": "J45.9",
+          "display": "Asthma, unspecified"
+        },
+        {
+          "code": "A82.9",
+          "display": "Rabies, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Salbutamol inhaler",
+          "strength": "100 mcg",
+          "frequency": "2 puffs",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Naresh babu ka BP 123/84, chal phir sakte hain. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/08/00175",
+      "patient_ref": "SNJ/26/064254",
+      "visit_date": "04/08/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O pain abdomen x 3 days",
+      "history": "K/C/O HTN on treatment",
+      "vitals": {
+        "bp": "126/85",
+        "pulse": 99,
+        "temp_f": 99.2,
+        "spo2": 91,
+        "weight_kg": 74
+      },
+      "diagnosis": [
+        {
+          "code": "A01.0",
+          "display": "Typhoid fever"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ceftriaxone",
+          "strength": "1 g",
+          "frequency": "IV",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Jaspreet ka BP 126/85, khana kam kha rahe hain. Review after 2 weeks."
+    }
+  ]
+}

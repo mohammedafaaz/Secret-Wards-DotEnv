@@ -1,0 +1,76 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Sanjeevani Multispeciality Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-06-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Kavita_Pandey_064371\\visits_2026_06.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/06/00164",
+      "patient_ref": "SNJ/26/064371",
+      "visit_date": "27/06/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "saans phoolna 4 hafte se",
+      "history": "H/O snake bite 6 yrs back",
+      "vitals": {
+        "bp": "163/90",
+        "pulse": 96,
+        "temp_f": 98.8,
+        "spo2": 92,
+        "weight_kg": 45
+      },
+      "diagnosis": [
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        },
+        {
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Metformin",
+          "strength": "500 mg",
+          "frequency": "1-0-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Glimepiride",
+          "strength": "1 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Kavita ka BP 163/90, raat ko neend theek se aayi. Review after 2 weeks."
+    }
+  ]
+}

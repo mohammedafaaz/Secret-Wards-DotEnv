@@ -1,0 +1,485 @@
+{
+  "resourceType": "Bundle",
+  "id": "da525963-712a-444a-acb2-4aae34a8c822",
+  "meta": {
+    "lastUpdated": "2026-02-19T11:00:00+05:30",
+    "profile": [
+      "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"
+    ]
+  },
+  "identifier": {
+    "system": "https://sanjeevani.hospital.example/bundles",
+    "value": "da525963-712a-444a-acb2-4aae34a8c822"
+  },
+  "type": "document",
+  "timestamp": "2026-02-19T11:00:00+05:30",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:f8080d06-bada-4b99-9dae-14b3d5884ad1",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "f8080d06-bada-4b99-9dae-14b3d5884ad1",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373942005",
+              "display": "Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579",
+          "display": "Fatima Bano"
+        },
+        "encounter": {
+          "reference": "urn:uuid:607761d1-7003-4e1a-9af6-7e7dc621e28f"
+        },
+        "date": "2026-02-19T11:00:00+05:30",
+        "author": [
+          {
+            "reference": "urn:uuid:466b260f-8f9d-463e-bc75-47453bd46b1c",
+            "display": "Dr. Vandana Kulshrestha"
+          }
+        ],
+        "title": "Discharge Summary",
+        "section": [
+          {
+            "title": "Diagnosis",
+            "entry": [
+              {
+                "reference": "urn:uuid:1fa641aa-ce2d-4a96-bde4-3c7cfc7bdd89"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "entry": [
+              {
+                "reference": "urn:uuid:ed43b1b6-553e-4ac9-accf-06f1dd440792"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "8140a431-e922-4a1d-8d6f-e273e56f8579",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Fatima Bano, 52 yrs, female, SNJ/26/064508</div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number"
+                }
+              ]
+            },
+            "system": "https://sanjeevani.hospital.example/uhid",
+            "value": "SNJ/26/064508"
+          }
+        ],
+        "name": [
+          {
+            "text": "Fatima Bano",
+            "given": [
+              "Fatima"
+            ],
+            "family": "Bano"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-8463122585",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1973-10-30",
+        "address": [
+          {
+            "line": [
+              "House 143, Tehsil Dalmau, Distt. Rae Bareli"
+            ],
+            "city": "Jalalnagar Khurd",
+            "district": "Rae Bareli",
+            "state": "Uttar Pradesh",
+            "postalCode": "229678",
+            "country": "IN"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Husband"
+              }
+            ],
+            "name": {
+              "text": "Naseem"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "url": "https://raksha.example/fhir/StructureDefinition/mothers-name",
+            "valueString": "Nasreen Devi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:466b260f-8f9d-463e-bc75-47453bd46b1c",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "466b260f-8f9d-463e-bc75-47453bd46b1c",
+        "name": [
+          {
+            "text": "Dr. Vandana Kulshrestha"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "text": "MD Medicine"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2a692510-af18-45bf-85c9-dac99b46c192",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "2a692510-af18-45bf-85c9-dac99b46c192",
+        "name": "Sanjeevani Multispeciality Hospital",
+        "address": [
+          {
+            "city": "Lucknow",
+            "state": "Uttar Pradesh",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:607761d1-7003-4e1a-9af6-7e7dc621e28f",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "607761d1-7003-4e1a-9af6-7e7dc621e28f",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "identifier": [
+          {
+            "system": "https://sanjeevani.hospital.example/ipd",
+            "value": "IPD-2026-00461"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579"
+        },
+        "period": {
+          "start": "2026-02-07T13:15:00+05:30",
+          "end": "2026-02-19T11:00:00+05:30"
+        },
+        "location": [
+          {
+            "location": {
+              "display": "Ward 2 (Medicine)"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "urn:uuid:2a692510-af18-45bf-85c9-dac99b46c192"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1fa641aa-ce2d-4a96-bde4-3c7cfc7bdd89",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1fa641aa-ce2d-4a96-bde4-3c7cfc7bdd89",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "N39.0",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ],
+          "text": "Urinary tract infection, site not specified"
+        },
+        "subject": {
+          "reference": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579"
+        },
+        "encounter": {
+          "reference": "urn:uuid:607761d1-7003-4e1a-9af6-7e7dc621e28f"
+        },
+        "recordedDate": "2026-02-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:359d7a29-cd17-4ff4-ada3-0f80d8719da2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "359d7a29-cd17-4ff4-ada3-0f80d8719da2",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579"
+        },
+        "effectiveDateTime": "2026-02-07T13:15:00+05:30",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 128,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 85,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e8962520-895a-4ca6-badb-f22b0b7336fd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e8962520-895a-4ca6-badb-f22b0b7336fd",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Haemoglobin"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579"
+        },
+        "effectiveDateTime": "2026-02-07T13:15:00+05:30",
+        "valueQuantity": {
+          "value": 8.2,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:28a091e4-a8a0-4da6-9452-03209f61e39e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "28a091e4-a8a0-4da6-9452-03209f61e39e",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Random Blood Sugar"
+            }
+          ],
+          "text": "Random Blood Sugar"
+        },
+        "subject": {
+          "reference": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579"
+        },
+        "effectiveDateTime": "2026-02-07T13:15:00+05:30",
+        "valueQuantity": {
+          "value": 216,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:189077aa-c673-43cf-8b4a-9297f0e25dd3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "189077aa-c673-43cf-8b4a-9297f0e25dd3",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Serum Creatinine"
+            }
+          ],
+          "text": "Serum Creatinine"
+        },
+        "subject": {
+          "reference": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579"
+        },
+        "effectiveDateTime": "2026-02-07T13:15:00+05:30",
+        "valueQuantity": {
+          "value": 3.2,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:97e8b917-0da0-4b7a-a2c8-682da98afbcd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "97e8b917-0da0-4b7a-a2c8-682da98afbcd",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelet Count"
+            }
+          ],
+          "text": "Platelet Count"
+        },
+        "subject": {
+          "reference": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579"
+        },
+        "effectiveDateTime": "2026-02-07T13:15:00+05:30",
+        "valueQuantity": {
+          "value": 182000,
+          "unit": "/uL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a801b17f-4701-47b6-a5d0-e4ab6e73f02b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a801b17f-4701-47b6-a5d0-e4ab6e73f02b",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Total WBC Count"
+            }
+          ],
+          "text": "Total WBC Count"
+        },
+        "subject": {
+          "reference": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579"
+        },
+        "effectiveDateTime": "2026-02-07T13:15:00+05:30",
+        "valueQuantity": {
+          "value": 4893,
+          "unit": "/uL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5444b40d-7208-44da-8bfc-16d2ab65762e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5444b40d-7208-44da-8bfc-16d2ab65762e",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Serum Sodium"
+            }
+          ],
+          "text": "Serum Sodium"
+        },
+        "subject": {
+          "reference": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579"
+        },
+        "effectiveDateTime": "2026-02-07T13:15:00+05:30",
+        "valueQuantity": {
+          "value": 133,
+          "unit": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ed43b1b6-553e-4ac9-accf-06f1dd440792",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "ed43b1b6-553e-4ac9-accf-06f1dd440792",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Doxycycline 100 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:8140a431-e922-4a1d-8d6f-e273e56f8579"
+        },
+        "authoredOn": "2026-02-19",
+        "dosageInstruction": [
+          {
+            "text": "100 mg BD (1-0-1) after food"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "District Hospital Hardoi",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-08-28T18:00:00+05:30"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/08/00098",
+      "patient_ref": "DHH2026-084999",
+      "visit_date": "2026-08-19",
+      "department": "Pulmonology",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "7 दिन से पेट दर्द",
+      "history": "K/C/O hypothyroidism",
+      "vitals": {
+        "bp": "115/81",
+        "pulse": 74,
+        "temp_f": 100.9,
+        "spo2": 96,
+        "weight_kg": 39
+      },
+      "diagnosis": [
+        {
+          "code": "J18.9",
+          "display": "Pneumonia, unspecified organism"
+        },
+        {
+          "code": "B54",
+          "display": "Unspecified malaria"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Azithromycin",
+          "strength": "500 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Artesunate",
+          "strength": "100 mg",
+          "frequency": "1-0-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Sunita didi ka BP 115/81, raat ko neend theek se aayi. Review after 2 weeks.",
+      "address_note": "C/O Ramesh Patel, Ward 1, Mohalla Chowk Kotwali",
+      "reviewed_by": "Dr. Ramesh Srivastava reviewed the patient."
+    }
+  ]
+}

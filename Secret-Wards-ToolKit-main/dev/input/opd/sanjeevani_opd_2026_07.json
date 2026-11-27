@@ -1,0 +1,236 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Sanjeevani Multispeciality Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-07-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Sukhwinder_Kaur_064423\\visits_2026_07.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/07/00165",
+      "patient_ref": "SNJ/26/064423",
+      "visit_date": "06/07/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O burning micturition x 5 days",
+      "history": "H/O TB 12 yrs back, completed ATT",
+      "vitals": {
+        "bp": "114/67",
+        "pulse": 109,
+        "temp_f": 100.7,
+        "spo2": 92,
+        "weight_kg": 82
+      },
+      "diagnosis": [
+        {
+          "code": "A97.9",
+          "display": "Dengue, unspecified"
+        },
+        {
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        },
+        {
+          "code": "E27.1",
+          "display": "Addison's disease"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Metformin",
+          "strength": "500 mg",
+          "frequency": "1-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Glimepiride",
+          "strength": "1 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Sukhwinder didi ka BP 114/67, ulti band ho gayi. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/07/00166",
+      "patient_ref": "SNJ/26/064240",
+      "visit_date": "01/07/2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "2 दिन से बुखार",
+      "history": "No H/O DM/HTN",
+      "vitals": {
+        "bp": "117/68",
+        "pulse": 87,
+        "temp_f": 98.8,
+        "spo2": 89,
+        "weight_kg": 58
+      },
+      "diagnosis": [
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Ramesh bhai ka BP 117/68, khana kam kha rahe hain. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/07/00167",
+      "patient_ref": "SNJ/26/064163",
+      "visit_date": "28/07/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "khansi 3 hafte se",
+      "history": "No H/O DM/HTN",
+      "vitals": {
+        "bp": "165/97",
+        "pulse": 102,
+        "temp_f": 97.9,
+        "spo2": 92,
+        "weight_kg": 28
+      },
+      "diagnosis": [
+        {
+          "code": "K50.9",
+          "display": "Crohn's disease, unspecified"
+        },
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Dinesh ka BP 165/97, sugar control nahi hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Dinesh Lodhi",
+        "age_sex": "5/M",
+        "mobile": "+91-9182640788"
+      }
+    },
+    {
+      "visit_id": "OPD/26/07/00168",
+      "patient_ref": "SNJ/26/064240",
+      "visit_date": "14/07/2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "7 दिन से पेट दर्द",
+      "history": "H/O snake bite 3 yrs back",
+      "vitals": {
+        "bp": "125/69",
+        "pulse": 110,
+        "temp_f": 98.2,
+        "spo2": 95,
+        "weight_kg": 48
+      },
+      "diagnosis": [
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Ramesh bhai ka BP 125/69, dawai time pe le rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Ramesh Paswan",
+        "age_sex": "31/M",
+        "mobile": "+91-8485682681"
+      }
+    },
+    {
+      "visit_id": "OPD/26/07/00169",
+      "patient_ref": "SNJ/26/064330",
+      "visit_date": "10/07/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O generalised weakness x 2 weeks",
+      "history": "K/C/O DM2 x 5 yrs",
+      "vitals": {
+        "bp": "117/68",
+        "pulse": 71,
+        "temp_f": 100.8,
+        "spo2": 91,
+        "weight_kg": 46
+      },
+      "diagnosis": [
+        {
+          "code": "A01.0",
+          "display": "Typhoid fever"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ceftriaxone",
+          "strength": "1 g",
+          "frequency": "IV",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Rajan ka BP 117/68, khana kam kha rahe hain. Review after 2 weeks."
+    }
+  ]
+}

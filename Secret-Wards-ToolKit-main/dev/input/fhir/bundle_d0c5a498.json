@@ -1,0 +1,528 @@
+{
+  "resourceType": "Bundle",
+  "id": "099e7181-808e-4858-bb10-d91dd7c384fc",
+  "meta": {
+    "lastUpdated": "2026-11-03T10:00:00+05:30",
+    "profile": [
+      "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"
+    ]
+  },
+  "identifier": {
+    "system": "https://jeevanjyoti.hospital.example/bundles",
+    "value": "099e7181-808e-4858-bb10-d91dd7c384fc"
+  },
+  "type": "document",
+  "timestamp": "2026-11-03T10:00:00+05:30",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:a76495eb-fa05-4c64-9a30-a4cc64367f59",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "a76495eb-fa05-4c64-9a30-a4cc64367f59",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373942005",
+              "display": "Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed",
+          "display": "Kamla Nishad"
+        },
+        "encounter": {
+          "reference": "urn:uuid:cb3cdaa7-821e-41b3-b4eb-f6e53aa782a5"
+        },
+        "date": "2026-11-03T10:00:00+05:30",
+        "author": [
+          {
+            "reference": "urn:uuid:0a7f0af7-22ca-4704-a050-b417131043e8",
+            "display": "Dr. Imtiaz Ahmed"
+          }
+        ],
+        "title": "Discharge Summary",
+        "section": [
+          {
+            "title": "Diagnosis",
+            "entry": [
+              {
+                "reference": "urn:uuid:3f4f2c01-0f37-4729-92ba-7805361799fd"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "entry": [
+              {
+                "reference": "urn:uuid:089e52e3-54fe-488f-8bbb-48098497920c"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "36d5b039-546f-4c40-93af-352ea1b052ed",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Kamla Nishad, 48 yrs, female, JJH-0077305</div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number"
+                }
+              ]
+            },
+            "system": "https://jeevanjyoti.hospital.example/uhid",
+            "value": "JJH-0077305"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-2074-7278-9539"
+          }
+        ],
+        "name": [
+          {
+            "text": "Kamla Nishad",
+            "given": [
+              "Kamla"
+            ],
+            "family": "Nishad"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-6006272163",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1978-07-29",
+        "address": [
+          {
+            "line": [
+              "Makan No. 32, Tehsil Nawabganj, Distt. Barabanki"
+            ],
+            "city": "Amarganj Khurd",
+            "district": "Barabanki",
+            "state": "Uttar Pradesh",
+            "postalCode": "225127",
+            "country": "IN"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Father"
+              }
+            ],
+            "name": {
+              "text": "Kishan Nishad"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "url": "https://raksha.example/fhir/StructureDefinition/mothers-name",
+            "valueString": "Saroj Devi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0a7f0af7-22ca-4704-a050-b417131043e8",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "0a7f0af7-22ca-4704-a050-b417131043e8",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Ahmed"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "text": "MS Surgery"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0a4689ae-16c8-4234-bbe3-a22bda4435cd",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "0a4689ae-16c8-4234-bbe3-a22bda4435cd",
+        "name": "Jeevan Jyoti Charitable Hospital",
+        "address": [
+          {
+            "city": "Barabanki",
+            "state": "Uttar Pradesh",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cb3cdaa7-821e-41b3-b4eb-f6e53aa782a5",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "cb3cdaa7-821e-41b3-b4eb-f6e53aa782a5",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "identifier": [
+          {
+            "system": "https://jeevanjyoti.hospital.example/ipd",
+            "value": "IP/26/00136"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "period": {
+          "start": "2026-10-30T20:00:00+05:30",
+          "end": "2026-11-03T10:00:00+05:30"
+        },
+        "location": [
+          {
+            "location": {
+              "display": "Ward 8 (Surgery)"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "urn:uuid:0a4689ae-16c8-4234-bbe3-a22bda4435cd"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3f4f2c01-0f37-4729-92ba-7805361799fd",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3f4f2c01-0f37-4729-92ba-7805361799fd",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A09",
+              "display": "Infectious gastroenteritis and colitis, unspecified"
+            }
+          ],
+          "text": "Infectious gastroenteritis and colitis, unspecified"
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "encounter": {
+          "reference": "urn:uuid:cb3cdaa7-821e-41b3-b4eb-f6e53aa782a5"
+        },
+        "recordedDate": "2026-10-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1f6e796a-e1ae-4663-b01b-0dc5883df5e3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1f6e796a-e1ae-4663-b01b-0dc5883df5e3",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "effectiveDateTime": "2026-10-30T20:00:00+05:30",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 134,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 66,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f8e962bd-f93c-4a35-9544-3b435f539202",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f8e962bd-f93c-4a35-9544-3b435f539202",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Haemoglobin"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "effectiveDateTime": "2026-10-30T20:00:00+05:30",
+        "valueQuantity": {
+          "value": 11.5,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0c7e3e61-44dd-4108-80d2-8d1fc1917deb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0c7e3e61-44dd-4108-80d2-8d1fc1917deb",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Random Blood Sugar"
+            }
+          ],
+          "text": "Random Blood Sugar"
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "effectiveDateTime": "2026-10-30T20:00:00+05:30",
+        "valueQuantity": {
+          "value": 252,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9d13f150-830c-4000-8392-b7bb2646993f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9d13f150-830c-4000-8392-b7bb2646993f",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Serum Creatinine"
+            }
+          ],
+          "text": "Serum Creatinine"
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "effectiveDateTime": "2026-10-30T20:00:00+05:30",
+        "valueQuantity": {
+          "value": 2.9,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ef5f1135-3460-44f1-a3ce-8ea1ddc1f594",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ef5f1135-3460-44f1-a3ce-8ea1ddc1f594",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3016-3",
+              "display": "TSH"
+            }
+          ],
+          "text": "TSH"
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "effectiveDateTime": "2026-10-30T20:00:00+05:30",
+        "valueQuantity": {
+          "value": 11.74,
+          "unit": "mIU/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:55bda3da-aed4-4f6a-b040-5d88adc4f402",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "55bda3da-aed4-4f6a-b040-5d88adc4f402",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Total WBC Count"
+            }
+          ],
+          "text": "Total WBC Count"
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "effectiveDateTime": "2026-10-30T20:00:00+05:30",
+        "valueQuantity": {
+          "value": 10000,
+          "unit": "/uL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f35171c5-9513-4677-9b38-06146bf82ae6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f35171c5-9513-4677-9b38-06146bf82ae6",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Serum Sodium"
+            }
+          ],
+          "text": "Serum Sodium"
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "effectiveDateTime": "2026-10-30T20:00:00+05:30",
+        "valueQuantity": {
+          "value": 126,
+          "unit": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:089e52e3-54fe-488f-8bbb-48098497920c",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "089e52e3-54fe-488f-8bbb-48098497920c",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "ORS 1 sachet"
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "authoredOn": "2026-11-03",
+        "dosageInstruction": [
+          {
+            "text": "1 sachet SOS (after each loose stool) in 1 litre water"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:56b717c6-d884-488c-8ad6-51ec5cf45e8a",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "56b717c6-d884-488c-8ad6-51ec5cf45e8a",
+        "status": "completed",
+        "code": {
+          "text": "Cataract surgery (phacoemulsification)"
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "performedDateTime": "2026-10-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2df4c93-0970-4bc3-8e3d-b3141deb1075",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "a2df4c93-0970-4bc3-8e3d-b3141deb1075",
+        "status": "current",
+        "type": {
+          "text": "Referral letter"
+        },
+        "subject": {
+          "reference": "urn:uuid:36d5b039-546f-4c40-93af-352ea1b052ed"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "language": "en",
+              "data": "UmVmZXJyYWw6IEthbWxhIE5pc2hhZCAoSkpILTAwNzczMDUpLCBtb2JpbGUgNjAwNjI3MjE2MywgcmVmZXJyZWQgZm9yIGZvbGxvdy11cCBvZiBJbmZlY3Rpb3VzIGdhc3Ryb2VudGVyaXRpcyBhbmQgY29saXRpcywgdW5zcGVjaWZpZWQu",
+              "title": "Referral letter"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

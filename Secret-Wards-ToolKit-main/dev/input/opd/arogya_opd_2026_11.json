@@ -1,0 +1,42 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Arogya Seva Sadan",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-11-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Parvati_Pandey_010660\\visits_2026_11.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/11/00096",
+      "patient_ref": "UHID-010660",
+      "visit_date": "2026-11-02",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "kamzori 6 hafte se",
+      "history": "H/O TB 9 yrs back, completed ATT",
+      "vitals": {
+        "bp": "121/83",
+        "pulse": 98,
+        "temp_f": 97.7,
+        "spo2": 91,
+        "weight_kg": 77
+      },
+      "diagnosis": [
+        {
+          "code": "N39.0",
+          "display": "Urinary tract infection, site not specified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Doxycycline",
+          "strength": "100 mg",
+          "frequency": "1-0-1",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Parvati ka BP 121/83, raat ko neend theek se aayi. Review after 2 weeks."
+    }
+  ]
+}

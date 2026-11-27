@@ -1,0 +1,63 @@
+{
+ "lab": "Sanjeevani In-house Lab",
+ "report_type": "Diagnostic report",
+ "patient": {
+  "name": "Mohammad Shahid",
+  "age": 40,
+  "sex": "M",
+  "phone": "9368591915",
+  "hospital_uhid": "UHID-010607"
+ },
+ "referred_by": "Dr. Ramesh Srivastava",
+ "collected": "2026-10-22T09:30:00+05:30",
+ "panels": [
+  {
+   "name": "Routine",
+   "results": [
+    {
+     "test": "Haemoglobin",
+     "loinc": "718-7",
+     "value": 13.6,
+     "unit": "g/dL",
+     "range": "12.0-16.0"
+    },
+    {
+     "test": "Random Blood Sugar",
+     "loinc": "2345-7",
+     "value": 191,
+     "unit": "mg/dL",
+     "range": "70-140"
+    },
+    {
+     "test": "Serum Creatinine",
+     "loinc": "2160-0",
+     "value": 0.8,
+     "unit": "mg/dL",
+     "range": "0.6-1.2"
+    },
+    {
+     "test": "Platelet Count",
+     "loinc": "777-3",
+     "value": 225000,
+     "unit": "/uL",
+     "range": "150000-410000"
+    },
+    {
+     "test": "Total WBC Count",
+     "loinc": "6690-2",
+     "value": 11000,
+     "unit": "/uL",
+     "range": "4000-11000"
+    },
+    {
+     "test": "Serum Sodium",
+     "loinc": "2951-2",
+     "value": 128,
+     "unit": "mmol/L",
+     "range": "135-145"
+    }
+   ]
+  }
+ ],
+ "remarks": "Sample received from Shahid's attendant (S/o Zubair)."
+}

@@ -1,0 +1,111 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Arogya Seva Sadan",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-06-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Manoj_Yadav_010623\\visits_2026_06.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/06/00090",
+      "patient_ref": "UHID-010623",
+      "visit_date": "2026-06-28",
+      "department": "Pulmonology",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O headache and giddiness x 9 days",
+      "history": "K/C/O hypothyroidism",
+      "vitals": {
+        "bp": "117/73",
+        "pulse": 110,
+        "temp_f": 98.7,
+        "spo2": 97,
+        "weight_kg": 36
+      },
+      "diagnosis": [
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Manoj bhai ka BP 117/73, raat ko neend theek se aayi. Review after 2 weeks.",
+      "patient": {
+        "name": "Manoj Yadav",
+        "age_sex": "65/M",
+        "mobile": "+91-8921678541"
+      },
+      "address_note": "C/O Ramesh Yadav, Ward 8",
+      "reviewed_by": "Dr. Ramesh Srivastava reviewed the patient."
+    },
+    {
+      "visit_id": "OPD/26/06/00091",
+      "patient_ref": "UHID-010565",
+      "visit_date": "2026-06-21",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "chakkar aana 3 din se",
+      "history": "H/O TB 2 yrs back, completed ATT",
+      "vitals": {
+        "bp": "128/75",
+        "pulse": 75,
+        "temp_f": 98.2,
+        "spo2": 91,
+        "weight_kg": 82
+      },
+      "diagnosis": [
+        {
+          "code": "K50.9",
+          "display": "Crohn's disease, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Anita ka BP 128/75, dawai time pe le rahe hain. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/06/00092",
+      "patient_ref": "UHID-010610",
+      "visit_date": "2026-06-04",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O burning micturition x 6 days",
+      "history": "No H/O DM/HTN",
+      "vitals": {
+        "bp": "109/74",
+        "pulse": 100,
+        "temp_f": 97.7,
+        "spo2": 97,
+        "weight_kg": 43
+      },
+      "diagnosis": [
+        {
+          "code": "D64.9",
+          "display": "Anaemia, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ferrous sulphate + Folic acid",
+          "strength": "100 mg + 0.5 mg",
+          "frequency": "0-1-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Ashok ji ka BP 109/74, raat ko neend theek se aayi. Review after 2 weeks."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Arogya Seva Sadan",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-05-28T18:00:00+05:30"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/05/00089",
+      "patient_ref": "UHID-010623",
+      "visit_date": "2026-05-28",
+      "department": "Pulmonology",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O pain abdomen x 8 days",
+      "history": "H/O TB 11 yrs back, completed ATT",
+      "vitals": {
+        "bp": "111/78",
+        "pulse": 67,
+        "temp_f": 99.0,
+        "spo2": 99,
+        "weight_kg": 60
+      },
+      "diagnosis": [
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Manoj ka BP 111/78, BP abhi bhi high hai. Review after 2 weeks.",
+      "address_note": "C/O Ramesh Yadav, Ward 8",
+      "reviewed_by": "Dr. Ramesh Srivastava reviewed the patient."
+    }
+  ]
+}

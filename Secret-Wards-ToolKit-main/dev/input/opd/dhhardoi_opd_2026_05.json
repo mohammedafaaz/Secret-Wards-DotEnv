@@ -1,0 +1,71 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "District Hospital Hardoi",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-05-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Sunita_Patel_084999\\visits_2026_05.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/05/00097",
+      "patient_ref": "DHH2026-084999",
+      "visit_date": "2026-05-20",
+      "department": "Pulmonology",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "5 दिन से पेट दर्द",
+      "history": "K/C/O DM2 x 8 yrs",
+      "vitals": {
+        "bp": "107/69",
+        "pulse": 107,
+        "temp_f": 99.2,
+        "spo2": 94,
+        "weight_kg": 51
+      },
+      "diagnosis": [
+        {
+          "code": "J18.9",
+          "display": "Pneumonia, unspecified organism"
+        },
+        {
+          "code": "B54",
+          "display": "Unspecified malaria"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Azithromycin",
+          "strength": "500 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Artesunate",
+          "strength": "100 mg",
+          "frequency": "1-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Sunita amma ka BP 107/69, chal phir sakte hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Sunita Patel",
+        "age_sex": "53/F",
+        "mobile": "+91-8599253525"
+      },
+      "address_note": "C/O Ramesh Patel, Ward 1, Mohalla Chowk Kotwali",
+      "reviewed_by": "Dr. Ramesh Srivastava reviewed the patient."
+    }
+  ]
+}

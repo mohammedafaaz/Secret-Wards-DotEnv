@@ -1,0 +1,385 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Jeevan Jyoti Charitable Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-10-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Reena_Nishad_0076928\\visits_2026_10.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/10/00142",
+      "patient_ref": "JJH-0076928",
+      "visit_date": "15-10-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O generalised weakness x 6 weeks",
+      "history": "H/O TB 2 yrs back, completed ATT",
+      "vitals": {
+        "bp": "130/75",
+        "pulse": 81,
+        "temp_f": 98.2,
+        "spo2": 98,
+        "weight_kg": 71
+      },
+      "diagnosis": [
+        {
+          "code": "N39.0",
+          "display": "Urinary tract infection, site not specified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Doxycycline",
+          "strength": "100 mg",
+          "frequency": "1-0-1",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Reena ka BP 130/75, chal phir sakte hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Rina Nishad",
+        "age_sex": "65/F",
+        "mobile": "+91-7560010034"
+      }
+    },
+    {
+      "visit_id": "OPD/26/10/00143",
+      "patient_ref": "JJH-0077389",
+      "visit_date": "11-10-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O pain abdomen x 6 days",
+      "history": "K/C/O HTN on treatment",
+      "vitals": {
+        "bp": "111/73",
+        "pulse": 108,
+        "temp_f": 100.6,
+        "spo2": 95,
+        "weight_kg": 63
+      },
+      "diagnosis": [
+        {
+          "code": "D64.9",
+          "display": "Anaemia, unspecified"
+        },
+        {
+          "code": "J18.9",
+          "display": "Pneumonia, unspecified organism"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ferrous sulphate + Folic acid",
+          "strength": "100 mg + 0.5 mg",
+          "frequency": "0-1-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Azithromycin",
+          "strength": "500 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Rukhsana ka BP 111/73, raat ko neend theek se aayi. Review after 2 weeks.",
+      "patient": {
+        "name": "Rukhsana Siddiqui",
+        "age_sex": "74/F",
+        "mobile": "+91-9473687554"
+      }
+    },
+    {
+      "visit_id": "OPD/26/10/00144",
+      "patient_ref": "JJH-0077386",
+      "visit_date": "14-10-2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "3 दिन से चक्कर आना",
+      "history": "K/C/O DM2 x 9 yrs",
+      "vitals": {
+        "bp": "107/66",
+        "pulse": 117,
+        "temp_f": 102.0,
+        "spo2": 94,
+        "weight_kg": 84
+      },
+      "diagnosis": [
+        {
+          "code": "J18.9",
+          "display": "Pneumonia, unspecified organism"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Azithromycin",
+          "strength": "500 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Sarita ka BP 107/66, BP abhi bhi high hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Sarita Tiwary",
+        "age_sex": "9/F",
+        "mobile": "+91-7265853137"
+      }
+    },
+    {
+      "visit_id": "OPD/26/10/00145",
+      "patient_ref": "JJH-0077389",
+      "visit_date": "25-10-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "kamzori 2 hafte se",
+      "history": "No H/O DM/HTN",
+      "vitals": {
+        "bp": "104/75",
+        "pulse": 91,
+        "temp_f": 103.2,
+        "spo2": 94,
+        "weight_kg": 40
+      },
+      "diagnosis": [
+        {
+          "code": "D64.9",
+          "display": "Anaemia, unspecified"
+        },
+        {
+          "code": "J18.9",
+          "display": "Pneumonia, unspecified organism"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ferrous sulphate + Folic acid",
+          "strength": "100 mg + 0.5 mg",
+          "frequency": "0-1-0",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Azithromycin",
+          "strength": "500 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Rukhsana amma ka BP 104/75, bukhar utar gaya hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Rukhsana Siddiqui",
+        "age_sex": "74/F",
+        "mobile": "+91-9473687554"
+      }
+    },
+    {
+      "visit_id": "OPD/26/10/00146",
+      "patient_ref": "JJH-0077270",
+      "visit_date": "13-10-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O generalised weakness x 9 weeks",
+      "history": "H/O TB 8 yrs back, completed ATT",
+      "vitals": {
+        "bp": "115/69",
+        "pulse": 76,
+        "temp_f": 102.0,
+        "spo2": 90,
+        "weight_kg": 80
+      },
+      "diagnosis": [
+        {
+          "code": "B54",
+          "display": "Unspecified malaria"
+        },
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Artesunate",
+          "strength": "100 mg",
+          "frequency": "1-0-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Kamal bhai ka BP 115/69, bukhar utar gaya hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Kamal Thakur",
+        "age_sex": "26/M",
+        "mobile": "+91-9405574024"
+      }
+    },
+    {
+      "visit_id": "OPD/26/10/00147",
+      "patient_ref": "JJH-0077320",
+      "visit_date": "23-10-2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "chakkar aana 4 din se",
+      "history": "No H/O DM/HTN",
+      "vitals": {
+        "bp": "148/100",
+        "pulse": 94,
+        "temp_f": 103.1,
+        "spo2": 92,
+        "weight_kg": 92
+      },
+      "diagnosis": [
+        {
+          "code": "J18.9",
+          "display": "Pneumonia, unspecified organism"
+        },
+        {
+          "code": "A09",
+          "display": "Infectious gastroenteritis and colitis, unspecified"
+        },
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Azithromycin",
+          "strength": "500 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "ORS",
+          "strength": "1 sachet",
+          "frequency": "after each loose stool",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Harish sahab ka BP 148/100, chal phir sakte hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Harish Pandey",
+        "age_sex": "21/M",
+        "mobile": "+91-7148988804"
+      }
+    },
+    {
+      "visit_id": "OPD/26/10/00148",
+      "patient_ref": "JJH-0076928",
+      "visit_date": "11-10-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O pain abdomen x 6 days",
+      "history": "H/O TB 4 yrs back, completed ATT",
+      "vitals": {
+        "bp": "105/77",
+        "pulse": 73,
+        "temp_f": 97.7,
+        "spo2": 99,
+        "weight_kg": 40
+      },
+      "diagnosis": [
+        {
+          "code": "N39.0",
+          "display": "Urinary tract infection, site not specified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Doxycycline",
+          "strength": "100 mg",
+          "frequency": "1-0-1",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Reena behenji ka BP 105/77, sugar control nahi hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Rina Nishad",
+        "age_sex": "65/F",
+        "mobile": "+91-7560010034"
+      }
+    }
+  ]
+}

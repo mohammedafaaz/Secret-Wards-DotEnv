@@ -1,0 +1,119 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Jeevan Jyoti Charitable Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-06-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Sukhwinder_Kaur_0077058\\visits_2026_06.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/06/00124",
+      "patient_ref": "JJH-0077058",
+      "visit_date": "10-06-2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "pet mein dard 3 din se",
+      "history": "K/C/O HTN on treatment",
+      "vitals": {
+        "bp": "118/81",
+        "pulse": 68,
+        "temp_f": 98.3,
+        "spo2": 97,
+        "weight_kg": 22
+      },
+      "diagnosis": [
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Sukhwinder ji ka BP 118/81, BP abhi bhi high hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Sukhvinder Kaur",
+        "age_sex": "27/F",
+        "mobile": "+91-7804494655"
+      }
+    },
+    {
+      "visit_id": "OPD/26/06/00125",
+      "patient_ref": "JJH-0077112",
+      "visit_date": "14-06-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "kamzori 9 hafte se",
+      "history": "K/C/O hypothyroidism",
+      "vitals": {
+        "bp": "113/82",
+        "pulse": 113,
+        "temp_f": 97.9,
+        "spo2": 98,
+        "weight_kg": 61
+      },
+      "diagnosis": [
+        {
+          "code": "E03.9",
+          "display": "Hypothyroidism, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Levothyroxine",
+          "strength": "50 mcg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Zainab behenji ka BP 113/82, khana kam kha rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Zainab Siddiqui",
+        "age_sex": "23/F",
+        "mobile": "+91-7312200406"
+      }
+    },
+    {
+      "visit_id": "OPD/26/06/00126",
+      "patient_ref": "JJH-0077478",
+      "visit_date": "11-06-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "khansi 3 hafte se",
+      "history": "K/C/O DM2 x 5 yrs",
+      "vitals": {
+        "bp": "126/72",
+        "pulse": 72,
+        "temp_f": 101.8,
+        "spo2": 96,
+        "weight_kg": 10
+      },
+      "diagnosis": [
+        {
+          "code": "A97.9",
+          "display": "Dengue, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Harish babu ka BP 126/72, raat ko neend theek se aayi. Review after 2 weeks.",
+      "patient": {
+        "name": "Harish Pandey",
+        "age_sex": "60/M",
+        "mobile": "+91-6962520883"
+      }
+    }
+  ]
+}

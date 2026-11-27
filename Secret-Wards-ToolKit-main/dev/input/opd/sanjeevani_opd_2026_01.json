@@ -1,0 +1,76 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Sanjeevani Multispeciality Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-01-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Kavita_Pandey_064371\\visits_2026_01.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/01/00151",
+      "patient_ref": "SNJ/26/064371",
+      "visit_date": "19/01/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "4 din se bukhar",
+      "history": "K/C/O DM2 x 5 yrs",
+      "vitals": {
+        "bp": "149/95",
+        "pulse": 111,
+        "temp_f": 97.7,
+        "spo2": 97,
+        "weight_kg": 35
+      },
+      "diagnosis": [
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        },
+        {
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Metformin",
+          "strength": "500 mg",
+          "frequency": "1-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Glimepiride",
+          "strength": "1 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Kavita ka BP 149/95, khana kam kha rahe hain. Review after 2 weeks."
+    }
+  ]
+}

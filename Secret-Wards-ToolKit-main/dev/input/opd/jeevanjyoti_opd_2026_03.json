@@ -1,0 +1,159 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Jeevan Jyoti Charitable Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-03-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Kamal_Thakur_0077270\\visits_2026_03.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/03/00106",
+      "patient_ref": "JJH-0077270",
+      "visit_date": "24-03-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "pet mein dard 2 din se",
+      "history": "H/O snake bite 4 yrs back",
+      "vitals": {
+        "bp": "129/79",
+        "pulse": 86,
+        "temp_f": 101.9,
+        "spo2": 94,
+        "weight_kg": 49
+      },
+      "diagnosis": [
+        {
+          "code": "B54",
+          "display": "Unspecified malaria"
+        },
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Artesunate",
+          "strength": "100 mg",
+          "frequency": "1-0-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Kamal ka BP 129/79, dawai time pe le rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Kamal Thakur",
+        "age_sex": "25/M",
+        "mobile": "+91-9405574024"
+      }
+    },
+    {
+      "visit_id": "OPD/26/03/00107",
+      "patient_ref": "JJH-0077208",
+      "visit_date": "02-03-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O breathlessness on exertion x 2 weeks",
+      "history": "K/C/O DM2 x 2 yrs",
+      "vitals": {
+        "bp": "120/77",
+        "pulse": 83,
+        "temp_f": 98.7,
+        "spo2": 97,
+        "weight_kg": 71
+      },
+      "diagnosis": [
+        {
+          "code": "E03.9",
+          "display": "Hypothyroidism, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Levothyroxine",
+          "strength": "50 mcg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Vikas sahab ka BP 120/77, raat ko neend theek se aayi. Review after 2 weeks.",
+      "patient": {
+        "name": "Vikas Kumar",
+        "age_sex": "54/M",
+        "mobile": "+91-9139628937"
+      }
+    },
+    {
+      "visit_id": "OPD/26/03/00108",
+      "patient_ref": "JJH-0077463",
+      "visit_date": "10-03-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "kamzori 2 hafte se",
+      "history": "K/C/O DM2 x 12 yrs",
+      "vitals": {
+        "bp": "172/104",
+        "pulse": 91,
+        "temp_f": 98.7,
+        "spo2": 95,
+        "weight_kg": 79
+      },
+      "diagnosis": [
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Sunil ka BP 172/104, sugar control nahi hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Sunil Lodhi",
+        "age_sex": "31/M",
+        "mobile": "+91-7951990358"
+      }
+    }
+  ]
+}

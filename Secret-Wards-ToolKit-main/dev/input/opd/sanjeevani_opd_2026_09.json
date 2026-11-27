@@ -1,0 +1,231 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Sanjeevani Multispeciality Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-09-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Vijay_Yadav_064302\\visits_2026_09.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/09/00176",
+      "patient_ref": "SNJ/26/064302",
+      "visit_date": "09/09/2026",
+      "department": "Nephrology",
+      "doctor": "Dr. Kavya Menon",
+      "complaints": "C/O loose stools x 9 days",
+      "history": "H/O TB 7 yrs back, completed ATT",
+      "vitals": {
+        "bp": "135/74",
+        "pulse": 110,
+        "temp_f": 97.6,
+        "spo2": 89,
+        "weight_kg": 18
+      },
+      "diagnosis": [
+        {
+          "code": "N18.3",
+          "display": "Chronic kidney disease, stage 3"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Vijay ji ka BP 135/74, dawai time pe le rahe hain. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/09/00177",
+      "patient_ref": "SNJ/26/064423",
+      "visit_date": "25/09/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "4 din se bukhar",
+      "history": "H/O TB 7 yrs back, completed ATT",
+      "vitals": {
+        "bp": "116/78",
+        "pulse": 118,
+        "temp_f": 100.7,
+        "spo2": 96,
+        "weight_kg": 46
+      },
+      "diagnosis": [
+        {
+          "code": "A97.9",
+          "display": "Dengue, unspecified"
+        },
+        {
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        },
+        {
+          "code": "E27.1",
+          "display": "Addison's disease"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Metformin",
+          "strength": "500 mg",
+          "frequency": "1-0-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Glimepiride",
+          "strength": "1 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Sukhwinder didi ka BP 116/78, ulti band ho gayi. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/09/00178",
+      "patient_ref": "SNJ/26/064365",
+      "visit_date": "01/09/2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "C/O breathlessness on exertion x 7 weeks",
+      "history": "No H/O DM/HTN",
+      "vitals": {
+        "bp": "127/73",
+        "pulse": 86,
+        "temp_f": 100.4,
+        "spo2": 93,
+        "weight_kg": 22
+      },
+      "diagnosis": [
+        {
+          "code": "J18.9",
+          "display": "Pneumonia, unspecified organism"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Azithromycin",
+          "strength": "500 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Usha ka BP 127/73, dawai time pe le rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Usha Tiwari",
+        "age_sex": "55/F",
+        "mobile": "+91-6260089196"
+      }
+    },
+    {
+      "visit_id": "OPD/26/09/00179",
+      "patient_ref": "SNJ/26/064365",
+      "visit_date": "05/09/2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "C/O cough with expectoration x 6 weeks",
+      "history": "K/C/O hypothyroidism",
+      "vitals": {
+        "bp": "117/83",
+        "pulse": 65,
+        "temp_f": 101.3,
+        "spo2": 93,
+        "weight_kg": 13
+      },
+      "diagnosis": [
+        {
+          "code": "J18.9",
+          "display": "Pneumonia, unspecified organism"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Azithromycin",
+          "strength": "500 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Usha didi ka BP 117/83, khana kam kha rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Usha Tiwari",
+        "age_sex": "55/F",
+        "mobile": "+91-6260089196"
+      }
+    },
+    {
+      "visit_id": "OPD/26/09/00180",
+      "patient_ref": "SNJ/26/064508",
+      "visit_date": "27/09/2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "pet mein dard 8 din se",
+      "history": "K/C/O DM2 x 6 yrs",
+      "vitals": {
+        "bp": "125/74",
+        "pulse": 91,
+        "temp_f": 98.9,
+        "spo2": 93,
+        "weight_kg": 84
+      },
+      "diagnosis": [
+        {
+          "code": "N39.0",
+          "display": "Urinary tract infection, site not specified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Doxycycline",
+          "strength": "100 mg",
+          "frequency": "1-0-1",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Fatima behenji ka BP 125/74, khana kam kha rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Fatma Bano",
+        "age_sex": "52/F",
+        "mobile": "+91-8463122585"
+      }
+    }
+  ]
+}

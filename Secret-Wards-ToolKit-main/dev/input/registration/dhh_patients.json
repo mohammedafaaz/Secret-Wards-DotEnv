@@ -1,0 +1,43 @@
+{
+  "facility": {
+    "name": "District Hospital Hardoi",
+    "type": "District Hospital",
+    "state": "UP"
+  },
+  "exported_at": "2026-11-20T08:15:00+05:30",
+  "schema": "dhh.registration.v3",
+  "patients": [
+    {
+      "uhid": "DHH2026-084999",
+      "name": {
+        "first": "Sunita",
+        "last": "Patel",
+        "local": "सुनीता पटेल"
+      },
+      "gender": "female",
+      "dob": "1972-07-11",
+      "age": 51,
+      "guardian": {
+        "relation": "D/o",
+        "name": "Ramesh Patel"
+      },
+      "contact": {
+        "mobile": "8599253525",
+        "email": null
+      },
+      "address": {
+        "line": "H.No. 414, Ward 1, Mohalla Chowk Kotwali, near Gurudwara, Tehsil Bilgram, Distt. Hardoi",
+        "village": "Bhimpur",
+        "tehsil": "Bilgram",
+        "district": "Hardoi",
+        "pin": "241606"
+      },
+      "ids": {
+        "aadhar_no": 902115225016,
+        "abha": null,
+        "abha_address": null
+      },
+      "registered_on": "2024-06-28"
+    }
+  ]
+}

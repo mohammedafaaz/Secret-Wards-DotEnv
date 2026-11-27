@@ -1,0 +1,56 @@
+{
+ "lab": "Lifeline Pathology",
+ "report_type": "Diagnostic report",
+ "patient": {
+  "name": "Suneeta Patel",
+  "age": 54,
+  "sex": "F",
+  "phone": "8599253525",
+  "hospital_uhid": "DHH2026-084999"
+ },
+ "referred_by": "Dr. Ramesh Srivastava",
+ "collected": "2026-10-26T09:30:00+05:30",
+ "panels": [
+  {
+   "name": "Routine",
+   "results": [
+    {
+     "test": "Haemoglobin",
+     "loinc": "718-7",
+     "value": 8.3,
+     "unit": "g/dL",
+     "range": "12.0-16.0"
+    },
+    {
+     "test": "Random Blood Sugar",
+     "loinc": "2345-7",
+     "value": 148,
+     "unit": "mg/dL",
+     "range": "70-140"
+    },
+    {
+     "test": "Serum Creatinine",
+     "loinc": "2160-0",
+     "value": 1.8,
+     "unit": "mg/dL",
+     "range": "0.6-1.2"
+    },
+    {
+     "test": "Total WBC Count",
+     "loinc": "6690-2",
+     "value": 16000,
+     "unit": "/uL",
+     "range": "4000-11000"
+    },
+    {
+     "test": "Serum Sodium",
+     "loinc": "2951-2",
+     "value": 138,
+     "unit": "mmol/L",
+     "range": "135-145"
+    }
+   ]
+  }
+ ],
+ "remarks": "Sample received from Sunita's attendant (D/o Ramesh Patel)."
+}

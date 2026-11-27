@@ -1,0 +1,70 @@
+{
+ "lab": "Pathkind Labs (Lucknow)",
+ "report_type": "Diagnostic report",
+ "patient": {
+  "name": "Zainab Siddiqui",
+  "age": 23,
+  "sex": "F",
+  "phone": "7312200406",
+  "hospital_uhid": "JJH-0077112"
+ },
+ "referred_by": "Dr. Vandana Kulshrestha",
+ "collected": "2026-04-21T09:30:00+05:30",
+ "panels": [
+  {
+   "name": "Routine",
+   "results": [
+    {
+     "test": "Haemoglobin",
+     "loinc": "718-7",
+     "value": 9.2,
+     "unit": "g/dL",
+     "range": "12.0-16.0"
+    },
+    {
+     "test": "HbA1c",
+     "loinc": "4548-4",
+     "value": 8.2,
+     "unit": "%",
+     "range": "4.0-5.6"
+    },
+    {
+     "test": "Random Blood Sugar",
+     "loinc": "2345-7",
+     "value": 111,
+     "unit": "mg/dL",
+     "range": "70-140"
+    },
+    {
+     "test": "Serum Creatinine",
+     "loinc": "2160-0",
+     "value": 3.2,
+     "unit": "mg/dL",
+     "range": "0.6-1.2"
+    },
+    {
+     "test": "TSH",
+     "loinc": "3016-3",
+     "value": 2.18,
+     "unit": "mIU/L",
+     "range": "0.4-4.0"
+    },
+    {
+     "test": "Total WBC Count",
+     "loinc": "6690-2",
+     "value": 16000,
+     "unit": "/uL",
+     "range": "4000-11000"
+    },
+    {
+     "test": "Serum Sodium",
+     "loinc": "2951-2",
+     "value": 142,
+     "unit": "mmol/L",
+     "range": "135-145"
+    }
+   ]
+  }
+ ],
+ "remarks": "Sample received from Zainab's attendant (W/o Salim Siddiqui)."
+}

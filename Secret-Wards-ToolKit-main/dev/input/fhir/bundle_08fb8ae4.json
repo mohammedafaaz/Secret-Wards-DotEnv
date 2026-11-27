@@ -1,0 +1,630 @@
+{
+  "resourceType": "Bundle",
+  "id": "611b8ab2-1c76-4f38-9d0d-a661c3d26f4e",
+  "meta": {
+    "lastUpdated": "2026-02-12T11:00:00+05:30",
+    "profile": [
+      "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"
+    ],
+    "source": "#SNJ/26/064545"
+  },
+  "identifier": {
+    "system": "https://sanjeevani.hospital.example/bundles",
+    "value": "611b8ab2-1c76-4f38-9d0d-a661c3d26f4e"
+  },
+  "type": "document",
+  "timestamp": "2026-02-12T11:00:00+05:30",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:5109f5b7-f002-4857-81a8-e4fe4b9af3b6",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "5109f5b7-f002-4857-81a8-e4fe4b9af3b6",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373942005",
+              "display": "Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248",
+          "display": "Shabana Bano"
+        },
+        "encounter": {
+          "reference": "urn:uuid:44fa80fa-76cf-4679-b822-e7990565bc8c"
+        },
+        "date": "2026-02-12T11:00:00+05:30",
+        "author": [
+          {
+            "reference": "urn:uuid:f88cbb52-5a84-446e-976e-3820969909f8",
+            "display": "Dr. Imtiaz Ahmed"
+          }
+        ],
+        "title": "Discharge Summary",
+        "section": [
+          {
+            "title": "Diagnosis",
+            "entry": [
+              {
+                "reference": "urn:uuid:813ea05f-cdca-4c20-83c0-047aa13be280"
+              },
+              {
+                "reference": "urn:uuid:ac63cca2-fa86-47e6-bd1d-aaa578dea141"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "entry": [
+              {
+                "reference": "urn:uuid:6fa382ce-c452-4168-8980-a46acabfaf79"
+              },
+              {
+                "reference": "urn:uuid:8d11d213-f4be-46c3-99d0-2c759bd60780"
+              },
+              {
+                "reference": "urn:uuid:72ce7697-5baa-4361-9437-68c451b561cf"
+              },
+              {
+                "reference": "urn:uuid:49c71be1-ef87-4712-9a5e-ba0525732fa5"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "3e8b02cd-9e10-4da8-9053-d47573e43248",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Shabana Bano, 27 yrs, female, SNJ/26/064545</div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number"
+                }
+              ]
+            },
+            "system": "https://sanjeevani.hospital.example/uhid",
+            "value": "SNJ/26/064545"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-3444-7750-0940"
+          }
+        ],
+        "name": [
+          {
+            "text": "Shabana Bano",
+            "given": [
+              "Shabana"
+            ],
+            "family": "Bano"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-6838656785",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1998-10-19",
+        "address": [
+          {
+            "line": [
+              "Makan No. 127, Ward 13, Mohalla Pathan Tola, near Gurudwara, Tehsil Malihabad, Distt. Lucknow"
+            ],
+            "city": "Bhimganj",
+            "district": "Lucknow",
+            "state": "Uttar Pradesh",
+            "postalCode": "226183",
+            "country": "IN"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Husband"
+              }
+            ],
+            "name": {
+              "text": "Shahid Siddiqui"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f88cbb52-5a84-446e-976e-3820969909f8",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f88cbb52-5a84-446e-976e-3820969909f8",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Ahmed"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "text": "MS Surgery"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6cd93b57-6d6d-453c-aaf2-829280011963",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "6cd93b57-6d6d-453c-aaf2-829280011963",
+        "name": "Sanjeevani Multispeciality Hospital",
+        "address": [
+          {
+            "city": "Lucknow",
+            "state": "Uttar Pradesh",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:44fa80fa-76cf-4679-b822-e7990565bc8c",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "44fa80fa-76cf-4679-b822-e7990565bc8c",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "identifier": [
+          {
+            "system": "https://sanjeevani.hospital.example/ipd",
+            "value": "IPD-2026-00474"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "period": {
+          "start": "2026-02-04T18:15:00+05:30",
+          "end": "2026-02-12T11:00:00+05:30"
+        },
+        "location": [
+          {
+            "location": {
+              "display": "Ward 8 (Surgery)"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "urn:uuid:6cd93b57-6d6d-453c-aaf2-829280011963"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:813ea05f-cdca-4c20-83c0-047aa13be280",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "813ea05f-cdca-4c20-83c0-047aa13be280",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A01.0",
+              "display": "Typhoid fever"
+            }
+          ],
+          "text": "Typhoid fever"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "encounter": {
+          "reference": "urn:uuid:44fa80fa-76cf-4679-b822-e7990565bc8c"
+        },
+        "recordedDate": "2026-02-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ac63cca2-fa86-47e6-bd1d-aaa578dea141",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ac63cca2-fa86-47e6-bd1d-aaa578dea141",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D64.9",
+              "display": "Anaemia, unspecified"
+            }
+          ],
+          "text": "Anaemia, unspecified"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "encounter": {
+          "reference": "urn:uuid:44fa80fa-76cf-4679-b822-e7990565bc8c"
+        },
+        "recordedDate": "2026-02-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:163dfb23-0ffc-4d95-b8c7-a2d658a96b54",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "163dfb23-0ffc-4d95-b8c7-a2d658a96b54",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "effectiveDateTime": "2026-02-04T18:15:00+05:30",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 120,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 66,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c3184940-5feb-4942-82d3-4106e0af3aff",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c3184940-5feb-4942-82d3-4106e0af3aff",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Haemoglobin"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "effectiveDateTime": "2026-02-04T18:15:00+05:30",
+        "valueQuantity": {
+          "value": 8.2,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a7b33006-b4e8-4306-b850-f75c4d66832f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a7b33006-b4e8-4306-b850-f75c4d66832f",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "HbA1c"
+            }
+          ],
+          "text": "HbA1c"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "effectiveDateTime": "2026-02-04T18:15:00+05:30",
+        "valueQuantity": {
+          "value": 9.6,
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:993b4174-b23a-455d-aed7-7fafe0adc914",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "993b4174-b23a-455d-aed7-7fafe0adc914",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Random Blood Sugar"
+            }
+          ],
+          "text": "Random Blood Sugar"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "effectiveDateTime": "2026-02-04T18:15:00+05:30",
+        "valueQuantity": {
+          "value": 89,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0d8b71d7-b00b-4a59-8add-0e816015f321",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0d8b71d7-b00b-4a59-8add-0e816015f321",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Serum Creatinine"
+            }
+          ],
+          "text": "Serum Creatinine"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "effectiveDateTime": "2026-02-04T18:15:00+05:30",
+        "valueQuantity": {
+          "value": 0.7,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cbf58943-ecd6-455c-9050-3661a8241c82",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cbf58943-ecd6-455c-9050-3661a8241c82",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Total WBC Count"
+            }
+          ],
+          "text": "Total WBC Count"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "effectiveDateTime": "2026-02-04T18:15:00+05:30",
+        "valueQuantity": {
+          "value": 10000,
+          "unit": "/uL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e425ce-32dd-44b3-8d47-15f22dc762bc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e425ce-32dd-44b3-8d47-15f22dc762bc",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Serum Sodium"
+            }
+          ],
+          "text": "Serum Sodium"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "effectiveDateTime": "2026-02-04T18:15:00+05:30",
+        "valueQuantity": {
+          "value": 127,
+          "unit": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6fa382ce-c452-4168-8980-a46acabfaf79",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "6fa382ce-c452-4168-8980-a46acabfaf79",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Ceftriaxone 1 g"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "authoredOn": "2026-02-12",
+        "dosageInstruction": [
+          {
+            "text": "1 g BD (IV) x 5 days"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8d11d213-f4be-46c3-99d0-2c759bd60780",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "8d11d213-f4be-46c3-99d0-2c759bd60780",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Paracetamol 650 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "authoredOn": "2026-02-12",
+        "dosageInstruction": [
+          {
+            "text": "650 mg SOS (1-1-1) if fever"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:72ce7697-5baa-4361-9437-68c451b561cf",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "72ce7697-5baa-4361-9437-68c451b561cf",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Ferrous sulphate + Folic acid 100 mg + 0.5 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "authoredOn": "2026-02-12",
+        "dosageInstruction": [
+          {
+            "text": "100 mg + 0.5 mg OD (0-1-0) after lunch"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:49c71be1-ef87-4712-9a5e-ba0525732fa5",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "49c71be1-ef87-4712-9a5e-ba0525732fa5",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Pantoprazole 40 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "authoredOn": "2026-02-12",
+        "dosageInstruction": [
+          {
+            "text": "40 mg OD (1-0-0) before breakfast"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3904a15a-eb47-4cee-b459-5d3907c1b4ca",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3904a15a-eb47-4cee-b459-5d3907c1b4ca",
+        "status": "completed",
+        "code": {
+          "text": "Appendicectomy"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "performedDateTime": "2026-02-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a067b110-1e3f-47b2-a99a-1c517faedf37",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "a067b110-1e3f-47b2-a99a-1c517faedf37",
+        "status": "current",
+        "type": {
+          "text": "Referral letter"
+        },
+        "subject": {
+          "reference": "urn:uuid:3e8b02cd-9e10-4da8-9053-d47573e43248"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "language": "en",
+              "data": "UmVmZXJyYWw6IFNoYWJhbmEgQmFubyAoU05KLzI2LzA2NDU0NSksIG1vYmlsZSA2ODM4NjU2Nzg1LCByZWZlcnJlZCBmb3IgZm9sbG93LXVwIG9mIFR5cGhvaWQgZmV2ZXIu",
+              "title": "Referral letter"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

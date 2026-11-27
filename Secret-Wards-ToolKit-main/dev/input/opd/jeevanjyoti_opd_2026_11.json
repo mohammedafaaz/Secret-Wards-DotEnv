@@ -1,0 +1,94 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Jeevan Jyoti Charitable Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-11-28T18:00:00+05:30"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/11/00149",
+      "patient_ref": "JJH-0077208",
+      "visit_date": "01-11-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "kamzori 7 hafte se",
+      "history": "H/O snake bite 7 yrs back",
+      "vitals": {
+        "bp": "111/75",
+        "pulse": 116,
+        "temp_f": 98.2,
+        "spo2": 98,
+        "weight_kg": 88
+      },
+      "diagnosis": [
+        {
+          "code": "E03.9",
+          "display": "Hypothyroidism, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Levothyroxine",
+          "strength": "50 mcg",
+          "frequency": "1-0-0",
+          "duration": "30 days"
+        }
+      ],
+      "notes": "Vikas ka BP 111/75, ulti band ho gayi. Review after 2 weeks.",
+      "patient": {
+        "name": "Vikas Kumar",
+        "age_sex": "54/M",
+        "mobile": "+91-9139628937"
+      }
+    },
+    {
+      "visit_id": "OPD/26/11/00150",
+      "patient_ref": "JJH-0077395",
+      "visit_date": "08-11-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "saans phoolna 3 hafte se",
+      "history": "No H/O DM/HTN",
+      "vitals": {
+        "bp": "105/70",
+        "pulse": 86,
+        "temp_f": 98.8,
+        "spo2": 92,
+        "weight_kg": 91
+      },
+      "diagnosis": [
+        {
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Metformin",
+          "strength": "500 mg",
+          "frequency": "1-0-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Glimepiride",
+          "strength": "1 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Ramesh ka BP 105/70, ulti band ho gayi. Review after 2 weeks.",
+      "patient": {
+        "name": "Ramesh Gupta",
+        "age_sex": "44/M",
+        "mobile": "+91-8828519598"
+      }
+    }
+  ]
+}

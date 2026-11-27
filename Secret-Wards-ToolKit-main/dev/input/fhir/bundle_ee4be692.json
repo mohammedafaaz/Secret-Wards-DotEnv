@@ -1,0 +1,479 @@
+{
+  "resourceType": "Bundle",
+  "id": "a73a12fe-8465-4fb6-bb80-5035772989b0",
+  "meta": {
+    "lastUpdated": "2026-02-06T09:00:00+05:30",
+    "profile": [
+      "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"
+    ],
+    "source": "#UHID-010610"
+  },
+  "identifier": {
+    "system": "https://arogya.hospital.example/bundles",
+    "value": "a73a12fe-8465-4fb6-bb80-5035772989b0"
+  },
+  "type": "document",
+  "timestamp": "2026-02-06T09:00:00+05:30",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:253c54a3-6994-459d-90db-05af98f76b48",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "253c54a3-6994-459d-90db-05af98f76b48",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373942005",
+              "display": "Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b",
+          "display": "Ashok Patel"
+        },
+        "encounter": {
+          "reference": "urn:uuid:10544200-8d7c-47f6-9d8c-014aaada8597"
+        },
+        "date": "2026-02-06T09:00:00+05:30",
+        "author": [
+          {
+            "reference": "urn:uuid:d8104680-eadf-413e-bba4-b5287afbbd95",
+            "display": "Dr. Imtiaz Ahmed"
+          }
+        ],
+        "title": "Discharge Summary",
+        "section": [
+          {
+            "title": "Diagnosis",
+            "entry": [
+              {
+                "reference": "urn:uuid:8b450aff-1890-4150-b1e7-9144aaa4063e"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "entry": [
+              {
+                "reference": "urn:uuid:e924b20b-2476-4455-b505-9fbbf4913daf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "4efb450e-0e76-4512-84ed-230a4cb1962b",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ashok Patel, 46 yrs, male, UHID-010610</div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number"
+                }
+              ]
+            },
+            "system": "https://arogya.hospital.example/uhid",
+            "value": "UHID-010610"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-3514-4654-5892"
+          }
+        ],
+        "name": [
+          {
+            "text": "Ashok Patel",
+            "given": [
+              "Ashok"
+            ],
+            "family": "Patel"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-6749997417",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1979-04-20",
+        "address": [
+          {
+            "line": [
+              "Makan No. 180, Ward 20, Mohalla Subhash Nagar, near Panchayat Bhawan, Tehsil Misrikh, Distt. Sitapur"
+            ],
+            "city": "Gopaldih",
+            "district": "Sitapur",
+            "state": "Uttar Pradesh",
+            "postalCode": "261715",
+            "country": "IN"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Father"
+              }
+            ],
+            "name": {
+              "text": "Shyam Patel"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "url": "https://raksha.example/fhir/StructureDefinition/mothers-name",
+            "valueString": "Anita Devi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d8104680-eadf-413e-bba4-b5287afbbd95",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "d8104680-eadf-413e-bba4-b5287afbbd95",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Ahmed"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "text": "MS Surgery"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db7efcfc-1de7-4c71-ac8a-65a2316283de",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "db7efcfc-1de7-4c71-ac8a-65a2316283de",
+        "name": "Arogya Seva Sadan",
+        "address": [
+          {
+            "city": "Sitapur",
+            "state": "Uttar Pradesh",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:10544200-8d7c-47f6-9d8c-014aaada8597",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "10544200-8d7c-47f6-9d8c-014aaada8597",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "identifier": [
+          {
+            "system": "https://arogya.hospital.example/ipd",
+            "value": "ADM000162"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b"
+        },
+        "period": {
+          "start": "2026-02-01T14:00:00+05:30",
+          "end": "2026-02-06T09:00:00+05:30"
+        },
+        "location": [
+          {
+            "location": {
+              "display": "Ward 2 (Surgery)"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "urn:uuid:db7efcfc-1de7-4c71-ac8a-65a2316283de"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8b450aff-1890-4150-b1e7-9144aaa4063e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8b450aff-1890-4150-b1e7-9144aaa4063e",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D64.9",
+              "display": "Anaemia, unspecified"
+            }
+          ],
+          "text": "Anaemia, unspecified"
+        },
+        "subject": {
+          "reference": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b"
+        },
+        "encounter": {
+          "reference": "urn:uuid:10544200-8d7c-47f6-9d8c-014aaada8597"
+        },
+        "recordedDate": "2026-02-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:98f7518c-297c-4586-8aba-8c0c872227ab",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "98f7518c-297c-4586-8aba-8c0c872227ab",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b"
+        },
+        "effectiveDateTime": "2026-02-01T14:00:00+05:30",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 127,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 66,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:36126dd1-d9ff-49d3-8aee-1757e60aa469",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "36126dd1-d9ff-49d3-8aee-1757e60aa469",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Haemoglobin"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b"
+        },
+        "effectiveDateTime": "2026-02-01T14:00:00+05:30",
+        "valueQuantity": {
+          "value": 9.9,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:24fccc22-d644-491e-a925-3e1876dcffe4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "24fccc22-d644-491e-a925-3e1876dcffe4",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Random Blood Sugar"
+            }
+          ],
+          "text": "Random Blood Sugar"
+        },
+        "subject": {
+          "reference": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b"
+        },
+        "effectiveDateTime": "2026-02-01T14:00:00+05:30",
+        "valueQuantity": {
+          "value": 258,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4fea3406-92bf-4655-8969-48927c65392a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4fea3406-92bf-4655-8969-48927c65392a",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Serum Creatinine"
+            }
+          ],
+          "text": "Serum Creatinine"
+        },
+        "subject": {
+          "reference": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b"
+        },
+        "effectiveDateTime": "2026-02-01T14:00:00+05:30",
+        "valueQuantity": {
+          "value": 2.4,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:deb9f344-a657-439d-b286-0acdb1920abd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "deb9f344-a657-439d-b286-0acdb1920abd",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Total WBC Count"
+            }
+          ],
+          "text": "Total WBC Count"
+        },
+        "subject": {
+          "reference": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b"
+        },
+        "effectiveDateTime": "2026-02-01T14:00:00+05:30",
+        "valueQuantity": {
+          "value": 11000,
+          "unit": "/uL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0138430a-8a08-4570-8128-5d4a5c47a2c3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0138430a-8a08-4570-8128-5d4a5c47a2c3",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Serum Sodium"
+            }
+          ],
+          "text": "Serum Sodium"
+        },
+        "subject": {
+          "reference": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b"
+        },
+        "effectiveDateTime": "2026-02-01T14:00:00+05:30",
+        "valueQuantity": {
+          "value": 138,
+          "unit": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e924b20b-2476-4455-b505-9fbbf4913daf",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "e924b20b-2476-4455-b505-9fbbf4913daf",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Ferrous sulphate + Folic acid 100 mg + 0.5 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b"
+        },
+        "authoredOn": "2026-02-06",
+        "dosageInstruction": [
+          {
+            "text": "100 mg + 0.5 mg OD (0-1-0) after lunch"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e5c50d42-7497-4282-aa61-efb0770eb1c0",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e5c50d42-7497-4282-aa61-efb0770eb1c0",
+        "status": "completed",
+        "code": {
+          "text": "Cataract surgery (phacoemulsification)"
+        },
+        "subject": {
+          "reference": "urn:uuid:4efb450e-0e76-4512-84ed-230a4cb1962b"
+        },
+        "performedDateTime": "2026-02-01"
+      }
+    }
+  ]
+}

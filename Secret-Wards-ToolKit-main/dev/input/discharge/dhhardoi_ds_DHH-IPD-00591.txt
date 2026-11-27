@@ -1,0 +1,29 @@
+District Hospital Hardoi, Hardoi
+डिस्चार्ज सारांश
+
+मरीज़ का नाम: सुनीता पटेल    आयु: 54 वर्ष / महिला
+पिता का नाम: रमेश पटेल
+पंजीकरण सं.: DHH2026-084999    आईपीडी सं.: DHH-IPD-00591
+पता: मकान नं. 414, मोहल्ला चौक कोतवाली, ग्राम भीमपुर, तहसील बिलग्राम, जिला हरदोई - 241606
+मोबाइल: ८५९९२५३५२५
+भर्ती की तारीख: 26.10.2026
+छुट्टी की तारीख: 30.10.2026
+
+निदान: निमोनिया (J18.9); मलेरिया (B54); 
+मरीज़ को 8 दिन से बुखार था। BP 133/69, Pulse 79/min।
+
+Medications on discharge:
+ 1. Tab Azithromycin 500 mg 1-0-0 x 30 days
+ 2. Tab Paracetamol 650 mg 1-1-1 x 15 days
+ 3. Tab Artesunate 100 mg 1-0-1 x 15 days
+ 4. Tab Pantoprazole 40 mg 1-0-0 x 15 days
+ 5. Tab Ramipril 5 mg 0-0-1 x 15 days
+
+Address (attendant): C/O Ramesh Patel, Ward 1
+OPD: C/O fever for 8 days
+Ward: 4 (Medicine)
+Medicine: Ramipril 5 mg
+Dr. Ramesh Srivastava reviewed the patient.
+
+Advice: Low salt, diabetic diet. Review in OPD after 2 weeks with Dr. Ramesh Srivastava.
+Attendant: Ramesh Patel, Mob. 8599253525

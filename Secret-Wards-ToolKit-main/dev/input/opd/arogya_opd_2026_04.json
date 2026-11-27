@@ -1,0 +1,41 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Arogya Seva Sadan",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-04-28T18:00:00+05:30"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/04/00088",
+      "patient_ref": "UHID-010610",
+      "visit_date": "2026-04-02",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O generalised weakness x 9 weeks",
+      "history": "H/O TB 8 yrs back, completed ATT",
+      "vitals": {
+        "bp": "126/80",
+        "pulse": 71,
+        "temp_f": 98.6,
+        "spo2": 99,
+        "weight_kg": 55
+      },
+      "diagnosis": [
+        {
+          "code": "D64.9",
+          "display": "Anaemia, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ferrous sulphate + Folic acid",
+          "strength": "100 mg + 0.5 mg",
+          "frequency": "0-1-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Ashok ka BP 126/80, khana kam kha rahe hain. Review after 2 weeks."
+    }
+  ]
+}

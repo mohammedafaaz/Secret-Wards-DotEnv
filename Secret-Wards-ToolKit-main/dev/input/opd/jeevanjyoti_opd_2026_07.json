@@ -1,0 +1,194 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Jeevan Jyoti Charitable Hospital",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-07-28T18:00:00+05:30"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/07/00127",
+      "patient_ref": "JJH-0077243",
+      "visit_date": "19-07-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O headache and giddiness x 6 days",
+      "history": "K/C/O hypothyroidism",
+      "vitals": {
+        "bp": "117/69",
+        "pulse": 66,
+        "temp_f": 103.3,
+        "spo2": 99,
+        "weight_kg": 74
+      },
+      "diagnosis": [
+        {
+          "code": "A01.0",
+          "display": "Typhoid fever"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ceftriaxone",
+          "strength": "1 g",
+          "frequency": "IV",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Brijesh babu ka BP 117/69, sugar control nahi hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Brijesh Yadav",
+        "age_sex": "27/M",
+        "mobile": "+91-6939821446"
+      }
+    },
+    {
+      "visit_id": "OPD/26/07/00128",
+      "patient_ref": "JJH-0076957",
+      "visit_date": "15-07-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O burning micturition x 5 days",
+      "history": "H/O snake bite 8 yrs back",
+      "vitals": {
+        "bp": "115/86",
+        "pulse": 65,
+        "temp_f": 98.5,
+        "spo2": 98,
+        "weight_kg": 48
+      },
+      "diagnosis": [
+        {
+          "code": "K50.9",
+          "display": "Crohn's disease, unspecified"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Anita ka BP 115/86, khana kam kha rahe hain. Review after 2 weeks.",
+      "patient": {
+        "name": "Aneeta Sarma",
+        "age_sex": "45/F",
+        "mobile": "+91-7585697553"
+      }
+    },
+    {
+      "visit_id": "OPD/26/07/00129",
+      "patient_ref": "JJH-0077352",
+      "visit_date": "12-07-2026",
+      "department": "Pulmonology",
+      "doctor": "Dr. Harjeet Bedi",
+      "complaints": "C/O loose stools x 8 days",
+      "history": "K/C/O hypothyroidism",
+      "vitals": {
+        "bp": "113/81",
+        "pulse": 101,
+        "temp_f": 97.7,
+        "spo2": 94,
+        "weight_kg": 60
+      },
+      "diagnosis": [
+        {
+          "code": "A15.0",
+          "display": "Tuberculosis of lung"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Rifampicin + Isoniazid",
+          "strength": "450 mg + 300 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Harpreet ka BP 113/81, raat ko neend theek se aayi. Review after 2 weeks.",
+      "patient": {
+        "name": "Harpreet Singh",
+        "age_sex": "8/M",
+        "mobile": "+91-8198931099"
+      }
+    },
+    {
+      "visit_id": "OPD/26/07/00130",
+      "patient_ref": "JJH-0076864",
+      "visit_date": "18-07-2026",
+      "department": "Medicine",
+      "doctor": "Dr. Vandana Kulshrestha",
+      "complaints": "C/O burning micturition x 6 days",
+      "history": "K/C/O HTN on treatment",
+      "vitals": {
+        "bp": "146/91",
+        "pulse": 80,
+        "temp_f": 98.4,
+        "spo2": 99,
+        "weight_kg": 77
+      },
+      "diagnosis": [
+        {
+          "code": "A09",
+          "display": "Infectious gastroenteritis and colitis, unspecified"
+        },
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "ORS",
+          "strength": "1 sachet",
+          "frequency": "after each loose stool",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        }
+      ],
+      "notes": "Brijesh ka BP 146/91, sugar control nahi hai. Review after 2 weeks.",
+      "patient": {
+        "name": "Brijesh Yadav",
+        "age_sex": "71/M",
+        "mobile": "+91-9973945793"
+      }
+    }
+  ]
+}

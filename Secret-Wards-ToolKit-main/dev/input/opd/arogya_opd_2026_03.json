@@ -1,0 +1,111 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Arogya Seva Sadan",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-03-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Shahid_NA_010607\\visits_2026_03.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/03/00086",
+      "patient_ref": "UHID-010607",
+      "visit_date": "2026-03-23",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O headache and giddiness x 9 days",
+      "history": "H/O TB 8 yrs back, completed ATT",
+      "vitals": {
+        "bp": "105/77",
+        "pulse": 72,
+        "temp_f": 101.7,
+        "spo2": 90,
+        "weight_kg": 54
+      },
+      "diagnosis": [
+        {
+          "code": "E27.1",
+          "display": "Addison's disease"
+        },
+        {
+          "code": "A01.0",
+          "display": "Typhoid fever"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ceftriaxone",
+          "strength": "1 g",
+          "frequency": "IV",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "7 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Shahid babu ka BP 105/77, raat ko neend theek se aayi. Review after 2 weeks."
+    },
+    {
+      "visit_id": "OPD/26/03/00087",
+      "patient_ref": "UHID-010594",
+      "visit_date": "2026-03-17",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O generalised weakness x 7 weeks",
+      "history": "H/O TB 9 yrs back, completed ATT",
+      "vitals": {
+        "bp": "166/103",
+        "pulse": 78,
+        "temp_f": 98.7,
+        "spo2": 93,
+        "weight_kg": 16
+      },
+      "diagnosis": [
+        {
+          "code": "K50.9",
+          "display": "Crohn's disease, unspecified"
+        },
+        {
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Amlodipine",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Telmisartan",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Ramipril",
+          "strength": "5 mg",
+          "frequency": "0-0-1",
+          "duration": "14 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Dinesh ka BP 166/103, sugar control nahi hai. Review after 2 weeks."
+    }
+  ]
+}

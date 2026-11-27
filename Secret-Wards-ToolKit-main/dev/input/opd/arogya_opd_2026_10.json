@@ -1,0 +1,58 @@
+{
+  "_export_meta": {
+    "system": "eHospital OPD module",
+    "hospital": "Arogya Seva Sadan",
+    "exported_by": "opd.records.clerk",
+    "generated_at": "2026-10-28T18:00:00+05:30",
+    "source_path": "D:\\HIS\\exports\\opd\\Shahid_NA_010607\\visits_2026_10.json"
+  },
+  "visits": [
+    {
+      "visit_id": "OPD/26/10/00095",
+      "patient_ref": "UHID-010607",
+      "visit_date": "2026-10-22",
+      "department": "Medicine",
+      "doctor": "Dr. Ramesh Srivastava",
+      "complaints": "C/O headache and giddiness x 9 days",
+      "history": "H/O snake bite 9 yrs back",
+      "vitals": {
+        "bp": "120/75",
+        "pulse": 77,
+        "temp_f": 102.0,
+        "spo2": 94,
+        "weight_kg": 75
+      },
+      "diagnosis": [
+        {
+          "code": "E27.1",
+          "display": "Addison's disease"
+        },
+        {
+          "code": "A01.0",
+          "display": "Typhoid fever"
+        }
+      ],
+      "rx": [
+        {
+          "drug": "Ceftriaxone",
+          "strength": "1 g",
+          "frequency": "IV",
+          "duration": "30 days"
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650 mg",
+          "frequency": "1-1-1",
+          "duration": "5 days"
+        },
+        {
+          "drug": "Pantoprazole",
+          "strength": "40 mg",
+          "frequency": "1-0-0",
+          "duration": "14 days"
+        }
+      ],
+      "notes": "Shahid babu ka BP 120/75, raat ko neend theek se aayi. Review after 2 weeks."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+PatientID,LastName,FirstName,Sex,DOB (MM/DD/YYYY),Guardian,Street,City,District,Zip,Phone,Email,Registered (MM/DD/YYYY),Notes
+UHID-010610,Patel,Ashok,M,04/20/1979,S/O SHYAM PATEL,"H.No. 180, Mohalla Subhash Nagar",Gopaldih,Sitapur,261715,67499-97417,,11/24/2025,"Pt allergic to sulfa drugs.
+Old card merged - verify identity on next visit."
+UHID-010594,Lodhi,Dinesh,M,02/28/2021,S/O KISHAN LODHI,H.No. 323,Mohangarh,Sitapur,261004,91826-40788,,03/31/2025,Temp 101.2°F on arrival – sent to emergency.
+UHID-010678,Masih,Mary,F,12/24/1981,W/O ANTHONY MASIH,"H.No. 192, Mohalla Purani Basti",Shivnagar,Sitapur,261004,98049-40521,,06/03/2024,
+UHID-010608,,Mohammad Shahid,M,05/30/1986,S/O ZUBAIR,"H.No. 101, Mohalla Harijan Basti",Mohanganj Kalan,Sitapur,261167,93685-91915,,03/08/2026,
+UHID-010565,Sharma,Anita,F,01/21/1981,W/O JAGDISH SHARMA,H.No. 317,Rasoolnagar Khurd,Bahraich,271077,75856-97553,anita.sharma8186@example.com,08/09/2026,"Pt allergic to sulfa drugs.
+Old card merged - verify identity on next visit."
+UHID-010607,,Mohammad Shahid,M,05/30/1986,S/O ZUBAIR,"H.No. 101, Mohalla Harijan Basti",Mohanganj Kalan,Sitapur,261167,93685-91915,,01/30/2026,
+UHID-010623,Yadav,Manoj,M,01/01/1961,S/O RAMESH YADAV,H.No. 133,Madhavdih Kalan,Sitapur,261699,89216-78541,,05/03/2026,Referred by ASHA worker of the village.
+UHID-010660,Pandey,Parvati,F,10/23/2005,W/O MUKESH PANDEY,H.No. 236,Ramdih,Sitapur,261454,78880-23923,,08/12/2026,

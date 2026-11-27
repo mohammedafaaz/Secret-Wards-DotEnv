@@ -1,0 +1,625 @@
+{
+  "resourceType": "Bundle",
+  "id": "783025ed-8640-4251-92cb-03bc9c3acd52",
+  "meta": {
+    "lastUpdated": "2026-03-05T11:00:00+05:30",
+    "profile": [
+      "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"
+    ]
+  },
+  "identifier": {
+    "system": "https://sanjeevani.hospital.example/bundles",
+    "value": "783025ed-8640-4251-92cb-03bc9c3acd52"
+  },
+  "type": "document",
+  "timestamp": "2026-03-05T11:00:00+05:30",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:186d1a64-6fde-4de1-915d-1ae3bfb521f2",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "186d1a64-6fde-4de1-915d-1ae3bfb521f2",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373942005",
+              "display": "Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12",
+          "display": "Salma Ansari"
+        },
+        "encounter": {
+          "reference": "urn:uuid:fbd9f91f-7f83-41c6-945d-048f14dd32e8"
+        },
+        "date": "2026-03-05T11:00:00+05:30",
+        "author": [
+          {
+            "reference": "urn:uuid:356ee699-3d50-459b-8543-08dda5567058",
+            "display": "Dr. Harjeet Bedi"
+          }
+        ],
+        "title": "Discharge Summary",
+        "section": [
+          {
+            "title": "Diagnosis",
+            "entry": [
+              {
+                "reference": "urn:uuid:e912a313-846c-41b2-953b-ecf7bd542f9a"
+              },
+              {
+                "reference": "urn:uuid:c9be806d-38b7-419d-a01f-3fbe2b30e347"
+              },
+              {
+                "reference": "urn:uuid:7dccc3a4-17ce-4d30-9e6c-e2ee18cb488a"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "entry": [
+              {
+                "reference": "urn:uuid:f72fee32-cafb-409a-918d-c89d7abf4a3f"
+              },
+              {
+                "reference": "urn:uuid:a6fda156-f1e2-4ada-aa61-7b497e8aaa4f"
+              },
+              {
+                "reference": "urn:uuid:20202ea1-829f-4ad4-9520-314aa9229499"
+              },
+              {
+                "reference": "urn:uuid:1c05f0df-914f-4439-ad02-719dc9c274c3"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "3fc717e3-dbf9-4463-9122-830fe4738e12",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Salma Ansari, 45 yrs, female, SNJ/26/064279</div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number"
+                }
+              ]
+            },
+            "system": "https://sanjeevani.hospital.example/uhid",
+            "value": "SNJ/26/064279"
+          }
+        ],
+        "name": [
+          {
+            "text": "Salma Ansari",
+            "given": [
+              "Salma"
+            ],
+            "family": "Ansari"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-8626381027",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1980-12-03",
+        "address": [
+          {
+            "line": [
+              "H.No. 54, Ward 9, Mohalla Chowk Kotwali, near Panchayat Bhawan, Tehsil Safipur, Distt. Unnao"
+            ],
+            "city": "Madhavpurwa Kalan",
+            "district": "Unnao",
+            "state": "Uttar Pradesh",
+            "postalCode": "209482",
+            "country": "IN"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Husband"
+              }
+            ],
+            "name": {
+              "text": "Yusuf Ansari"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "url": "https://raksha.example/fhir/StructureDefinition/mothers-name",
+            "valueString": "Ayesha Devi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:356ee699-3d50-459b-8543-08dda5567058",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "356ee699-3d50-459b-8543-08dda5567058",
+        "name": [
+          {
+            "text": "Dr. Harjeet Bedi"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "text": "MD Pulmonary Medicine"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c2bdc7a8-d91d-425f-9eaf-348064a4a545",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "c2bdc7a8-d91d-425f-9eaf-348064a4a545",
+        "name": "Sanjeevani Multispeciality Hospital",
+        "address": [
+          {
+            "city": "Lucknow",
+            "state": "Uttar Pradesh",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fbd9f91f-7f83-41c6-945d-048f14dd32e8",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "fbd9f91f-7f83-41c6-945d-048f14dd32e8",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "identifier": [
+          {
+            "system": "https://sanjeevani.hospital.example/ipd",
+            "value": "IPD-2026-00438"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "period": {
+          "start": "2026-02-23T08:30:00+05:30",
+          "end": "2026-03-05T11:00:00+05:30"
+        },
+        "location": [
+          {
+            "location": {
+              "display": "Ward 2 (Pulmonology)"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "urn:uuid:c2bdc7a8-d91d-425f-9eaf-348064a4a545"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e912a313-846c-41b2-953b-ecf7bd542f9a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e912a313-846c-41b2-953b-ecf7bd542f9a",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A15.0",
+              "display": "Tuberculosis of lung"
+            }
+          ],
+          "text": "Tuberculosis of lung"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "encounter": {
+          "reference": "urn:uuid:fbd9f91f-7f83-41c6-945d-048f14dd32e8"
+        },
+        "recordedDate": "2026-02-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c9be806d-38b7-419d-a01f-3fbe2b30e347",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c9be806d-38b7-419d-a01f-3fbe2b30e347",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "N18.3",
+              "display": "Chronic kidney disease, stage 3"
+            }
+          ],
+          "text": "Chronic kidney disease, stage 3"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "encounter": {
+          "reference": "urn:uuid:fbd9f91f-7f83-41c6-945d-048f14dd32e8"
+        },
+        "recordedDate": "2026-02-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7dccc3a4-17ce-4d30-9e6c-e2ee18cb488a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7dccc3a4-17ce-4d30-9e6c-e2ee18cb488a",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J44.9",
+              "display": "Chronic obstructive pulmonary disease, unspecified"
+            }
+          ],
+          "text": "Chronic obstructive pulmonary disease, unspecified"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "encounter": {
+          "reference": "urn:uuid:fbd9f91f-7f83-41c6-945d-048f14dd32e8"
+        },
+        "recordedDate": "2026-02-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce0ee93a-1adf-4df3-9773-6be7bbe5be72",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ce0ee93a-1adf-4df3-9773-6be7bbe5be72",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "effectiveDateTime": "2026-02-23T08:30:00+05:30",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 109,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 81,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5b3e61f6-403f-4320-987e-1798abb7daf8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5b3e61f6-403f-4320-987e-1798abb7daf8",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Haemoglobin"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "effectiveDateTime": "2026-02-23T08:30:00+05:30",
+        "valueQuantity": {
+          "value": 11.7,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0eba23fb-80cd-474f-8800-a036294625b1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0eba23fb-80cd-474f-8800-a036294625b1",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Random Blood Sugar"
+            }
+          ],
+          "text": "Random Blood Sugar"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "effectiveDateTime": "2026-02-23T08:30:00+05:30",
+        "valueQuantity": {
+          "value": 123,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2ec64b32-1957-4609-bdc6-c2bff6d0f980",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2ec64b32-1957-4609-bdc6-c2bff6d0f980",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Serum Creatinine"
+            }
+          ],
+          "text": "Serum Creatinine"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "effectiveDateTime": "2026-02-23T08:30:00+05:30",
+        "valueQuantity": {
+          "value": 2.2,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:10bfefb5-4205-4938-be8e-021c72c2fc0d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "10bfefb5-4205-4938-be8e-021c72c2fc0d",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Total WBC Count"
+            }
+          ],
+          "text": "Total WBC Count"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "effectiveDateTime": "2026-02-23T08:30:00+05:30",
+        "valueQuantity": {
+          "value": 11000,
+          "unit": "/uL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:21243ba8-d2e8-4781-b0fc-1f873035171c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "21243ba8-d2e8-4781-b0fc-1f873035171c",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Serum Sodium"
+            }
+          ],
+          "text": "Serum Sodium"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "effectiveDateTime": "2026-02-23T08:30:00+05:30",
+        "valueQuantity": {
+          "value": 141,
+          "unit": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f72fee32-cafb-409a-918d-c89d7abf4a3f",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "f72fee32-cafb-409a-918d-c89d7abf4a3f",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Rifampicin + Isoniazid 450 mg + 300 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "authoredOn": "2026-03-05",
+        "dosageInstruction": [
+          {
+            "text": "450 mg + 300 mg OD (1-0-0) empty stomach"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a6fda156-f1e2-4ada-aa61-7b497e8aaa4f",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "a6fda156-f1e2-4ada-aa61-7b497e8aaa4f",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Amlodipine 5 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "authoredOn": "2026-03-05",
+        "dosageInstruction": [
+          {
+            "text": "5 mg OD (0-0-1) at night"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:20202ea1-829f-4ad4-9520-314aa9229499",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "20202ea1-829f-4ad4-9520-314aa9229499",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Salbutamol inhaler 100 mcg"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "authoredOn": "2026-03-05",
+        "dosageInstruction": [
+          {
+            "text": "100 mcg SOS (2 puffs) when breathless"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1c05f0df-914f-4439-ad02-719dc9c274c3",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1c05f0df-914f-4439-ad02-719dc9c274c3",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Pantoprazole 40 mg"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "authoredOn": "2026-03-05",
+        "dosageInstruction": [
+          {
+            "text": "40 mg OD (1-0-0) before breakfast"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6f5657e9-075b-4311-8047-88938905a251",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "6f5657e9-075b-4311-8047-88938905a251",
+        "status": "current",
+        "type": {
+          "text": "Referral letter"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc717e3-dbf9-4463-9122-830fe4738e12"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "language": "en",
+              "data": "UmVmZXJyYWw6IFNhbG1hIEFuc2FyaSAoU05KLzI2LzA2NDI3OSksIG1vYmlsZSA4NjI2MzgxMDI3LCByZWZlcnJlZCBmb3IgZm9sbG93LXVwIG9mIFR1YmVyY3Vsb3NpcyBvZiBsdW5nLg==",
+              "title": "Referral letter"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
